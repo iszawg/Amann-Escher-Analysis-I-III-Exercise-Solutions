@@ -24,5 +24,6 @@ The twelve sections in Chapter I are available:
 - [1. Convergence of Sequences](chapter-2-convergence/1-convergence-of-sequences.md) — Exercises 1–13.
 - [2. Real and Complex Sequences](chapter-2-convergence/2-real-and-complex-sequences.md) — Exercises 1–9.
 - [3. Normed Vector Spaces](chapter-2-convergence/3-normed-vector-spaces.md) — Exercises 1–15.
+- [4. Monotone Sequences](chapter-2-convergence/4-monotone-sequences.md) — Exercises 1–10.
 
 Further sections will be added as their exercises are solved.

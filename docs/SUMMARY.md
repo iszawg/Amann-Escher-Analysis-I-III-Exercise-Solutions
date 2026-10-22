@@ -19,5 +19,6 @@
     * [1. Convergence of Sequences](analysis-i/chapter-2-convergence/1-convergence-of-sequences.md)
     * [2. Real and Complex Sequences](analysis-i/chapter-2-convergence/2-real-and-complex-sequences.md)
     * [3. Normed Vector Spaces](analysis-i/chapter-2-convergence/3-normed-vector-spaces.md)
+    * [4. Monotone Sequences](analysis-i/chapter-2-convergence/4-monotone-sequences.md)
 * [Analysis II](analysis-ii/README.md)
 * [Analysis III](analysis-iii/README.md)

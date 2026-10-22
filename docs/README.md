@@ -6,7 +6,7 @@ The solutions emphasize the definitions and logical steps needed to reach each r
 
 ## Browse the volumes
 
-- [Analysis I](analysis-i/README.md) — Foundations and the beginning of analysis. The first section, **Fundamentals of Logic**, is solved.
+- [Analysis I](analysis-i/README.md) — Foundations and the beginning of analysis. Sections **Fundamentals of Logic** and **Sets** are solved.
 - [Analysis II](analysis-ii/README.md) — Volume index; chapter navigation will be added as its exercises are worked through.
 - [Analysis III](analysis-iii/README.md) — Volume index; chapter navigation will be added as its exercises are worked through.
 
@@ -15,6 +15,7 @@ The solutions emphasize the definitions and logical steps needed to reach each r
 | Volume | Chapter or section | Status |
 | --- | --- | --- |
 | I | Chapter I, *Foundations* — Section 1, *Fundamentals of Logic* | Exercises 1–2 solved |
+| I | Chapter I, *Foundations* — Section 2, *Sets* | Exercises 1–8 solved |
 | I–III | Remaining sections | To be added |
 
 ## Solution conventions

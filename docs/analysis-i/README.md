@@ -4,8 +4,9 @@ This volume begins with the foundations needed for analysis: logic, sets, number
 
 ## Chapter I — Foundations
 
-The first section is available:
+The first two sections are available:
 
 - [1. Fundamentals of Logic](chapter-1-foundations/1-fundamentals-of-logic.md) — Exercises 1–2.
+- [2. Sets](chapter-1-foundations/2-sets.md) — Exercises 1–8.
 
-The chapter index will grow as further sections are solved.
+Further sections will be added as their exercises are solved.

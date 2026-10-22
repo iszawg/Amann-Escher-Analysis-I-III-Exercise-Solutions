@@ -50,29 +50,29 @@ Let {A\_α; α ∈ I} and {B\_β; β ∈ J} be families of subsets of a fixed se
 
 **(i) Associativity for indexed families.** For intersections,
 
-x ∈ (⋂\_{α ∈ I} A\_α) ∩ (⋂\_{β ∈ J} B\_β) ⇔ (∀ α ∈ I: x ∈ A\_α) ∧ (∀ β ∈ J: x ∈ B\_β) ⇔ ∀ (α,β) ∈ I × J: x ∈ A\_α ∩ B\_β ⇔ x ∈ ⋂\_{(α,β) ∈ I × J}(A\_α ∩ B\_β).
+x ∈ (⋂{A\_α : α ∈ I}) ∩ (⋂{B\_β : β ∈ J}) ⇔ (∀ α ∈ I: x ∈ A\_α) ∧ (∀ β ∈ J: x ∈ B\_β) ⇔ ∀ (α,β) ∈ I × J: x ∈ A\_α ∩ B\_β ⇔ x ∈ ⋂{A\_α ∩ B\_β : (α,β) ∈ I × J}.
 
 For unions,
 
-x ∈ (⋃\_{α ∈ I} A\_α) ∪ (⋃\_{β ∈ J} B\_β) ⇔ (∃ α ∈ I: x ∈ A\_α) ∨ (∃ β ∈ J: x ∈ B\_β) ⇔ ∃ (α,β) ∈ I × J: x ∈ A\_α ∪ B\_β ⇔ x ∈ ⋃\_{(α,β) ∈ I × J}(A\_α ∪ B\_β).
+x ∈ (⋃{A\_α : α ∈ I}) ∪ (⋃{B\_β : β ∈ J}) ⇔ (∃ α ∈ I: x ∈ A\_α) ∨ (∃ β ∈ J: x ∈ B\_β) ⇔ ∃ (α,β) ∈ I × J: x ∈ A\_α ∪ B\_β ⇔ x ∈ ⋃{A\_α ∪ B\_β : (α,β) ∈ I × J}.
 
 The second equivalence uses the fact that both index sets are nonempty.
 
 **(ii) Distributivity for indexed families.** For the first identity, if x belongs to every A\_α, or to every B\_β, it belongs to every A\_α ∪ B\_β. Conversely, suppose x ∈ A\_α ∪ B\_β for every pair (α,β). If x did not belong to every A\_α, choose α₀ with x ∉ A\_{α₀}. If it also did not belong to every B\_β, choose β₀ with x ∉ B\_{β₀}. Then x ∉ A\_{α₀} ∪ B\_{β₀}, a contradiction. Therefore x belongs to every A\_α or to every B\_β, proving
 
-(⋂\_{α ∈ I} A\_α) ∪ (⋂\_{β ∈ J} B\_β) = ⋂\_{(α,β) ∈ I × J}(A\_α ∪ B\_β).
+(⋂{A\_α : α ∈ I}) ∪ (⋂{B\_β : β ∈ J}) = ⋂{A\_α ∪ B\_β : (α,β) ∈ I × J}.
 
 For the other identity, membership on the left means that x ∈ A\_{α₀} for some α₀ and x ∈ B\_{β₀} for some β₀. This is equivalent to x ∈ A\_{α₀} ∩ B\_{β₀} for some pair, so
 
-(⋃\_{α ∈ I} A\_α) ∩ (⋃\_{β ∈ J} B\_β) = ⋃\_{(α,β) ∈ I × J}(A\_α ∩ B\_β).
+(⋃{A\_α : α ∈ I}) ∩ (⋃{B\_β : β ∈ J}) = ⋃{A\_α ∩ B\_β : (α,β) ∈ I × J}.
 
 **(iii) De Morgan's laws.** By the definition of complement,
 
-x ∈ (⋃\_{α ∈ I} A\_α)ᶜ ⇔ ¬ (∃ α ∈ I: x ∈ A\_α) ⇔ ∀ α ∈ I: x ∉ A\_α ⇔ x ∈ ⋂\_{α ∈ I} A\_αᶜ.
+x ∈ (⋃{A\_α : α ∈ I})ᶜ ⇔ ¬ (∃ α ∈ I: x ∈ A\_α) ⇔ ∀ α ∈ I: x ∉ A\_α ⇔ x ∈ ⋂{A\_αᶜ : α ∈ I}.
 
 Similarly,
 
-x ∈ (⋂\_{α ∈ I} A\_α)ᶜ ⇔ ¬ (∀ α ∈ I: x ∈ A\_α) ⇔ ∃ α ∈ I: x ∉ A\_α ⇔ x ∈ ⋃\_{α ∈ I} A\_αᶜ.
+x ∈ (⋂{A\_α : α ∈ I})ᶜ ⇔ ¬ (∀ α ∈ I: x ∈ A\_α) ⇔ ∃ α ∈ I: x ∉ A\_α ⇔ x ∈ ⋃{A\_αᶜ : α ∈ I}.
 
 ### Exercise 4
 
@@ -116,15 +116,15 @@ This is the symmetric difference of A and B.
 
 Every member A of 𝒫(X) is a subset of X, so
 
-⋃\_{A ∈ 𝒫(X)} A ⊆ X.
+⋃{A : A ∈ 𝒫(X)} ⊆ X.
 
 Conversely, for each x ∈ X, the singleton {x} is in 𝒫(X), so x belongs to the union. Therefore
 
-⋃\_{A ∈ 𝒫(X)} A = X.
+⋃{A : A ∈ 𝒫(X)} = X.
 
 The empty set is itself in 𝒫(X). Any element in the intersection of all members of 𝒫(X) would therefore have to belong to ∅, which is impossible. Thus
 
-⋂\_{A ∈ 𝒫(X)} A = ∅.
+⋂{A : A ∈ 𝒫(X)} = ∅.
 
 ### Exercise 7
 
@@ -156,10 +156,10 @@ which is equivalent to u ∈ X ∪ A and v ∈ Y. This is precisely membership i
 
 Let {A\_α; α ∈ I} and {B\_β; β ∈ J} be families of sets.
 
-**(a)** A pair (x,y) belongs to (⋂\_{α ∈ I} A\_α) × (⋂\_{β ∈ J} B\_β) exactly when x ∈ A\_α for every α ∈ I and y ∈ B\_β for every β ∈ J. This is equivalent to saying that (x,y) ∈ A\_α × B\_β for every (α,β) ∈ I × J. Hence
+**(a)** A pair (x,y) belongs to (⋂{A\_α : α ∈ I}) × (⋂{B\_β : β ∈ J}) exactly when x ∈ A\_α for every α ∈ I and y ∈ B\_β for every β ∈ J. This is equivalent to saying that (x,y) ∈ A\_α × B\_β for every (α,β) ∈ I × J. Hence
 
-(⋂\_{α ∈ I} A\_α) × (⋂\_{β ∈ J} B\_β) = ⋂\_{(α,β) ∈ I × J}(A\_α × B\_β).
+(⋂{A\_α : α ∈ I}) × (⋂{B\_β : β ∈ J}) = ⋂{A\_α × B\_β : (α,β) ∈ I × J}.
 
-**(b)** A pair (x,y) belongs to (⋃\_{α ∈ I} A\_α) × (⋃\_{β ∈ J} B\_β) exactly when there are indices α₀ ∈ I and β₀ ∈ J with x ∈ A\_{α₀} and y ∈ B\_{β₀}. Equivalently, (x,y) belongs to A\_{α₀} × B\_{β₀} for some pair of indices. Thus
+**(b)** A pair (x,y) belongs to (⋃{A\_α : α ∈ I}) × (⋃{B\_β : β ∈ J}) exactly when there are indices α₀ ∈ I and β₀ ∈ J with x ∈ A\_{α₀} and y ∈ B\_{β₀}. Equivalently, (x,y) belongs to A\_{α₀} × B\_{β₀} for some pair of indices. Thus
 
-(⋃\_{α ∈ I} A\_α) × (⋃\_{β ∈ J} B\_β) = ⋃\_{(α,β) ∈ I × J}(A\_α × B\_β).
+(⋃{A\_α : α ∈ I}) × (⋃{B\_β : β ∈ J}) = ⋃{A\_α × B\_β : (α,β) ∈ I × J}.

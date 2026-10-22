@@ -8,4 +8,5 @@ This chapter develops logical reasoning and the basic structures used throughout
 - [2. Sets](2-sets.md) — Exercises 1–8.
 - [3. Functions](3-functions.md) — Exercises 1–7.
 - [4. Relations and Operations](4-relations-and-operations.md) — Exercises 1–9.
+- [5. The Natural Numbers](5-natural-numbers.md) — Exercises 1–11.
 

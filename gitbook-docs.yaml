@@ -1,0 +1,18 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: "Amann & Escher: Analysis I–III — Exercise Solutions"
+  structure:
+    - type: section
+      key: section-solutions
+      title: "Exercise Solutions"
+      path: solutions
+      default: true
+      children:
+        - type: space
+          key: space-analysis-i-iii
+          title: "Amann & Escher: Analysis I–III"
+          path: amann-escher-analysis-i-iii
+          default: true
+          content:
+            directory: ./docs
+            language: en

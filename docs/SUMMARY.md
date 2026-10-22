@@ -6,5 +6,6 @@
     * [1. Fundamentals of Logic](analysis-i/chapter-1-foundations/1-fundamentals-of-logic.md)
     * [2. Sets](analysis-i/chapter-1-foundations/2-sets.md)
     * [3. Functions](analysis-i/chapter-1-foundations/3-functions.md)
+    * [4. Relations and Operations](analysis-i/chapter-1-foundations/4-relations-and-operations.md)
 * [Analysis II](analysis-ii/README.md)
 * [Analysis III](analysis-iii/README.md)

@@ -11,4 +11,5 @@ This chapter develops logical reasoning and the basic structures used throughout
 - [5. The Natural Numbers](5-natural-numbers.md) — Exercises 1–11.
 - [6. Countability](6-countability.md) — Exercises 1–9.
 - [7. Groups and Homomorphisms](7-groups-and-homomorphisms.md) — Exercises 1–11.
+- [8. Rings, Fields and Polynomials](8-rings-fields-and-polynomials.md) — Exercises 1–16.
 

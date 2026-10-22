@@ -6,7 +6,7 @@ The solutions emphasize the definitions and logical steps needed to reach each r
 
 ## Browse the volumes
 
-- [Analysis I](analysis-i/README.md) — Foundations and the beginning of analysis. Sections **Fundamentals of Logic**, **Sets**, **Functions**, **Relations and Operations**, **The Natural Numbers**, **Countability**, and **Groups and Homomorphisms** are solved.
+- [Analysis I](analysis-i/README.md) — Foundations and the beginning of analysis. Sections **Fundamentals of Logic**, **Sets**, **Functions**, **Relations and Operations**, **The Natural Numbers**, **Countability**, **Groups and Homomorphisms**, and **Rings, Fields and Polynomials** are solved.
 - [Analysis II](analysis-ii/README.md) — Volume index; chapter navigation will be added as its exercises are worked through.
 - [Analysis III](analysis-iii/README.md) — Volume index; chapter navigation will be added as its exercises are worked through.
 
@@ -21,6 +21,7 @@ The solutions emphasize the definitions and logical steps needed to reach each r
 | I | Chapter I, *Foundations* — Section 5, *The Natural Numbers* | Exercises 1–11 solved |
 | I | Chapter I, *Foundations* — Section 6, *Countability* | Exercises 1–9 solved |
 | I | Chapter I, *Foundations* — Section 7, *Groups and Homomorphisms* | Exercises 1–11 solved |
+| I | Chapter I, *Foundations* — Section 8, *Rings, Fields and Polynomials* | Exercises 1–16 solved |
 | I–III | Remaining sections | To be added |
 
 ## Solution conventions

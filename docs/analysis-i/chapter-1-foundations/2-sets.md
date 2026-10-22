@@ -6,11 +6,11 @@ Complements below are taken relative to the ambient set under discussion. For th
 
 ### Exercise 1
 
-Assume $X\subseteq Y$ and $Y\subseteq Z$. To prove $X\subseteq Z$, take any $x\in X$. The first inclusion gives $x\in Y$, and the second then gives $x\in Z$. Since $x$ was arbitrary, $X\subseteq Z$.
+Assume X ⊆ Y and Y ⊆ Z. To prove X ⊆ Z, take any x ∈ X. The first inclusion gives x ∈ Y, and the second then gives x ∈ Z. Since x was arbitrary, X ⊆ Z.
 
 ### Exercise 2
 
-Let $X,Y,Z$ be subsets of a common set. Each identity follows by testing membership of an arbitrary element $x$.
+Let X,Y,Z be subsets of a common set. Each identity follows by testing membership of an arbitrary element x.
 
 **(i) Commutativity.**
 
@@ -33,7 +33,7 @@ x\in X\cap Y
 &\iff x\in Y\cap X.
 \end{aligned}
 $$
-Thus $X\cup Y=Y\cup X$ and $X\cap Y=Y\cap X$.
+Thus X ∪ Y = Y ∪ X and X ∩ Y = Y ∩ X.
 
 **(ii) Associativity.**
 
@@ -80,7 +80,7 @@ x\in X\cap(Y\cup Z)
 \end{aligned}
 $$
 
-**(iv) Characterizing inclusion.** If $X\subseteq Y$, then every element of $Y$ is already in $X\cup Y$, so $X\cup Y=Y$; every element of $X$ is in $X\cap Y$, so $X\cap Y=X$. Conversely, if $X\cup Y=Y$, then $x\in X$ implies $x\in X\cup Y=Y$, hence $X\subseteq Y$. If $X\cap Y=X$, then $x\in X$ implies $x\in X\cap Y$, and therefore $x\in Y$. Thus
+**(iv) Characterizing inclusion.** If X ⊆ Y, then every element of Y is already in X ∪ Y, so X ∪ Y = Y; every element of X is in X ∩ Y, so X ∩ Y = X. Conversely, if X ∪ Y = Y, then x ∈ X implies x ∈ X ∪ Y = Y, hence X ⊆ Y. If X ∩ Y = X, then x ∈ X implies x ∈ X ∩ Y, and therefore x ∈ Y. Thus
 $$
 X\subseteq Y
 \iff X\cup Y=Y
@@ -89,7 +89,7 @@ $$
 
 ### Exercise 3
 
-Let $\{A_\alpha\}_{\alpha\in I}$ and $\{B_\beta\}_{\beta\in J}$ be families of subsets of a fixed set. We verify each identity by element membership.
+Let A be a family of subsets of a fixed set, indexed by I, and B a family indexed by J. We verify each identity by element membership.
 
 **(i) Associativity for indexed families.**
 
@@ -122,7 +122,7 @@ x&\in\left(\bigcup_{\alpha\in I}A_\alpha\right)
 $$
 The second equivalence uses the fact that both index sets are nonempty.
 
-**(ii) Distributivity for indexed families.** For the first identity, if $x$ belongs to every $A_\alpha$, or to every $B_\beta$, it belongs to every $A_\alpha\cup B_\beta$. Conversely, suppose $x\in A_\alpha\cup B_\beta$ for every pair $(\alpha,\beta)$. If $x$ did not belong to every $A_\alpha$, choose $\alpha_0$ with $x\notin A_{\alpha_0}$. If it also did not belong to every $B_\beta$, choose $\beta_0$ with $x\notin B_{\beta_0}$. Then $x\notin A_{\alpha_0}\cup B_{\beta_0}$, a contradiction. Therefore $x$ belongs to every $A_\alpha$ or to every $B_\beta$, proving
+**(ii) Distributivity for indexed families.** For the first identity, if x belongs to every set in family A, or to every set in family B, then x belongs to at least one of the sets in families A and B for every pair of indices. Conversely, suppose that for every α ∈ I and β ∈ J, x belongs to at least one of the set A indexed by α and the set B indexed by β. If x did not belong to every set in family A, choose α₀ ∈ I such that x is not in the set A indexed by α₀. If it also did not belong to every set in family B, choose β₀ ∈ J such that x is not in the set B indexed by β₀. Then x belongs to neither set for the pair (α₀, β₀), a contradiction. Therefore x belongs to every set in family A or to every set in family B, proving
 $$
 \left(\bigcap_{\alpha\in I}A_\alpha\right)
 \cup
@@ -132,7 +132,7 @@ $$
 \left(A_\alpha\cup B_\beta\right).
 $$
 
-For the other identity, membership on the left means that $x\in A_{\alpha_0}$ for some $\alpha_0$ and $x\in B_{\beta_0}$ for some $\beta_0$. This is equivalent to $x\in A_{\alpha_0}\cap B_{\beta_0}$ for some pair, so
+For the other identity, membership on the left means that x belongs to some set in family A and some set in family B. Choose indices α₀ and β₀ for these sets. This is equivalent to saying that x belongs to both selected sets for some pair of indices, so
 $$
 \left(\bigcup_{\alpha\in I}A_\alpha\right)
 \cap
@@ -164,11 +164,11 @@ $$
 
 ### Exercise 4
 
-Assume $X$ and $Y$ are nonempty and $X\times Y=Y\times X$. Choose $y_0\in Y$. For any $x\in X$, the pair $(x,y_0)$ belongs to $X\times Y=Y\times X$, so its first coordinate $x$ lies in $Y$. Thus $X\subseteq Y$.
+Assume X and Y are nonempty and X × Y = Y × X. Choose y₀ ∈ Y. For any x ∈ X, the pair (x,y₀) belongs to X × Y = Y × X, so its first coordinate x lies in Y. Thus X ⊆ Y.
 
-Now choose $x_0\in X$. For any $y\in Y$, $(y,x_0)\in Y\times X=X\times Y$, so $y\in X$. Hence $Y\subseteq X$, and therefore $X=Y$.
+Now choose x₀ ∈ X. For any y ∈ Y, (y,x₀) ∈ Y × X = X × Y, so y ∈ X. Hence Y ⊆ X, and therefore X = Y.
 
-Conversely, if $X=Y$, then their Cartesian products with themselves agree, so $X\times Y=Y\times X$. We have proved
+Conversely, if X = Y, then their Cartesian products with themselves agree, so X × Y = Y × X. We have proved
 $$
 X\times Y=Y\times X
 \iff X=Y.
@@ -176,13 +176,13 @@ $$
 
 ### Exercise 5
 
-All complements are relative to $X$.
+All complements are relative to X.
 
-**(a)** By double complementation, $(A^{\mathrm c})^{\mathrm c}=A$.
+**(a)** By double complementation, (Aᶜ)ᶜ = A.
 
-**(b)** A set and its complement are disjoint, so $A\cap A^{\mathrm c}=\varnothing$.
+**(b)** A set and its complement are disjoint, so A ∩ Aᶜ = ∅.
 
-**(c)** Every element of $X$ lies either in $A$ or in $A^{\mathrm c}$, so $A\cup A^{\mathrm c}=X$.
+**(c)** Every element of X lies either in A or in Aᶜ, so A ∪ Aᶜ = X.
 
 **(d)** Distributing the intersection gives
 $$
@@ -193,14 +193,14 @@ $$
 &=\varnothing.
 \end{aligned}
 $$
-Thus $(A^{\mathrm c}\cup B)\cap(A\cap B^{\mathrm c})=\varnothing$.
+Thus (Aᶜ ∪ B) ∩ (A ∩ Bᶜ) = ∅.
 
-**(e)** If $x\in A^{\mathrm c}$, it is already in the union. If $x\notin A^{\mathrm c}$, then $x\in A$. In that case either $x\in B$, or $x\in B^{\mathrm c}$; in the latter case $x\in A\cap B^{\mathrm c}$. Thus every $x\in X$ belongs to $(A^{\mathrm c}\cup B)\cup(A\cap B^{\mathrm c})$, and
+**(e)** If x ∈ Aᶜ, it is already in the union. If x ∉ Aᶜ, then x ∈ A. In that case either x ∈ B, or x ∈ Bᶜ; in the latter case x ∈ A ∩ Bᶜ. Thus every x ∈ X belongs to (Aᶜ ∪ B) ∪ (A ∩ Bᶜ), and
 $$
 (A^{\mathrm c}\cup B)\cup(A\cap B^{\mathrm c})=X.
 $$
 
-**(f)** Since $A^{\mathrm c}\cup B^{\mathrm c}=(A\cap B)^{\mathrm c}$,
+**(f)** Since Aᶜ ∪ Bᶜ = (A ∩ B)ᶜ,
 $$
 \begin{aligned}
 (A^{\mathrm c}\cup B^{\mathrm c})\cap(A\cup B)
@@ -208,45 +208,45 @@ $$
 &=(A\setminus B)\cup(B\setminus A).
 \end{aligned}
 $$
-This is the symmetric difference of $A$ and $B$.
+This is the symmetric difference of A and B.
 
-**(g)** An element of $A\cap B$ belongs to neither $A^{\mathrm c}$ nor $B^{\mathrm c}$. Hence
+**(g)** An element of A ∩ B belongs to neither Aᶜ nor Bᶜ. Hence
 $$
 (A^{\mathrm c}\cup B^{\mathrm c})\cap(A\cap B)=\varnothing.
 $$
 
 ### Exercise 6
 
-Every member $A$ of $\mathcal P(X)$ is a subset of $X$, so
+Every member A of 𝒫(X) is a subset of X, so
 $$
 \bigcup_{A\in\mathcal P(X)}A\subseteq X.
 $$
 
-Conversely, for each $x\in X$, the singleton $\{x\}$ is in $\mathcal P(X)$, so $x$ belongs to the union. Therefore
+Conversely, for each x ∈ X, the singleton {x} is in 𝒫(X), so x belongs to the union. Therefore
 $$
 \bigcup_{A\in\mathcal P(X)}A=X.
 $$
 
-The empty set is itself in $\mathcal P(X)$. Any element in the intersection of all members of $\mathcal P(X)$ would therefore have to belong to $\varnothing$, which is impossible. Thus
+The empty set is itself in 𝒫(X). Any element in the intersection of all members of 𝒫(X) would therefore have to belong to ∅, which is impossible. Thus
 $$
 \bigcap_{A\in\mathcal P(X)}A=\varnothing.
 $$
 
 ### Exercise 7
 
-Let $X,A\subseteq U$ and $Y,B\subseteq V$.
+Let X,A ⊆ U and Y,B ⊆ V.
 
-**(a)** Suppose $A\times B\ne\varnothing$. If $A\times B\subseteq X\times Y$, then $A$ and $B$ are both nonempty. Fix $a\in A$, and choose $b_0\in B$. Since $(a,b_0)\in X\times Y$, its first coordinate gives $a\in X$. Hence $A\subseteq X$. Fixing $b\in B$ and choosing $a_0\in A$ similarly gives $b\in Y$, so $B\subseteq Y$.
+**(a)** Suppose A × B ≠ ∅. If A × B ⊆ X × Y, then A and B are both nonempty. Fix a ∈ A, and choose b₀ ∈ B. Since (a,b₀) ∈ X × Y, its first coordinate gives a ∈ X. Hence A ⊆ X. Fixing b ∈ B and choosing a₀ ∈ A similarly gives b ∈ Y, so B ⊆ Y.
 
-Conversely, if $A\subseteq X$ and $B\subseteq Y$, then every $(a,b)\in A\times B$ also belongs to $X\times Y$. Therefore
+Conversely, if A ⊆ X and B ⊆ Y, then every (a,b) ∈ A × B also belongs to X × Y. Therefore
 $$
 A\times B\subseteq X\times Y
 \iff
 A\subseteq X\text{ and }B\subseteq Y.
 $$
-This equivalence is asserted under the assumption $A\times B\ne\varnothing$. If $A\times B=\varnothing$, the product inclusion holds vacuously, even when one of the factor inclusions fails.
+This equivalence is asserted under the assumption A × B ≠ ∅. If A × B = ∅, the product inclusion holds vacuously, even when one of the factor inclusions fails.
 
-**(b)** A pair $(u,v)$ belongs to the left side exactly when
+**(b)** A pair (u,v) belongs to the left side exactly when
 $$
 \begin{aligned}
 (u,v)\in(X\times Y)\cup(A\times Y)
@@ -255,12 +255,12 @@ $$
 &\iff (u\in X\cup A)\land(v\in Y).
 \end{aligned}
 $$
-This is precisely membership in $(X\cup A)\times Y$. Hence
+This is precisely membership in (X ∪ A) × Y. Hence
 $$
 (X\times Y)\cup(A\times Y)=(X\cup A)\times Y.
 $$
 
-**(c)** A pair $(u,v)$ lies in the left side exactly when
+**(c)** A pair (u,v) lies in the left side exactly when
 $$
 \begin{aligned}
 (u,v)\in(X\times Y)\cap(A\times B)
@@ -272,7 +272,7 @@ $$
 (X\times Y)\cap(A\times B)=(X\cap A)\times(Y\cap B).
 $$
 
-**(d)** A pair $(u,v)$ lies in $(X\times Y)\setminus(A\times B)$ exactly when $u\in X$, $v\in Y$, and it is not the case that both $u\in A$ and $v\in B$. The last condition is equivalent to $u\notin A$ or $v\notin B$. Therefore
+**(d)** A pair (u,v) lies in (X × Y) ∖ (A × B) exactly when u ∈ X, v ∈ Y, and it is not the case that both u ∈ A and v ∈ B. The last condition is equivalent to u ∉ A or v ∉ B. Therefore
 $$
 (X\times Y)\setminus(A\times B)
 =\bigl((X\setminus A)\times Y\bigr)
@@ -281,9 +281,9 @@ $$
 
 ### Exercise 8
 
-Let $\{A_\alpha\}_{\alpha\in I}$ and $\{B_\beta\}_{\beta\in J}$ be families of sets.
+Let A be a family of sets indexed by I, and B a family of sets indexed by J.
 
-**(a)** A pair $(x,y)$ belongs to $\left(\bigcap_{\alpha\in I}A_\alpha\right)\times\left(\bigcap_{\beta\in J}B_\beta\right)$ exactly when $x\in A_\alpha$ for every $\alpha\in I$ and $y\in B_\beta$ for every $\beta\in J$. This is equivalent to saying that $(x,y)\in A_\alpha\times B_\beta$ for every $(\alpha,\beta)\in I\times J$. Hence
+**(a)** A pair (x,y) belongs to the product of the intersection of all sets in family A and the intersection of all sets in family B exactly when x belongs to every set in family A and y belongs to every set in family B. This is equivalent to saying that, for every α ∈ I and β ∈ J, (x,y) belongs to the product of the set A indexed by α and the set B indexed by β. Hence
 $$
 \left(\bigcap_{\alpha\in I}A_\alpha\right)
 \times
@@ -293,7 +293,7 @@ $$
 \left(A_\alpha\times B_\beta\right).
 $$
 
-**(b)** A pair $(x,y)$ belongs to $\left(\bigcup_{\alpha\in I}A_\alpha\right)\times\left(\bigcup_{\beta\in J}B_\beta\right)$ exactly when there are indices $\alpha_0\in I$ and $\beta_0\in J$ with $x\in A_{\alpha_0}$ and $y\in B_{\beta_0}$. Equivalently, $(x,y)$ belongs to $A_{\alpha_0}\times B_{\beta_0}$ for some pair of indices. Thus
+**(b)** A pair (x,y) belongs to the product of the union of all sets in family A and the union of all sets in family B exactly when there are indices α₀ ∈ I and β₀ ∈ J such that x belongs to the set A indexed by α₀ and y belongs to the set B indexed by β₀. Equivalently, (x,y) belongs to the product of those two sets for some pair of indices. Thus
 $$
 \left(\bigcup_{\alpha\in I}A_\alpha\right)
 \times

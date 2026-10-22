@@ -6,34 +6,54 @@ The first two exercises practice translating logical conditions into deductions 
 
 ### Exercise 1
 
-Let $H$ mean “Homer visits.” Define $M$, $B$, $L$, and $G$ analogously for Marge, Bart, Lisa, and Maggie. The conditions are
+Use these propositions:
 
 $$
-H\Rightarrow M,\qquad G\lor L,\qquad M\oplus B,\qquad B\leftrightarrow L,\qquad G\Rightarrow(L\land H),
+\begin{aligned}
+H &:\text{ Homer visits},\\
+M &:\text{ Marge visits},\\
+B &:\text{ Bart visits},\\
+L &:\text{ Lisa visits},\\
+G &:\text{ Maggie visits}.
+\end{aligned}
 $$
 
-where $\oplus$ means “exactly one of the two statements is true.”
+The conditions translate to:
 
-Since $G\Rightarrow L$, the condition $G\lor L$ forces $L$: if Maggie visits then Lisa visits, and otherwise the disjunction itself gives Lisa. Thus Lisa visits. From $B\leftrightarrow L$, Bart visits as well.
+$$
+\begin{aligned}
+H &\Rightarrow M,\\
+G &\lor L,\\
+M &\oplus B,\\
+B &\leftrightarrow L,\\
+G &\Rightarrow (L\land H).
+\end{aligned}
+$$
 
-Now $M\oplus B$, together with Bart’s visit, implies that Marge does not visit. Since $H\Rightarrow M$, Homer does not visit. Finally, $G\Rightarrow H$ implies that Maggie does not visit either.
+The third condition says exactly one of Marge and Bart visits. The fourth says Bart and Lisa either both visit or both stay away.
+
+The final implication means that Maggie's visit entails Lisa's. Therefore, the condition that at least one of Maggie or Lisa visits forces Lisa to visit. The condition pairing Bart with Lisa then forces Bart to visit too.
+
+Because Marge and Bart are an exclusive alternative, Bart's visit rules Marge out. Homer would bring Marge, so he does not visit. Maggie would bring Homer, so she does not visit either.
 
 Therefore **Bart and Lisa visit; Homer, Marge, and Maggie do not**.
 
 ### Exercise 2
 
-Suppose the library has $n$ books, with distinct word counts $w_1,\ldots,w_n$, and let
+Let the library have a finite number of books, each with a distinct word count. Use this notation:
 
 $$
-W=\sum_{i=1}^{n}w_i
+\begin{aligned}
+n&=\text{number of books},\\
+w_i&=\text{word count of book }i,\\
+W&=\sum_{i=1}^{n}w_i<n.
+\end{aligned}
 $$
 
-be the total number of words. The hypothesis says $W<n$.
-
-If every book had at least one word, the $n$ distinct positive integer word counts would have sum at least
+By hypothesis, the total number of words is less than the number of books. The distinct word counts cannot all be positive: if they were, their sum would be at least
 
 $$
 1+2+\cdots+n=\frac{n(n+1)}{2}\ge n.
 $$
 
-That would give $W\ge n$, contradicting $W<n$. Hence at least one book has word count zero: **the library contains an empty book**.
+This would mean at least as many words as books, contradicting the hypothesis. Hence one book has word count zero: **the library contains an empty book**.

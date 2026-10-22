@@ -4,8 +4,9 @@ site:
   structure:
     - type: section
       key: section-solutions
-      title: "Exercise Solutions"
+      title: Exercise Solutions
       path: solutions
+      description: Independent solutions to exercises from Herbert Amann and Joachim Escher’s Analysis I–III.
       default: true
       children:
         - type: space

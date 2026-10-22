@@ -9,5 +9,6 @@
     * [4. Relations and Operations](analysis-i/chapter-1-foundations/4-relations-and-operations.md)
     * [5. The Natural Numbers](analysis-i/chapter-1-foundations/5-natural-numbers.md)
     * [6. Countability](analysis-i/chapter-1-foundations/6-countability.md)
+    * [7. Groups and Homomorphisms](analysis-i/chapter-1-foundations/7-groups-and-homomorphisms.md)
 * [Analysis II](analysis-ii/README.md)
 * [Analysis III](analysis-iii/README.md)

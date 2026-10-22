@@ -10,4 +10,5 @@ This chapter develops logical reasoning and the basic structures used throughout
 - [4. Relations and Operations](4-relations-and-operations.md) — Exercises 1–9.
 - [5. The Natural Numbers](5-natural-numbers.md) — Exercises 1–11.
 - [6. Countability](6-countability.md) — Exercises 1–9.
+- [7. Groups and Homomorphisms](7-groups-and-homomorphisms.md) — Exercises 1–11.
 

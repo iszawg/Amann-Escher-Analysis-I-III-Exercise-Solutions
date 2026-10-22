@@ -13,5 +13,6 @@
     * [8. Rings, Fields and Polynomials](analysis-i/chapter-1-foundations/8-rings-fields-and-polynomials.md)
     * [9. The Rational Numbers](analysis-i/chapter-1-foundations/9-rational-numbers.md)
     * [10. The Real Numbers](analysis-i/chapter-1-foundations/10-real-numbers.md)
+    * [11. The Complex Numbers](analysis-i/chapter-1-foundations/11-complex-numbers.md)
 * [Analysis II](analysis-ii/README.md)
 * [Analysis III](analysis-iii/README.md)

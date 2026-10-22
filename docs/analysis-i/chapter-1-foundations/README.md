@@ -14,4 +14,5 @@ This chapter develops logical reasoning and the basic structures used throughout
 - [8. Rings, Fields and Polynomials](8-rings-fields-and-polynomials.md) — Exercises 1–16.
 - [9. The Rational Numbers](9-rational-numbers.md) — Exercises 1–9.
 - [10. The Real Numbers](10-real-numbers.md) — Exercises 1–16.
+- [11. The Complex Numbers](11-complex-numbers.md) — Exercises 1–15.
 

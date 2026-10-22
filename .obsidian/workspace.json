@@ -11,10 +11,14 @@
             "id": "e146af0bf4ef2737",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "docs/analysis-i/chapter-1-foundations/README.md",
+                "mode": "preview",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "README"
             }
           }
         ]
@@ -95,6 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "docs/analysis-i/chapter-1-foundations/1-fundamentals-of-logic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "docs/analysis-i/chapter-1-foundations/1-fundamentals-of-logic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -155,6 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "docs/analysis-i/chapter-1-foundations/1-fundamentals-of-logic.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -183,17 +190,18 @@
   },
   "active": "7433fd0df09de515",
   "lastOpenFiles": [
+    "docs/analysis-i/chapter-1-foundations/2-sets.md",
+    "docs/analysis-i/chapter-1-foundations/1-fundamentals-of-logic.md",
+    "docs/README.md",
     "docs/analysis-iii/README.md",
     "docs/analysis-iii",
     "docs/analysis-ii/README.md",
     "docs/analysis-ii",
-    "docs/analysis-i/chapter-1-foundations/1-fundamentals-of-logic.md",
     "docs/analysis-i/chapter-1-foundations/README.md",
     "docs/analysis-i/chapter-1-foundations",
     "docs/analysis-i/README.md",
     "docs/analysis-i",
     "docs/SUMMARY.md",
-    "docs/README.md",
     "docs/Amann & Escher: Analysis I–III — Exercise Solutions.md",
     "README.md",
     "docs",

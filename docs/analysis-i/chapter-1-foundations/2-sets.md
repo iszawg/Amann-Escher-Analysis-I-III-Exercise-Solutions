@@ -236,15 +236,15 @@ $$
 
 Let $X,A\subseteq U$ and $Y,B\subseteq V$.
 
-**(a)** Assume $A\times B\ne\varnothing$ and $A\times B\subseteq X\times Y$. Then $A$ and $B$ are both nonempty. Fix $a\in A$, and choose $b_0\in B$. Since $(a,b_0)\in X\times Y$, its first coordinate gives $a\in X$. Hence $A\subseteq X$. Fixing $b\in B$ and choosing $a_0\in A$ similarly gives $b\in Y$, so $B\subseteq Y$.
+**(a)** Suppose $A\times B\ne\varnothing$. If $A\times B\subseteq X\times Y$, then $A$ and $B$ are both nonempty. Fix $a\in A$, and choose $b_0\in B$. Since $(a,b_0)\in X\times Y$, its first coordinate gives $a\in X$. Hence $A\subseteq X$. Fixing $b\in B$ and choosing $a_0\in A$ similarly gives $b\in Y$, so $B\subseteq Y$.
 
 Conversely, if $A\subseteq X$ and $B\subseteq Y$, then every $(a,b)\in A\times B$ also belongs to $X\times Y$. Therefore
 $$
-A\times B\ne\varnothing
-\implies
-\left(A\times B\subseteq X\times Y
-\iff A\subseteq X\text{ and }B\subseteq Y\right).
+A\times B\subseteq X\times Y
+\iff
+A\subseteq X\text{ and }B\subseteq Y.
 $$
+This equivalence is asserted under the assumption $A\times B\ne\varnothing$. If $A\times B=\varnothing$, the product inclusion holds vacuously, even when one of the factor inclusions fails.
 
 **(b)** A pair $(u,v)$ belongs to the left side exactly when
 $$

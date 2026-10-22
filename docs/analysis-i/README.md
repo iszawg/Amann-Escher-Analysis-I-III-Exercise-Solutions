@@ -4,7 +4,7 @@ This volume begins with the foundations needed for analysis: logic, sets, number
 
 ## Chapter I — Foundations
 
-The first twelve sections are available:
+The twelve sections in Chapter I are available:
 
 - [1. Fundamentals of Logic](chapter-1-foundations/1-fundamentals-of-logic.md) — Exercises 1–2.
 - [2. Sets](chapter-1-foundations/2-sets.md) — Exercises 1–8.
@@ -18,5 +18,9 @@ The first twelve sections are available:
 - [10. The Real Numbers](chapter-1-foundations/10-real-numbers.md) — Exercises 1–16.
 - [11. The Complex Numbers](chapter-1-foundations/11-complex-numbers.md) — Exercises 1–15.
 - [12. Vector Spaces, Affine Spaces and Algebras](chapter-1-foundations/12-vector-spaces-affine-spaces-and-algebras.md) — Exercises 1–17.
+
+## Chapter II — Convergence
+
+- [1. Convergence of Sequences](chapter-2-convergence/1-convergence-of-sequences.md) — Exercises 1–13.
 
 Further sections will be added as their exercises are solved.

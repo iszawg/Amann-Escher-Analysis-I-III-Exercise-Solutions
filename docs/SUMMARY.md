@@ -15,5 +15,7 @@
     * [10. The Real Numbers](analysis-i/chapter-1-foundations/10-real-numbers.md)
     * [11. The Complex Numbers](analysis-i/chapter-1-foundations/11-complex-numbers.md)
     * [12. Vector Spaces, Affine Spaces and Algebras](analysis-i/chapter-1-foundations/12-vector-spaces-affine-spaces-and-algebras.md)
+  * [Chapter II — Convergence](analysis-i/chapter-2-convergence/README.md)
+    * [1. Convergence of Sequences](analysis-i/chapter-2-convergence/1-convergence-of-sequences.md)
 * [Analysis II](analysis-ii/README.md)
 * [Analysis III](analysis-iii/README.md)

@@ -15,4 +15,5 @@ This chapter develops logical reasoning and the basic structures used throughout
 - [9. The Rational Numbers](9-rational-numbers.md) — Exercises 1–9.
 - [10. The Real Numbers](10-real-numbers.md) — Exercises 1–16.
 - [11. The Complex Numbers](11-complex-numbers.md) — Exercises 1–15.
+- [12. Vector Spaces, Affine Spaces and Algebras](12-vector-spaces-affine-spaces-and-algebras.md) — Exercises 1–17.
 

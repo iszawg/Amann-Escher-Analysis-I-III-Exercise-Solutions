@@ -14,5 +14,6 @@
     * [9. The Rational Numbers](analysis-i/chapter-1-foundations/9-rational-numbers.md)
     * [10. The Real Numbers](analysis-i/chapter-1-foundations/10-real-numbers.md)
     * [11. The Complex Numbers](analysis-i/chapter-1-foundations/11-complex-numbers.md)
+    * [12. Vector Spaces, Affine Spaces and Algebras](analysis-i/chapter-1-foundations/12-vector-spaces-affine-spaces-and-algebras.md)
 * [Analysis II](analysis-ii/README.md)
 * [Analysis III](analysis-iii/README.md)

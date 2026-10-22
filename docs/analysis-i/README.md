@@ -22,5 +22,6 @@ The twelve sections in Chapter I are available:
 ## Chapter II — Convergence
 
 - [1. Convergence of Sequences](chapter-2-convergence/1-convergence-of-sequences.md) — Exercises 1–13.
+- [2. Real and Complex Sequences](chapter-2-convergence/2-real-and-complex-sequences.md) — Exercises 1–9.
 
 Further sections will be added as their exercises are solved.

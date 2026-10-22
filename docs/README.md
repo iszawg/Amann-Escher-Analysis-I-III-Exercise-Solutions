@@ -6,7 +6,7 @@ The solutions emphasize the definitions and logical steps needed to reach each r
 
 ## Browse the volumes
 
-- [Analysis I](analysis-i/README.md) — Foundations and the beginning of analysis. The twelve sections of Chapter I and Chapter II, Sections 1–4, **Convergence of Sequences**, **Real and Complex Sequences**, **Normed Vector Spaces**, and **Monotone Sequences**, are solved.
+- [Analysis I](analysis-i/README.md) — Foundations and the beginning of analysis. The twelve sections of Chapter I and Chapter II, Sections 1–5, **Convergence of Sequences**, **Real and Complex Sequences**, **Normed Vector Spaces**, **Monotone Sequences**, and **Infinite Limits**, are solved.
 - [Analysis II](analysis-ii/README.md) — Volume index; chapter navigation will be added as its exercises are worked through.
 - [Analysis III](analysis-iii/README.md) — Volume index; chapter navigation will be added as its exercises are worked through.
 
@@ -30,6 +30,7 @@ The solutions emphasize the definitions and logical steps needed to reach each r
 | I | Chapter II, *Convergence* — Section 2, *Real and Complex Sequences* | Exercises 1–9 solved |
 | I | Chapter II, *Convergence* — Section 3, *Normed Vector Spaces* | Exercises 1–15 solved |
 | I | Chapter II, *Convergence* — Section 4, *Monotone Sequences* | Exercises 1–10 solved |
+| I | Chapter II, *Convergence* — Section 5, *Infinite Limits* | Exercises 1–6 solved |
 | I–III | Remaining sections | To be added |
 
 ## Solution conventions

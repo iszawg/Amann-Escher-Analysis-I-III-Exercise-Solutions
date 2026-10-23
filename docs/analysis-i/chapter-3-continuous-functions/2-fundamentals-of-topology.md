@@ -144,7 +144,7 @@ for each finite $$k$$, whereas $$\bigcap_{n=0}^{\infty}A_n=\varnothing$$.
 
 ### Exercise 10
 
-The listed family contains $$\varnothing$$ and $$X$$. Directly checking pairs of its six sets shows that their unions and intersections remain in the family; since the family is finite, arbitrary unions reduce to finite unions. Hence $$\mathcal T$$ is a topology.
+The listed family contains $$\varnothing$$ and $$X$$. For its four nontrivial proper sets, the distinct pairwise unions are $$\{1,3,4\}$$, $$\{2,3,4,5\}$$, or $$X$$, while the distinct pairwise intersections are $$\varnothing$$, $$\{1\}$$, or $$\{3,4\}$$. All are in $$\mathcal T$$. Since the family is finite, arbitrary unions reduce to finite unions, so $$\mathcal T$$ is a topology.
 
 The closed sets are the complements of members of $$\mathcal T$$. The closed supersets of $$\{2,4,5\}$$ are $$X$$ and $$\{2,3,4,5\}$$. Their intersection is the smallest such closed set, so
 

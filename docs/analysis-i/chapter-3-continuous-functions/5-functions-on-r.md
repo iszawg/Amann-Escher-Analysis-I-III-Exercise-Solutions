@@ -20,13 +20,9 @@ First, if $$x<y<z$$, then $$f(y)$$ must lie strictly between $$f(x)$$ and $$f(z)
 
 Choose $$a<b$$ in $$I$$. Suppose $$f(a)<f(b)$$. Applying the betweenness property to triples involving $$a,b$$ shows
 
-$$
-\begin{aligned}
-x<a &\Rightarrow f(x)<f(a),\\
-a<x<b &\Rightarrow f(a)<f(x)<f(b),\\
-x>b &\Rightarrow f(b)<f(x).
-\end{aligned}
-$$
+* If $$x<a$$, then $$f(x)<f(a)$$.
+* If $$a<x<b$$, then $$f(a)<f(x)<f(b)$$.
+* If $$x>b$$, then $$f(b)<f(x)$$.
 
 These inequalities already order values from different regions. Within each region they also force increasing order: if $$x<y<a$$, the triple $$x<y<a$$ puts $$f(y)$$ between $$f(x)$$ and $$f(a)$$, and since $$f(y)<f(a)$$ it follows that $$f(x)<f(y)$$. If $$a<x<y<b$$, the triple $$a<x<y$$ puts $$f(x)$$ between $$f(a)$$ and $$f(y)$$, and since $$f(x)>f(a)$$ it follows that $$f(x)<f(y)$$. If $$b<x<y$$, the triple $$b<x<y$$ puts $$f(x)$$ between $$f(b)$$ and $$f(y)$$, and since $$f(x)>f(b)$$ it again follows that $$f(x)<f(y)$$. The boundary cases with $$x=a$$ or $$y=b$$ follow from the displayed inequalities. Hence $$x<y$$ always implies $$f(x)<f(y)$$, so $$f$$ is strictly increasing. If $$f(a)>f(b)$$, apply the same argument to $$-f$$ to conclude that $$f$$ is strictly decreasing.
 

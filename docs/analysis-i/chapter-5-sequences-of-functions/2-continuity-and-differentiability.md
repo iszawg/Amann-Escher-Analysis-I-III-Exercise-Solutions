@@ -1,6 +1,4 @@
-# Chapter V — Sequences of Functions
-
-## 2. Continuity and Differentiability for Sequences of Functions
+# 2. Continuity and Differentiability for Sequences of Functions
 
 ### Exercise 1
 

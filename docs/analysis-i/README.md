@@ -1,6 +1,6 @@
 # Analysis I
 
-This volume begins with the foundations needed for analysis: logic, sets, number systems, and algebra, then develops convergence and continuity. The solutions are organized by the book’s chapter and section numbers.
+This volume begins with the foundations needed for analysis: logic, sets, number systems, and algebra, then develops convergence, continuity, and differentiation. The solutions are organized by the book’s chapter and section numbers.
 
 ## Chapter I — Foundations
 
@@ -39,5 +39,9 @@ The twelve sections in Chapter I are available:
 - [4. Connectivity](chapter-3-continuous-functions/4-connectivity.md) — Exercises 1–12.
 - [5. Functions on R](chapter-3-continuous-functions/5-functions-on-r.md) — Exercises 1–7.
 - [6. The Exponential and Related Functions](chapter-3-continuous-functions/6-exponential-and-related-functions.md) — Exercises 1–16.
+
+## Chapter IV — Differentiation in One Variable
+
+- [1. Differentiability](chapter-4-differentiation/1-differentiability.md) — Exercises 1–12.
 
 Further sections will be added as their exercises are solved.

@@ -32,5 +32,7 @@
     * [4. Connectivity](analysis-i/chapter-3-continuous-functions/4-connectivity.md)
     * [5. Functions on R](analysis-i/chapter-3-continuous-functions/5-functions-on-r.md)
     * [6. The Exponential and Related Functions](analysis-i/chapter-3-continuous-functions/6-exponential-and-related-functions.md)
+  * [Chapter IV — Differentiation in One Variable](analysis-i/chapter-4-differentiation/README.md)
+    * [1. Differentiability](analysis-i/chapter-4-differentiation/1-differentiability.md)
 * [Analysis II](analysis-ii/README.md)
 * [Analysis III](analysis-iii/README.md)

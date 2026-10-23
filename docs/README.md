@@ -6,7 +6,7 @@ The solutions emphasize the definitions and logical steps needed to reach each r
 
 ## Browse the volumes
 
-- [Analysis I](analysis-i/README.md) — Foundations, convergence, continuity, and differentiation. Chapter I, Chapter II, Sections 1–9, Chapter III, Sections 1–6, and Chapter IV, Sections 1–2, are solved.
+- [Analysis I](analysis-i/README.md) — Foundations, convergence, continuity, and differentiation. Chapter I, Chapter II, Sections 1–9, Chapter III, Sections 1–6, Chapter IV, Sections 1–2, and Chapter V, Sections 1–2, are solved.
 - [Analysis II](analysis-ii/README.md) — Volume index; chapter navigation will be added as its exercises are worked through.
 - [Analysis III](analysis-iii/README.md) — Volume index; chapter navigation will be added as its exercises are worked through.
 

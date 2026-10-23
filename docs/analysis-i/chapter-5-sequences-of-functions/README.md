@@ -5,3 +5,4 @@ This chapter studies pointwise and uniform convergence of sequences and series o
 ## Sections
 
 - [1. Uniform Convergence](1-uniform-convergence.md) — Exercises 1–9.
+- [2. Continuity and Differentiability for Sequences of Functions](2-continuity-and-differentiability.md) — Exercises 1–11.

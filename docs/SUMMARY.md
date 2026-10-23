@@ -39,5 +39,6 @@
     * [4. Iterative Procedures](analysis-i/chapter-4-differentiation/4-iterative-procedures.md)
   * [Chapter V — Sequences of Functions](analysis-i/chapter-5-sequences-of-functions/README.md)
     * [1. Uniform Convergence](analysis-i/chapter-5-sequences-of-functions/1-uniform-convergence.md)
+    * [2. Continuity and Differentiability for Sequences of Functions](analysis-i/chapter-5-sequences-of-functions/2-continuity-and-differentiability.md)
 * [Analysis II](analysis-ii/README.md)
 * [Analysis III](analysis-iii/README.md)

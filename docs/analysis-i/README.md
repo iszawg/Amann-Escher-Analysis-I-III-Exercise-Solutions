@@ -48,5 +48,6 @@ The twelve sections in Chapter I are available:
 ## Chapter V — Sequences of Functions
 
 - [1. Uniform Convergence](chapter-5-sequences-of-functions/1-uniform-convergence.md) — Exercises 1–9.
+- [2. Continuity and Differentiability for Sequences of Functions](chapter-5-sequences-of-functions/2-continuity-and-differentiability.md) — Exercises 1–11.
 
 Further sections will be added as their exercises are solved.

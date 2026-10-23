@@ -37,5 +37,7 @@ The twelve sections in Chapter I are available:
 - [2. The Fundamentals of Topology](chapter-3-continuous-functions/2-fundamentals-of-topology.md) — Exercises 1–21.
 - [3. Compactness](chapter-3-continuous-functions/3-compactness.md) — Exercises 1–15.
 - [4. Connectivity](chapter-3-continuous-functions/4-connectivity.md) — Exercises 1–12.
+- [5. Functions on R](chapter-3-continuous-functions/5-functions-on-r.md) — Exercises 1–7.
+- [6. The Exponential and Related Functions](chapter-3-continuous-functions/6-exponential-and-related-functions.md) — Exercises 1–16.
 
 Further sections will be added as their exercises are solved.

@@ -6,7 +6,7 @@ The solutions emphasize the definitions and logical steps needed to reach each r
 
 ## Browse the volumes
 
-- [Analysis I](analysis-i/README.md) — Foundations, convergence, continuity, and differentiation. Chapter I, Chapter II, Sections 1–9, Chapter III, Sections 1–6, and Chapter IV, Section 1, are solved.
+- [Analysis I](analysis-i/README.md) — Foundations, convergence, continuity, and differentiation. Chapter I, Chapter II, Sections 1–9, Chapter III, Sections 1–6, and Chapter IV, Sections 1–2, are solved.
 - [Analysis II](analysis-ii/README.md) — Volume index; chapter navigation will be added as its exercises are worked through.
 - [Analysis III](analysis-iii/README.md) — Volume index; chapter navigation will be added as its exercises are worked through.
 
@@ -40,6 +40,7 @@ The solutions emphasize the definitions and logical steps needed to reach each r
 | I | Chapter III, *Continuous Functions* — Section 5, *Functions on R* | Exercises 1–7 solved |
 | I | Chapter III, *Continuous Functions* — Section 6, *The Exponential and Related Functions* | Exercises 1–16 solved |
 | I | Chapter IV, *Differentiation in One Variable* — Section 1, *Differentiability* | Exercises 1–12 solved |
+| I | Chapter IV, *Differentiation in One Variable* — Section 2, *The Mean Value Theorem and its Applications* | Exercises 1–21 solved |
 | I–III | Remaining sections | To be added |
 
 ## Solution conventions

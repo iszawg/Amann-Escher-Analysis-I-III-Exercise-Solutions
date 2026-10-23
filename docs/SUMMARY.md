@@ -34,5 +34,6 @@
     * [6. The Exponential and Related Functions](analysis-i/chapter-3-continuous-functions/6-exponential-and-related-functions.md)
   * [Chapter IV — Differentiation in One Variable](analysis-i/chapter-4-differentiation/README.md)
     * [1. Differentiability](analysis-i/chapter-4-differentiation/1-differentiability.md)
+    * [2. The Mean Value Theorem and its Applications](analysis-i/chapter-4-differentiation/2-mean-value-theorem-and-its-applications.md)
 * [Analysis II](analysis-ii/README.md)
 * [Analysis III](analysis-iii/README.md)

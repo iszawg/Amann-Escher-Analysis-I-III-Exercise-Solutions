@@ -27,5 +27,6 @@
     * [9. Power Series](analysis-i/chapter-2-convergence/9-power-series.md)
   * [Chapter III — Continuous Functions](analysis-i/chapter-3-continuous-functions/README.md)
     * [1. Continuity](analysis-i/chapter-3-continuous-functions/1-continuity.md)
+    * [2. The Fundamentals of Topology](analysis-i/chapter-3-continuous-functions/2-fundamentals-of-topology.md)
 * [Analysis II](analysis-ii/README.md)
 * [Analysis III](analysis-iii/README.md)

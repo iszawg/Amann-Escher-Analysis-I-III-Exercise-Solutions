@@ -34,5 +34,6 @@ The twelve sections in Chapter I are available:
 ## Chapter III — Continuous Functions
 
 - [1. Continuity](chapter-3-continuous-functions/1-continuity.md) — Exercises 1–18.
+- [2. The Fundamentals of Topology](chapter-3-continuous-functions/2-fundamentals-of-topology.md) — Exercises 1–21.
 
 Further sections will be added as their exercises are solved.

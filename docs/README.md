@@ -6,7 +6,7 @@ The solutions emphasize the definitions and logical steps needed to reach each r
 
 ## Browse the volumes
 
-- [Analysis I](analysis-i/README.md) — Foundations, convergence, and continuity. Chapter I, all nine sections of Chapter II, and Chapter III, Section 1, **Continuity**, are solved.
+- [Analysis I](analysis-i/README.md) — Foundations, convergence, and continuity. Chapter I, all nine sections of Chapter II, and Chapter III, Sections 1–2, **Continuity** and **The Fundamentals of Topology**, are solved.
 - [Analysis II](analysis-ii/README.md) — Volume index; chapter navigation will be added as its exercises are worked through.
 - [Analysis III](analysis-iii/README.md) — Volume index; chapter navigation will be added as its exercises are worked through.
 
@@ -34,6 +34,7 @@ The solutions emphasize the definitions and logical steps needed to reach each r
 | I | Chapter II, *Convergence* — Section 6, *Completeness* | Exercises 1–7 solved |
 | I | Chapter II, *Convergence* — Section 7, *Series* | Exercises 1–15 solved |
 | I | Chapter III, *Continuous Functions* — Section 1, *Continuity* | Exercises 1–18 solved |
+| I | Chapter III, *Continuous Functions* — Section 2, *The Fundamentals of Topology* | Exercises 1–21 solved |
 | I–III | Remaining sections | To be added |
 
 ## Solution conventions

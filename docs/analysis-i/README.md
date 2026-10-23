@@ -1,6 +1,6 @@
 # Analysis I
 
-This volume begins with the foundations needed for analysis: logic, sets, number systems, and algebra. The solutions are organized by the book’s chapter and section numbers.
+This volume begins with the foundations needed for analysis: logic, sets, number systems, and algebra, then develops convergence and continuity. The solutions are organized by the book’s chapter and section numbers.
 
 ## Chapter I — Foundations
 
@@ -28,5 +28,11 @@ The twelve sections in Chapter I are available:
 - [5. Infinite Limits](chapter-2-convergence/5-infinite-limits.md) — Exercises 1–6.
 - [6. Completeness](chapter-2-convergence/6-completeness.md) — Exercises 1–7.
 - [7. Series](chapter-2-convergence/7-series.md) — Exercises 1–15.
+- [8. Absolute Convergence](chapter-2-convergence/8-absolute-convergence.md) — Exercises 1–10.
+- [9. Power Series](chapter-2-convergence/9-power-series.md) — Exercises 1–10.
+
+## Chapter III — Continuous Functions
+
+- [1. Continuity](chapter-3-continuous-functions/1-continuity.md) — Exercises 1–18.
 
 Further sections will be added as their exercises are solved.

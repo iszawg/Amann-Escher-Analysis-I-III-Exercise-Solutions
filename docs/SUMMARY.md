@@ -22,5 +22,6 @@
     * [4. Monotone Sequences](analysis-i/chapter-2-convergence/4-monotone-sequences.md)
     * [5. Infinite Limits](analysis-i/chapter-2-convergence/5-infinite-limits.md)
     * [6. Completeness](analysis-i/chapter-2-convergence/6-completeness.md)
+    * [7. Series](analysis-i/chapter-2-convergence/7-series.md)
 * [Analysis II](analysis-ii/README.md)
 * [Analysis III](analysis-iii/README.md)

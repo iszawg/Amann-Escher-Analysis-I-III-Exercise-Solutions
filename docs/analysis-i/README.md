@@ -27,5 +27,6 @@ The twelve sections in Chapter I are available:
 - [4. Monotone Sequences](chapter-2-convergence/4-monotone-sequences.md) — Exercises 1–10.
 - [5. Infinite Limits](chapter-2-convergence/5-infinite-limits.md) — Exercises 1–6.
 - [6. Completeness](chapter-2-convergence/6-completeness.md) — Exercises 1–7.
+- [7. Series](chapter-2-convergence/7-series.md) — Exercises 1–15.
 
 Further sections will be added as their exercises are solved.

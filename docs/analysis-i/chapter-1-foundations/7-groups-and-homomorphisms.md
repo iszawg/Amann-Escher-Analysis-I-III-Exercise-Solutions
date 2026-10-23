@@ -4,7 +4,7 @@
 
 ### Exercise 1
 
-The left cosets of $$N$$ partition $$G$$. For every $$g\in G$$, the map $$N\to gN$$ given by $$n\mapsto gn$$ is a bijection, so every coset has $$\operatorname{Num}(N)$$ elements. Since the set of cosets is $$G/N$$, counting the elements of this partition gives
+The left cosets of $$N$$ cover $$G$$ because $$g\in gN$$ for every $$g\in G$$. If two left cosets intersect, say $$gn=hm$$ with $$n,m\in N$$, then $$h=gnm^{-1}$$ and hence $$hN=gN$$; thus the cosets are equal or disjoint, so they partition $$G$$. For every $$g\in G$$, the map $$N\to gN$$ given by $$n\mapsto gn$$ is a bijection, so every coset has $$\operatorname{Num}(N)$$ elements. Since the set of cosets is $$G/N$$, counting the elements of this partition gives
 
 $$
 \operatorname{Num}(G)=\operatorname{Num}(G/N)\,\operatorname{Num}(N).
@@ -14,7 +14,7 @@ In particular, $$\operatorname{Num}(N)$$ divides $$\operatorname{Num}(G)$$.
 
 ### Exercise 2
 
-**(c)** Composition of bijections is associative, the identity is $$\operatorname{id}_X$$, and the inverse of $$f\in S_X$$ is its inverse function $$f^{-1}$$. Thus $$S_X$$ is a group. If $$X$$ has at least three elements, choose distinct $$x,y,z\in X$$ and let $$f$$ interchange $$x,y$$ while fixing the other elements, and let $$g$$ interchange $$y,z$$ while fixing the others. Then $$f\circ g\ne g\circ f$$, so $$S_X$$ need not be Abelian.
+**(c)** Composition of bijections is associative, the identity is $$\operatorname{id}_X$$, and the inverse of $$f\in S_X$$ is its inverse function $$f^{-1}$$. Thus $$S_X$$ is a group. If $$X$$ has at least three elements, choose distinct $$x,y,z\in X$$ and let $$f$$ interchange $$x,y$$ while fixing the other elements, and let $$g$$ interchange $$y,z$$ while fixing the others. Then $$(f\circ g)(x)=y$$ but $$(g\circ f)(x)=z$$, so $$f\circ g\ne g\circ f$$ and $$S_X$$ is not Abelian in this case.
 
 **(d)** Define the operation on $$G^X$$ pointwise by $$(fg)(x)=f(x)g(x)$$. Associativity follows at each $$x\in X$$ from associativity in $$G$$. The constant function $$x\mapsto e$$ is the identity, and the inverse of $$f$$ is the function $$x\mapsto f(x)^{-1}$$. Hence $$G^X$$ is a group. The same argument, coordinate by coordinate, proves that $$G^m$$ with the stated operation is a group.
 
@@ -109,7 +109,7 @@ in that order. The four structures form two isomorphism classes: the cyclic grou
 
 ### Exercise 9
 
-In $$S_3$$, the transpositions $$\sigma=(12)$$ and $$\tau=(23)$$ do not commute. Using ordinary composition, $$\sigma\tau=(123)$$ whereas $$\tau\sigma=(132)$$. Hence $$S_3$$ is not Abelian.
+In $$S_3$$, let $$\sigma=(12)$$ and $$\tau=(23)$$. Using ordinary composition, $$\sigma\tau$$ sends $$1\mapsto2$$, $$2\mapsto3$$, and $$3\mapsto1$$, so $$\sigma\tau=(123)$$. In the reverse order, $$\tau\sigma=(132)$$. Since these permutations differ, the operation in $$S_3$$ is not commutative and $$S_3$$ is not Abelian.
 
 ### Exercise 10
 

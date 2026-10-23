@@ -143,7 +143,7 @@ $$
 \operatorname{pr}_k^{-1}(y)
 =X_1\times\cdots\times X_{k-1}\times\{y\}\times X_{k+1}\times\cdots\times X_n.
 $$
-Equivalently, it is $$\{x\in X_1\times\cdots\times X_n:x_k=y\}$$. If $$y\notin X_k$$, the corresponding fiber is empty.
+Indeed, a tuple $$(x_1,\ldots,x_n)$$ lies in this preimage exactly when $$\operatorname{pr}_k(x_1,\ldots,x_n)=x_k=y$$; all its other coordinates may be chosen freely from their respective factors. Thus the fiber is also $$\{x\in X_1\times\cdots\times X_n:x_k=y\}$$. If $$y\notin X_k$$, no tuple has kth coordinate $$y$$, so the fiber is empty.
 
 ### Exercise 6
 

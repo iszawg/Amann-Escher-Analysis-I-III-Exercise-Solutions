@@ -155,7 +155,7 @@ $$
 
 ### Exercise 8
 
-**(a)** In the product $$p[1]^m$$, the coefficient of $$X^k$$ counts the choices of exponents $$\alpha_1,\ldots,\alpha_m\in\mathbb N$$ with sum $$k$$. By the stars-and-bars count, there are $$\binom{m+k-1}{k}$$ such choices. Thus
+**(a)** In the product $$p[1]^m$$, the coefficient of $$X^k$$ counts the choices of exponents $$\alpha_1,\ldots,\alpha_m\in\mathbb N$$ with sum $$k$$. Encode such a choice by a row of $$k$$ stars separated into $$m$$ groups by $$m-1$$ dividers; empty groups represent zero exponents. Choosing the divider positions among the total $$m+k-1$$ positions gives $$\binom{m+k-1}{m-1}=\binom{m+k-1}{k}$$ choices. Thus
 
 $$
 p[1]^m=\sum_{k\in\mathbb N}\binom{m+k-1}{k}X^k.
@@ -275,7 +275,23 @@ Because $$K$$ is commutative, this is $$pDq+qDp$$, as required.
 
 ### Exercise 15
 
-Polynomial division gives
+Divide the leading terms successively. The quotient terms are $$X^2$$, then $$-2X$$, then $$1$$:
+
+$$
+\begin{aligned}
+X^5-3X^4+4X^3
+&-(X^5-X^4+X^3-X^2)\\
+&=-2X^4+3X^3+X^2,\\[4pt]
+(-2X^4+3X^3+X^2)
+&-(-2X^4+2X^3-2X^2+2X)\\
+&=X^3+3X^2-2X,\\[4pt]
+(X^3+3X^2-2X)
+&-(X^3-X^2+X-1)\\
+&=4X^2-3X+1.
+\end{aligned}
+$$
+
+The terms subtracted are the divisor multiplied by $$X^2$$, $$-2X$$, and $$1$$, respectively. Therefore
 
 $$
 X^5-3X^4+4X^3

@@ -16,7 +16,11 @@ $$
 u^2=\frac{|z|+x}{2},\qquad v^2=\frac{|z|-x}{2}.
 $$
 
-Since $$z\notin(-\infty,0]$$, we have $$|z|+x>0$$. Thus there is exactly one possible choice with $$u>0$$, namely $$u=\sqrt{(|z|+x)/2}$$. Then $$v=y/(2u)$$ is uniquely determined, and these values satisfy $$w^2=z$$. This proves existence and uniqueness.
+Since $$z\notin(-\infty,0]$$, we have $$|z|+x>0$$. Thus there is exactly one possible choice with $$u>0$$, namely $$u=\sqrt{(|z|+x)/2}$$. Then $$v=y/(2u)$$ is uniquely determined. Using $$y^2=(|z|-x)(|z|+x)$$ gives
+$$
+v^2=\frac{y^2}{2(|z|+x)}=\frac{|z|-x}{2}.
+$$
+Consequently $$u^2-v^2=x$$ and $$2uv=y$$, so $$(u+iv)^2=x+iy=z$$. Any root with positive real part must have this same $$u$$ and then the same $$v$$, proving existence and uniqueness.
 
 **(b)** The preceding calculation gives
 
@@ -43,10 +47,12 @@ The two roots of $$w^2=i$$ are $$\frac{1+i}{\sqrt2}$$ and $$-\frac{1+i}{\sqrt2}$
 
 ### Exercise 2
 
-For $$z_1=(12+5i)/(2+3i)$$, multiplication by the conjugate of the denominator gives
+For $$z_1=(12+5i)/(2+3i)$$, multiply numerator and denominator by $$2-3i$$:
 
 $$
-z_1=\frac{(12+5i)(2-3i)}{13}=3-2i.
+z_1=\frac{(12+5i)(2-3i)}{(2+3i)(2-3i)}
+=\frac{24-36i+10i-15i^2}{13}
+=\frac{39-26i}{13}=3-2i.
 $$
 
 Hence
@@ -59,7 +65,7 @@ $$
 and
 
 $$
-\frac1{z_1}=\frac{3+2i}{13},\quad
+\frac1{z_1}=\frac{\overline{z_1}}{|z_1|^2}=\frac{3+2i}{13},\quad
 \operatorname{Re}(1/z_1)=\frac3{13},\quad
 \operatorname{Im}(1/z_1)=\frac2{13}.
 $$
@@ -77,13 +83,24 @@ Since $$1/z_2=\overline{z_2}$$, its real and imaginary parts are $$1/\sqrt2$$ an
 
 Write $$z=x+iy$$.
 
-**(a)** Squaring the two sides of the defining inequality gives $$|z-1|^2\le|z+1|^2$$, which simplifies to $$x\ge0$$. Thus $$A$$ is the closed right half-plane.
+**(a)** Squaring the two sides of the defining inequality gives
+$$
+|z-1|^2=(x-1)^2+y^2\le(x+1)^2+y^2=|z+1|^2
+\iff x\ge0.
+$$
+Thus $$A$$ is the closed right half-plane.
 
 **(b)** The two inequalities are equivalent to
 
 $$
-|z+1|\le|z-i|\iff x+y\le0,\qquad
-|z-i|\le|z-1|\iff x\le y.
+\begin{aligned}
+|z+1|^2\le|z-i|^2
+&\iff (x+1)^2+y^2\le x^2+(y-1)^2\\
+&\iff x+y\le0,\\
+|z-i|^2\le|z-1|^2
+&\iff x^2+(y-1)^2\le(x-1)^2+y^2\\
+&\iff x\le y.
+\end{aligned}
 $$
 
 Thus $$B=\{x+iy:x+y\le0,\ x\le y\}$$, the closed wedge with vertex $$0$$ between the rays $$y=x$$ and $$y=-x$$ pointing to the left.
@@ -111,7 +128,19 @@ $$
 z\in\left\{1,\frac{-1+i\sqrt3}{2},\frac{-1-i\sqrt3}{2}\right\}.
 $$
 
-These follow by factoring $$z^4-1=(z^2-1)(z^2+1)$$ and $$z^3-1=(z-1)(z^2+z+1)$$.
+For $$z^4=1$$, factor
+$$
+z^4-1=(z^2-1)(z^2+1)=(z-1)(z+1)(z-i)(z+i),
+$$
+so the roots are $$1,-1,i,-i$$. For $$z^3=1$$,
+$$
+z^3-1=(z-1)(z^2+z+1).
+$$
+The quadratic factor gives
+$$
+z=\frac{-1\pm\sqrt{1-4}}{2}=\frac{-1\pm i\sqrt3}{2},
+$$
+in addition to $$z=1$$.
 
 ### Exercise 5
 
@@ -186,12 +215,14 @@ $$
 \begin{pmatrix}a&-b\\ b&a\end{pmatrix}.
 $$
 
-Its image is exactly the set $$\mathcal M$$ of matrices of the displayed form in the exercise, and it is injective because the matrix entries recover $$a$$ and $$b$$. Direct multiplication shows
+Its image is exactly the set $$\mathcal M$$ of matrices of the displayed form in the exercise, and it is injective because the matrix entries recover $$a$$ and $$b$$. Addition is preserved because both matrix addition and complex addition add the real and imaginary coordinates. For multiplication, the matrix product is
 
 $$
-\Phi((a+ib)+(c+id))=\Phi(a+ib)+\Phi(c+id),
-\qquad
-\Phi((a+ib)(c+id))=\Phi(a+ib)\Phi(c+id).
+\begin{pmatrix}a&-b\\ b&a\end{pmatrix}
+\begin{pmatrix}c&-d\\ d&c\end{pmatrix}
+=\begin{pmatrix}ac-bd&-(ad+bc)\\ ad+bc&ac-bd\end{pmatrix}
+=\Phi((ac-bd)+i(ad+bc))
+=\Phi((a+ib)(c+id)).
 $$
 
 Also $$\Phi(1)=I$$. Since $$\mathbb C$$ is a field and $$\Phi$$ is an injective homomorphism, its image $$\mathcal M$$ is a field under the matrix operations; for a nonzero element its inverse is $$\Phi((a-ib)/(a^2+b^2))$$. Thus $$\Phi:\mathbb C\to\mathcal M$$ is a field isomorphism, and $$\mathcal M$$ is a subfield of $$M_2(\mathbb R)$$.

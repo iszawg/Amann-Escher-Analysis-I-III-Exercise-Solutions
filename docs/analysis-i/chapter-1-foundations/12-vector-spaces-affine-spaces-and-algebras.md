@@ -41,19 +41,25 @@ $$
 
 ### Exercise 3
 
-For $$T(x,y)=(x-y,y-x)$$ and scalars $$a,b\in\mathbb R$$,
+For $$T(x,y)=(x-y,y-x)$$, vectors $$(x,y),(u,v)\in\mathbb R^2$$, and scalars $$a,b\in\mathbb R$$,
 
 $$
-T(a(x,y)+b(u,v))=aT(x,y)+bT(u,v),
+\begin{aligned}
+T(a(x,y)+b(u,v))
+&=T(ax+bu,ay+bv)\\
+&=(ax+bu-ay-bv,ay+bv-ax-bu)\\
+&=a(x-y,y-x)+b(u-v,v-u)\\
+&=aT(x,y)+bT(u,v).
+\end{aligned}
 $$
 
-so $$T$$ is linear. Also
+Thus $$T$$ is linear. Next,
 
 $$
 T(x,y)=0\iff x=y,
 $$
 
-and every value of $$T$$ is of the form $$(t,-t)$$. Consequently,
+Every value is of the form $$(t,-t)$$, and every such pair is attained because $$T(t,0)=(t,-t)$$. Consequently,
 
 $$
 \ker(T)=\{(t,t):t\in\mathbb R\}=\operatorname{span}\{(1,1)\},
@@ -166,7 +172,16 @@ In the Newton expansion of $$p_n$$, the only term of degree $$n$$ is $$a_n\prod_
 
 **(b)** In the formula from part (a), permuting $$x_0,\ldots,x_n$$ simply reorders the summands and the factors in each denominator. Thus $$f[x_0,\ldots,x_n]$$ is symmetric in its arguments.
 
-**(c)** Apply the formula from part (a) to $$f[x_0,\ldots,x_{n-1}]$$ and $$f[x_1,\ldots,x_n]$$. After putting the terms over the full denominators, the coefficient of each $$f(x_j)$$ in their difference is $$x_0-x_n$$ times its coefficient in $$f[x_0,\ldots,x_n]$$. Dividing by $$x_0-x_n\ne0$$ yields
+**(c)** Write
+$$
+D_j:=\prod_{\substack{0\le k\le n\\k\ne j}}(x_j-x_k).
+$$
+For $$j=0$$, the coefficient of $$f(x_0)$$ in the numerator on the right is $$1/\prod_{k=1}^{n-1}(x_0-x_k)$$; after division by $$x_0-x_n$$ it is $$1/D_0$$. For $$j=n$$, that coefficient is $$-1/\prod_{k=1}^{n-1}(x_n-x_k)$$; after division by $$x_0-x_n$$ it is $$1/D_n$$. For $$1\le j<n$$, put $$Q_j=\prod_{1\le k<n,\ k\ne j}(x_j-x_k)$$. The coefficient before division is
+$$
+\frac{1}{(x_j-x_0)Q_j}-\frac{1}{(x_j-x_n)Q_j}
+=\frac{x_0-x_n}{D_j}.
+$$
+Thus, in every case, dividing by $$x_0-x_n$$ gives the coefficient $$1/D_j$$ appearing in part (a), proving the recurrence.
 
 $$
 f[x_0,\ldots,x_n]
@@ -210,20 +225,21 @@ with the value $$1$$ when $$k=0$$. This is the leading coefficient when it is no
 
 ### Exercise 13
 
-We prove
+Let $$F(n)=n(n+1)(2n+1)(3n^2+3n-1)/30$$. We prove by induction that $$\sum_{j=0}^n j^4=F(n)$$. The case $$n=0$$ holds. Assuming the formula for $$n$$, first expand the difference:
 
 $$
-\sum_{j=0}^n j^4=\frac{n(n+1)(2n+1)(3n^2+3n-1)}{30}
+\begin{aligned}
+F(n+1)-F(n)
+&=\frac{n+1}{30}\Bigl((n+2)(2n+3)(3n^2+9n+5)\\
+&\qquad -n(2n+1)(3n^2+3n-1)\Bigr)\\
+&=\frac{n+1}{30}\Bigl((6n^4+39n^3+91n^2+89n+30)\\
+&\qquad -(6n^4+9n^3+n^2-n)\Bigr)\\
+&=\frac{n+1}{30}\,30(n+1)^3=(n+1)^4.
+\end{aligned}
 $$
 
-by induction on $$n$$. It holds for $$n=0$$. If it holds for $$n$$, the difference between the proposed right-hand sides for $$n+1$$ and $$n$$ is
+Therefore $$F(n+1)=F(n)+(n+1)^4$$, exactly the addition of the next term in the sum, completing the induction.
 
-$$
-\frac{(n+1)(n+2)(2n+3)(3n^2+9n+5)-n(n+1)(2n+1)(3n^2+3n-1)}{30}
-=(n+1)^4.
-$$
-
-This is exactly the new summand, so the formula follows for every $$n\in\mathbb N$$.
 
 ### Exercise 14
 

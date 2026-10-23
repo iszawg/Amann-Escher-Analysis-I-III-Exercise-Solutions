@@ -32,9 +32,9 @@ $$
 
 The third condition says exactly one of Marge and Bart visits. The fourth says Bart and Lisa either both visit or both stay away.
 
-The final implication means that Maggie's visit entails Lisa's. Therefore, the condition that at least one of Maggie or Lisa visits forces Lisa to visit. The condition pairing Bart with Lisa then forces Bart to visit too.
+The two conditions involving Maggie and Lisa imply $$L$$: if $$L$$ were false, then $$G\lor L$$ would force $$G$$, and $$G\Rightarrow(L\land H)$$ would force $$L$$, a contradiction. Since $$B\leftrightarrow L$$, Lisa's visit also forces Bart to visit.
 
-Because Marge and Bart are an exclusive alternative, Bart's visit rules Marge out. Homer would bring Marge, so he does not visit. Maggie would bring Homer, so she does not visit either.
+Now $$M\oplus B$$ says exactly one of Marge and Bart visits. Since $$B$$ is true, $$M$$ is false. The implication $$H\Rightarrow M$$ then rules out $$H$$. Finally, $$G\Rightarrow(L\land H)$$ together with the fact that $$H$$ is false rules out $$G$$.
 
 Therefore **Bart and Lisa visit; Homer, Marge, and Maggie do not**.
 

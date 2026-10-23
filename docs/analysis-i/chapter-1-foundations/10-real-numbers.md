@@ -80,7 +80,7 @@ These arguments also cover negative integer numerators because all bases are pos
 
 ### Exercise 4
 
-Let $$m<n$$.
+Let $$m<n$$. If $$a=1$$, both roots equal $$1$$. It remains to consider the two cases below.
 
 **(a)** Suppose $$0<a<1$$ and set $$\alpha=a^{1/m}$$ and $$\beta=a^{1/n}$$. Then $$0<\beta<1$$, so $$\beta^m>\beta^n=a=\alpha^m$$. Since the map $$x\mapsto x^m$$ is strictly increasing on $$\mathbb R_+$$, it follows that $$\alpha<\beta$$.
 
@@ -235,15 +235,23 @@ Conversely, if that set is not bounded above, then for each $$x\in K$$ there is 
 
 For a nonzero rational function, use its reduced representation $$f=p/q$$ with $$q$$ monic. Define $$P$$ to contain zero and all such $$f$$ for which the leading coefficient of $$p$$ is positive. This is the stated condition $$p_n\ge0$$, with zero included.
 
-If $$f=p/q$$ and $$g=r/s$$ are positive, then $$q,s$$ are monic and the numerator of their sum over the denominator $$qs$$ is $$ps+rq$$. Its leading coefficient is positive: the highest-degree term comes from one of these summands, or the two positive leading coefficients add if the degrees agree. The numerator of $$fg$$ is $$pr$$, whose leading coefficient is also positive. Reducing either fraction does not change this sign, since common factors are normalized to be monic. Thus $$P$$ is closed under addition and multiplication.
+If either of two elements of $$P$$ is zero, their sum and product remain in $$P$$. Otherwise write them as $$f=p/q$$ and $$g=r/s$$, where the numerators have positive leading coefficients and $$q,s$$ are monic. The numerator of their sum over denominator $$qs$$ is $$ps+rq$$. The term of higher degree determines its leading coefficient; if the two degrees agree, the positive leading coefficients add. The numerator of $$fg$$ is $$pr$$ and also has positive leading coefficient. When reducing either fraction, divide numerator and denominator by a common monic factor; this preserves the numerator's leading coefficient. Therefore $$P$$ is closed under addition and multiplication.
 
-Every nonzero $$f$$ has numerator with either positive or negative leading coefficient, so exactly one of $$f$$ and $$-f$$ lies in $$P$$. These properties make
+Every nonzero $$f$$ has numerator with either positive or negative leading coefficient, so exactly one of $$f$$ and $$-f$$ lies in $$P$$. Therefore
+
+$$
+P\cap(-P)=\{0\},\qquad P\cup(-P)=K.
+$$
+
+Also $$1\in P$$. Define the order by
 
 $$
 f\preceq g\quad\Longleftrightarrow\quad g-f\in P
 $$
 
-an order compatible with addition and multiplication. If $$f>0$$, totality implies that either $$f^{-1}>0$$ or $$-f^{-1}>0$$; the latter would make $$f(-f^{-1})=-1>0$$, a contradiction. Thus positive elements have positive inverses, and $$K$$ is an ordered field. Finally, for every $$n\in\mathbb N$$, the polynomial $$X-n$$ has positive leading coefficient, so $$n<X$$. The natural numbers are bounded above by $$X$$, and this ordered field is not Archimedean.
+This relation is a total order. Reflexivity follows from $$0\in P$$; antisymmetry follows from $$P\cap(-P)=\{0\}$$; and transitivity follows from closure of $$P$$ under addition. Totality follows from $$P\cup(-P)=K$$. Adding the same element to both sides preserves the order, and multiplying two nonnegative elements gives a nonnegative element by closure of $$P$$ under multiplication.
+
+If $$f\succ0$$, totality implies that either $$f^{-1}\in P$$ or $$-f^{-1}\in P$$. The second possibility would give $$-1=f(-f^{-1})\in P$$, contradicting the fact that $$-1$$ has a negative leading coefficient. Thus positive elements have positive inverses, and $$K$$ is an ordered field. Finally, for every $$n\in\mathbb N$$, the polynomial $$X-n$$ has positive leading coefficient, so $$n\prec X$$. The natural numbers are bounded above by $$X$$, and this ordered field is not Archimedean.
 
 ### Exercise 16
 

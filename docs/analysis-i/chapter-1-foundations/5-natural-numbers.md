@@ -13,12 +13,15 @@ S_{n+1}+T_{n+1}
 =\sum_{k=0}^{n+1}(a_k+b_k).
 $$
 
-The product identity is proved in the same way, using associativity and commutativity of multiplication:
+For the product identity, the case $$n=0$$ is immediate. Assume it holds through $$n$$. Associativity and commutativity of multiplication give
 
 $$
-\left(\prod_{k=0}^{n+1}a_k\right)\left(\prod_{k=0}^{n+1}b_k\right)
-=\left(\prod_{k=0}^{n}a_k\right)\left(\prod_{k=0}^{n}b_k\right)(a_{n+1}b_{n+1})
-=\prod_{k=0}^{n+1}(a_kb_k).
+\begin{aligned}
+&\left(\prod_{k=0}^{n+1}a_k\right)\left(\prod_{k=0}^{n+1}b_k\right)\\
+&=\left(\prod_{k=0}^{n}a_k\right)\left(\prod_{k=0}^{n}b_k\right)a_{n+1}b_{n+1}\\
+&=\left(\prod_{k=0}^{n}(a_kb_k)\right)(a_{n+1}b_{n+1})\\
+&=\prod_{k=0}^{n+1}(a_kb_k).
+\end{aligned}
 $$
 
 For the double-sum identity, distributivity implies by induction on the number of terms that
@@ -172,14 +175,17 @@ $$
 
 ### Exercise 6
 
-By Pascal's identity, for $$L=m+n+k$$, using the convention $$\binom{L}{-1}=0$$,
+Put $$L=m+n+k$$ and use the convention $$\binom{L}{-1}=0$$. Pascal's identity gives
 
 $$
+\begin{aligned}
 2\binom{L}{k}-\binom{L+1}{k}
-=\binom{L+1}{k}-2\binom{L}{k-1}.
+&=\binom{L}{k}-\binom{L}{k-1}\\
+&=\binom{L+1}{k}-2\binom{L}{k-1}.
+\end{aligned}
 $$
 
-Consequently,
+Substituting this into the definition of $$S(m,n)$$ gives
 
 $$
 \begin{aligned}
@@ -191,7 +197,7 @@ S(m,n)
 \end{aligned}
 $$
 
-In the second line, the index in the second sum is shifted by $$j=k-1$$; all terms through $$k=n-1$$ cancel.
+For the second sum, set $$j=k-1$$. Its terms then cancel the first sum's terms with indices $$0,\ldots,n-1$$, leaving only the first sum's term with $$k=n$$. This is $$\binom{m+2n+1}{n}$$.
 
 ### Exercise 7
 

@@ -52,10 +52,17 @@ If two distinct tagged pairs have the same image, $$q(D)=X$$ has at most one few
 
 ### Exercise 6
 
-For the disjoint union $$X=\bigsqcup_{j=0}^{m}X_j$$, the tagged union $$D$$ from Exercise 5 maps bijectively to $$X$$ by $$(j,x)\mapsto x$$. Counting the tagged copies gives
+We argue by induction on the number of factors. For one factor, the formula is just $$\operatorname{Num}(X_0)=\operatorname{Num}(X_0)$$. Suppose it holds for the product
+$$
+Y:=\prod_{j=0}^{m-1}X_j.
+$$
+If $$Y=\varnothing$$ or $$X_m=\varnothing$$, then both $$Y\times X_m$$ and the product of their cardinalities are zero. Otherwise, for each $$y\in Y$$ consider the slice $$\{y\}\times X_m$$. These slices are pairwise disjoint, their union is $$Y\times X_m$$, and each is in bijection with $$X_m$$ by $$(y,x)\mapsto x$$. There are $$\operatorname{Num}(Y)$$ slices, so counting them gives
 
 $$
-\operatorname{Num}(X)=\sum_{j=0}^{m}\operatorname{Num}(X_j).
+\operatorname{Num}\left(\prod_{j=0}^{m}X_j\right)
+=\operatorname{Num}(Y\times X_m)
+=\operatorname{Num}(Y)\operatorname{Num}(X_m)
+=\prod_{j=0}^{m}\operatorname{Num}(X_j).
 $$
 
 ### Exercise 7

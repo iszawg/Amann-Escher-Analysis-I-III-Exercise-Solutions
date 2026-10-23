@@ -136,7 +136,7 @@ $$
 f(x)\ge f(x_0)+m(x-x_0).
 $$
 
-At $$x=\xi$$ this gives $$0\ge f(x_0)+m(\xi-x_0)$$, hence $$x_1=x_0-f(x_0)/m\ge\xi$$. Also $$x_1<x_0$$, and applying the same supporting-line inequality at $$x_1$$ shows $$f(x_1)\ge0$$. Inductively, $$\xi\le x_{n+1}<x_n$$ and $$f(x_n)\ge0$$. Thus $$x_n$$ decreases to some $$L\ge\xi$$. Since
+At $$x=\xi$$ this gives $$0\ge f(x_0)+m(\xi-x_0)$$, hence $$x_1=x_0-f(x_0)/m\ge\xi$$. Also $$x_1<x_0$$, and evaluating the supporting line at $$x_1$$ shows $$f(x_1)\ge0$$. Inductively, $$\xi\le x_{n+1}<x_n$$ and $$f(x_n)\ge0$$. Thus $$x_n$$ decreases to some $$L\ge\xi$$. Since
 
 $$
 x_n-x_{n+1}=\frac{f(x_n)}m\longrightarrow0,
@@ -146,7 +146,7 @@ continuity gives $$f(L)=0$$, so $$L=\xi$$.
 
 If instead $$f(a)>0>f(b)$$, reflect the variable by setting $$g(t):=f(-t)$$ on $$[-b,-a]$$. Then $$g$$ is convex, $$g(-b)<0<g(-a)$$, and the initial condition $$f(x_0)>0$$ becomes $$g(-x_0)>0$$. The iteration for $$g$$ is exactly the reflection of the iteration for $$f$$. The first case therefore shows that $$-x_n$$ converges to the zero of $$g$$, so $$x_n$$ converges to the zero of $$f$$.
 
-For a concave function, the guaranteed starting side is reversed: the method converges when $$f(x_0)<0$$ (and it stops immediately when $$f(x_0)=0$$). For example, if $$f(a)<0<f(b)$$, a negative starting value lies to the left of the zero and has $$m=f'(x_0)>0$$. The tangent-line inequality is now $$f(x)\le f(x_0)+m(x-x_0)$$. At each iterate between $$x_0$$ and $$\xi$$, concavity makes the secant slope to $$\xi$$ lie between zero and $$m$$; hence $$x_n\le x_{n+1}\le\xi$$. The iterates increase, remain bounded by $$\xi$$, and their limit is a zero. When $$f(a)>0>f(b)$$, the corresponding argument gives $$\xi\le x_{n+1}\le x_n$$.
+For a concave function, the guaranteed starting side is reversed: the method converges when $$f(x_0)<0$$ (and it stops immediately when $$f(x_0)=0$$). For example, if $$f(a)<0<f(b)$$, a starting point with $$f(x_0)<0$$ lies to the left of the zero and has $$m=f'(x_0)>0$$. The tangent-line inequality is now $$f(x)\le f(x_0)+m(x-x_0)$$. At each iterate between $$x_0$$ and $$\xi$$, concavity makes the secant slope to $$\xi$$ lie between zero and $$m$$; hence $$x_n\le x_{n+1}\le\xi$$. The iterates increase, remain bounded by $$\xi$$, and their limit is a zero. When $$f(a)>0>f(b)$$, the corresponding argument gives $$\xi\le x_{n+1}\le x_n$$.
 
 There is no general guarantee from a positive starting value in the concave case. For instance, $$f(x)=1-x^2$$ on $$[-2,0]$$ is concave and satisfies $$f(-2)<0<f(0)$$. With $$x_0=-0.1$$, the first simplified Newton step is $$x_1=-0.1-0.99/0.2=-5.05$$, outside the interval.
 
@@ -160,13 +160,13 @@ $$
 
 Thus each step takes the zero of the secant line and keeps the subinterval whose endpoint values have opposite signs. In particular, $$a_n$$ is nondecreasing, $$b_n$$ is nonincreasing, and every interval $$[a_n,b_n]$$ contains a zero by the intermediate value theorem. If some $$f(c_n)=0$$, the procedure has already found a zero.
 
-For continuous $$f$$, the regula falsi convergence theorem gives convergence of the secant intercepts $$c_n$$ to a zero. The case where the interval lengths tend to zero follows directly from nested intervals and continuity. If one endpoint is eventually fixed, the other endpoint is the secant intercept at every later step; its monotone limit is a zero by continuity and the secant formula. In the remaining case, endpoints move alternately. The secant identity
+For continuous $$f$$, the regula falsi convergence theorem gives convergence of the secant intercepts $$c_n$$ to a zero. The case where the interval lengths tend to zero follows directly from nested intervals and continuity. If one endpoint is eventually fixed, the other endpoint is the secant intercept at every later step; its monotone limit is a zero by continuity and the secant formula. In the remaining case, endpoints move alternately. At every step the secant formula gives
 
 $$
 |f(a_n)|(b_n-c_{n+1})=|f(b_n)|(c_{n+1}-a_n)
 $$
 
-at successive sign changes. In that case, the negative-residual intercepts form an increasing subsequence and the positive-residual intercepts form a decreasing one. The secant identity compares their distances to each other's endpoints; combined with the nested brackets, this rules out distinct limits for the two subsequences. Their common limit is a zero by continuity. This alternating-endpoint case is the technical part of the general continuity-only theorem; a full proof is given in [Nguyen, “The convergence of the Regula Falsi method”](https://arxiv.org/abs/2109.03523).
+At successive sign changes, the negative-residual intercepts form an increasing subsequence and the positive-residual intercepts form a decreasing one. The identity compares their distances to the opposite endpoints; together with the nested brackets, it rules out distinct limits for the two subsequences. Their common limit is a zero by continuity. This alternating-endpoint case is the technical part of the general continuity-only theorem; a full proof is given in [Nguyen, “The convergence of the Regula Falsi method”](https://arxiv.org/abs/2109.03523).
 
 If $$f(a)>0>f(b)$$, the secant-zero formula is unchanged. Reverse the endpoint update: set $$a_{n+1}=c_{n+1}$$ and $$b_{n+1}=b_n$$ when $$f(c_{n+1})\ge0$$; otherwise set $$a_{n+1}=a_n$$ and $$b_{n+1}=c_{n+1}$$.
 

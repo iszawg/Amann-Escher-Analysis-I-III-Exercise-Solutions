@@ -35,5 +35,7 @@ The twelve sections in Chapter I are available:
 
 - [1. Continuity](chapter-3-continuous-functions/1-continuity.md) — Exercises 1–18.
 - [2. The Fundamentals of Topology](chapter-3-continuous-functions/2-fundamentals-of-topology.md) — Exercises 1–21.
+- [3. Compactness](chapter-3-continuous-functions/3-compactness.md) — Exercises 1–15.
+- [4. Connectivity](chapter-3-continuous-functions/4-connectivity.md) — Exercises 1–12.
 
 Further sections will be added as their exercises are solved.

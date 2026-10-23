@@ -29,5 +29,6 @@
     * [1. Continuity](analysis-i/chapter-3-continuous-functions/1-continuity.md)
     * [2. The Fundamentals of Topology](analysis-i/chapter-3-continuous-functions/2-fundamentals-of-topology.md)
     * [3. Compactness](analysis-i/chapter-3-continuous-functions/3-compactness.md)
+    * [4. Connectivity](analysis-i/chapter-3-continuous-functions/4-connectivity.md)
 * [Analysis II](analysis-ii/README.md)
 * [Analysis III](analysis-iii/README.md)

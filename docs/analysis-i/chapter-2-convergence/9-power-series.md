@@ -56,7 +56,7 @@ so $$\rho=1$$.
 
 ### Exercise 2
 
-The coefficients satisfy $$(k+1)^{1/k}\to1$$, so the radius of convergence is $$1$$. For $$|z|<1$$, the geometric series converges absolutely, and its Cauchy product gives
+The coefficients are $$a_k=k+1$$. Since $$(k+1)^{1/k}\to1$$, the Cauchy–Hadamard formula gives radius $$1$$. For $$|z|<1$$, the geometric series converges absolutely. In its Cauchy product, the coefficient of $$z^k$$ is a sum of $$k+1$$ ones, so
 
 $$
 \sum_{k=0}^{\infty}(k+1)z^k
@@ -66,15 +66,21 @@ $$
 
 ### Exercise 3
 
-Set $$b_k:=(k+1)a_{k+1}$$. Multiplication by $$k+1$$ does not change the limiting upper growth rate, and shifting the index does not change it either:
+Set $$b_k:=(k+1)a_{k+1}$$, the coefficient of $$X^k$$ in the derived power series. Writing $$u_n:=|a_n|^{1/n}$$ gives
+
+$$
+|b_k|^{1/k}
+=(k+1)^{1/k}u_{k+1}^{(k+1)/k}.
+$$
+
+The factor $$(k+1)^{1/k}$$ tends to $$1$$. Also, raising a nonnegative sequence to positive exponents tending to $$1$$ preserves its extended limsup: when the limsup is finite and positive, bound the terms eventually above and below by arbitrary constants on either side of it; for the endpoints $$0$$ and $$+\infty$$, use arbitrary positive thresholds. Consequently,
 
 $$
 \limsup_{k\to\infty}|b_k|^{1/k}
-=\limsup_{k\to\infty}(k+1)^{1/k}|a_{k+1}|^{1/k}
 =\limsup_{n\to\infty}|a_n|^{1/n}.
 $$
 
-By the Cauchy–Hadamard formula, the two power series have the same radius of convergence.
+The Cauchy–Hadamard formula now shows that the original and derived power series have the same radius of convergence.
 
 ### Exercise 4
 
@@ -113,7 +119,7 @@ G_n:=\left(\prod_{k=0}^{n-1}r_k\right)^{1/n}
 =\left|\frac{a_0}{a_n}\right|^{1/n}.
 $$
 
-By the Cauchy–Hadamard formula, $$\rho=\liminf_{n\to\infty}G_n$$. Also, $$\log G_n$$ is the arithmetic mean of $$\log r_0,\ldots,\log r_{n-1}$$. The lower and upper limits of these means lie between the lower and upper limits of the terms. Exponentiating gives
+By the Cauchy–Hadamard formula and $$|a_0|^{1/n}\to1$$, $$\rho=\liminf_{n\to\infty}G_n$$. Also, $$\log G_n$$ is the arithmetic mean of $$\log r_0,\ldots,\log r_{n-1}$$. If $$L:=\liminf\log r_k$$ is finite, then for every $$\varepsilon>0$$ all sufficiently late terms exceed $$L-\varepsilon$$; the fixed finite prefix vanishes after division by $$n$$, so $$\liminf\log G_n\ge L-\varepsilon$$. Letting $$\varepsilon\downarrow0$$ gives the lower bound. The same tail argument with eventual upper bounds gives $$\limsup\log G_n\le\limsup\log r_k$$. These statements also hold for infinite endpoints by using arbitrary finite bounds. Exponentiating gives
 
 $$
 \liminf_{k\to\infty}\left|\frac{a_k}{a_{k+1}}\right|

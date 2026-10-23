@@ -16,7 +16,7 @@ $$
 M\le\bigl(a_1^n+\cdots+a_k^n\bigr)^{1/n}\le k^{1/n}M.
 $$
 
-Since $$k^{1/n}\to1$$, the squeeze theorem proves
+For fixed $$k$$, $$k^{1/n}=\exp((\log k)/n)\to\exp(0)=1$$. The squeeze theorem therefore proves
 
 $$
 \lim_{n\to\infty}\bigl(a_1^n+\cdots+a_k^n\bigr)^{1/n}=M.

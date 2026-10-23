@@ -130,14 +130,16 @@ $$
 \sum_{k=0}^{m}|x_k|=\lim_{n\to\infty}\sum_{k=0}^{m}|x_k^{(n)}|\le M.
 $$
 
-Letting $$m\to\infty$$ shows that $$x=(x_k)\in\ell_1$$. Given $$\varepsilon>0$$, choose $$N$$ so that $$\|x^{(n)}-x^{(r)}\|_1<\varepsilon/2$$ whenever $$n,r\ge N$$. For fixed $$n\ge N$$, take $$r\to\infty$$ in each finite partial sum to obtain
+Letting $$m\to\infty$$ shows that $$x=(x_k)\in\ell_1$$. Given $$\varepsilon>0$$, choose $$N$$ so that $$\|x^{(n)}-x^{(r)}\|_1<\varepsilon/2$$ whenever $$n,r\ge N$$. For fixed $$n\ge N$$ and finite $$m$$, coordinatewise convergence gives
 
 $$
-\sum_{k=0}^{m}|x_k^{(n)}-x_k|\le\varepsilon
+\sum_{k=0}^{m}|x_k^{(n)}-x_k|
+=\lim_{r\to\infty}\sum_{k=0}^{m}|x_k^{(n)}-x_k^{(r)}|
+\le\varepsilon/2
 \qquad(m\in\mathbb N).
 $$
 
-Taking the supremum over $$m$$ gives $$\|x^{(n)}-x\|_1\le\varepsilon/2<\varepsilon$$. Therefore $$\ell_1$$ is complete and hence a Banach space.
+Taking the supremum over $$m$$ gives $$\|x^{(n)}-x\|_1\le\varepsilon/2<\varepsilon$$. Therefore $$x^{(n)}\to x$$ in $$\ell_1$$, proving that $$\ell_1$$ is complete and hence a Banach space.
 
 **(b)** For every $$x\in\ell_1$$,
 

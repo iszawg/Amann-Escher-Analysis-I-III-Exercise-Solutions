@@ -57,7 +57,7 @@ $$
 =\frac{24n^2}{(n-1)(n-2)(n-3)}\longrightarrow0.
 $$
 
-Thus $$n^3/2^n$$ is a null sequence.
+The last fraction tends to zero because its denominator has degree three while its numerator has degree two. The squeeze theorem therefore shows that $$n^3/2^n$$ is a null sequence.
 
 ### Exercise 3
 

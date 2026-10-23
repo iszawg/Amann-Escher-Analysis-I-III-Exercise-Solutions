@@ -18,7 +18,15 @@ $$
 =\frac12\left(\frac{1}{2k-1}-\frac{1}{2k+1}\right).
 $$
 
-The partial sums telescope, and hence
+The partial sum through $$N$$ is
+
+$$
+\sum_{k=1}^{N}\frac{1}{4k^2-1}
+=\frac12\sum_{k=1}^{N}\left(\frac1{2k-1}-\frac1{2k+1}\right)
+=\frac12\left(1-\frac1{2N+1}\right).
+$$
+
+Letting $$N\to\infty$$ gives
 
 $$
 \sum_{k=1}^{\infty}\frac{1}{4k^2-1}=\frac12.

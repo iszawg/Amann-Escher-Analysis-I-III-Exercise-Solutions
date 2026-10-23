@@ -41,7 +41,13 @@ $$
 |z_n-(1+i)|=\left|\left(1-\frac1n\right)(1+i)-(1+i)\right|=\frac{\sqrt2}{n}\longrightarrow0.
 $$
 
-Hence $$z_n\to1+i$$.
+Given $$\varepsilon>0$$, choose $$N>\sqrt2/\varepsilon$$. Then for every $$n\ge N$$,
+
+$$
+|z_n-(1+i)|=\frac{\sqrt2}{n}<\varepsilon.
+$$
+
+This is the definition of convergence, so $$z_n\to1+i$$.
 
 ### Exercise 4
 
@@ -97,7 +103,7 @@ Hence $$d$$ is a metric. If $$m\ne n$$, then $$d(m,n)=1/m+1/n\le1+1/n$$; the cen
 
 ### Exercise 8
 
-Because $$X=\{z\in\mathbb C:|z|\le3\}$$,
+In the metric inherited by $$X$$ from $$\mathbb C$$, a closed ball is the intersection of the corresponding ambient closed disk with $$X$$. Since every $$z\in X$$ satisfies $$|z|\le3$$,
 
 $$
 \overline B_X(0,3)=X,
@@ -105,7 +111,7 @@ $$
 \overline B_X(2,4)=\{z\in\mathbb C:|z|\le3,\ |z-2|\le4\}.
 $$
 
-The second set is the intersection of the closed disk of radius $$3$$ centered at $$0$$ with the closed disk of radius $$4$$ centered at $$2$$. It is therefore contained in $$X=\overline B_X(0,3)$$.
+The second set is the intersection of $$X$$ with the closed disk of radius $$4$$ centered at $$2$$. In particular, it is contained in $$X=\overline B_X(0,3)$$, as required.
 
 ### Exercise 9
 

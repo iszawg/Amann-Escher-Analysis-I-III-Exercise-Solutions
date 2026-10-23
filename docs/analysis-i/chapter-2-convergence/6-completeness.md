@@ -4,7 +4,7 @@
 
 ### Exercise 1
 
-Let $$C:=max\{\|(\alpha,\beta)\|,\|(\beta,\alpha)\|\}$$. For $$m>n$$, the triangle inequality gives
+Let $$C:=\max\{\|(\alpha,\beta)\|,\|(\beta,\alpha)\|\}$$. For $$m>n$$, the triangle inequality gives
 
 $$
 \|s_m-s_n\|

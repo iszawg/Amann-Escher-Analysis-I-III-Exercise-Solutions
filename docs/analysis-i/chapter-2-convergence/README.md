@@ -11,3 +11,4 @@ This chapter develops metric-space convergence, sequences of numbers and vectors
 - [5. Infinite Limits](5-infinite-limits.md) — Exercises 1–6.
 - [6. Completeness](6-completeness.md) — Exercises 1–7.
 - [7. Series](7-series.md) — Exercises 1–15.
+- [8. Absolute Convergence](8-absolute-convergence.md) — Exercises 1–10.

@@ -23,5 +23,6 @@
     * [5. Infinite Limits](analysis-i/chapter-2-convergence/5-infinite-limits.md)
     * [6. Completeness](analysis-i/chapter-2-convergence/6-completeness.md)
     * [7. Series](analysis-i/chapter-2-convergence/7-series.md)
+    * [8. Absolute Convergence](analysis-i/chapter-2-convergence/8-absolute-convergence.md)
 * [Analysis II](analysis-ii/README.md)
 * [Analysis III](analysis-iii/README.md)

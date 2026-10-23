@@ -30,5 +30,6 @@
     * [2. The Fundamentals of Topology](analysis-i/chapter-3-continuous-functions/2-fundamentals-of-topology.md)
     * [3. Compactness](analysis-i/chapter-3-continuous-functions/3-compactness.md)
     * [4. Connectivity](analysis-i/chapter-3-continuous-functions/4-connectivity.md)
+    * [5. Functions on R](analysis-i/chapter-3-continuous-functions/5-functions-on-r.md)
 * [Analysis II](analysis-ii/README.md)
 * [Analysis III](analysis-iii/README.md)

@@ -1,4 +1,4 @@
-# 2. Continuity and Differentiability for Sequences of Functions
+This section studies when limits of sequences of functions preserve continuity and differentiability.
 
 ### Exercise 1
 

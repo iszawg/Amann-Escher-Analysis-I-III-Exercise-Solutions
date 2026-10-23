@@ -55,7 +55,7 @@ The ratio test proves convergence.
 
 ### Exercise 2
 
-For the first series, if $$a=0$$ every term is zero. Otherwise it is geometric, with ratio
+For the first series, if $$a=0$$ at most its initial term is nonzero, so it converges. For $$a\ne0$$ it is geometric, with ratio
 
 $$
 \frac{a^2}{1+a^2}<1.

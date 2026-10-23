@@ -24,5 +24,6 @@
     * [6. Completeness](analysis-i/chapter-2-convergence/6-completeness.md)
     * [7. Series](analysis-i/chapter-2-convergence/7-series.md)
     * [8. Absolute Convergence](analysis-i/chapter-2-convergence/8-absolute-convergence.md)
+    * [9. Power Series](analysis-i/chapter-2-convergence/9-power-series.md)
 * [Analysis II](analysis-ii/README.md)
 * [Analysis III](analysis-iii/README.md)

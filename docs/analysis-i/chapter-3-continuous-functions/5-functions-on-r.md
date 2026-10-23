@@ -16,9 +16,17 @@ The intermediate value theorem gives some $$\xi\in[a,b]$$ with $$g(\xi)=0$$. Hen
 
 ### Exercise 2
 
-If $$x<y<z$$ in $$I$$, then $$f(y)$$ lies strictly between $$f(x)$$ and $$f(z)$$. Otherwise, for example if $$f(y)>\max\{f(x),f(z)\}$$, choose a value strictly between $$f(y)$$ and that maximum. The intermediate value theorem on both $$[x,y]$$ and $$[y,z]$$ would give two distinct preimages, contradicting injectivity. The case $$f(y)<\min\{f(x),f(z)\}$$ is the same.
+First, if $$x<y<z$$, then $$f(y)$$ must lie strictly between $$f(x)$$ and $$f(z)$$. For example, if $$f(y)>\max\{f(x),f(z)\}$$, choose $$c$$ with $$\max\{f(x),f(z)\}<c<f(y)$$. The intermediate value theorem gives one point in $$(x,y)$$ and another in $$(y,z)$$ where $$f=c$$, contradicting injectivity. If $$f(y)<\min\{f(x),f(z)\}$$, choose $$c$$ between $$f(y)$$ and that minimum and use the same argument.
 
-Choose $$a<b$$ in $$I$$. If $$f(a)<f(b)$$, this betweenness property forces the same order throughout $$I$$: values to the left of $$a$$ are below $$f(a)$$, values between $$a$$ and $$b$$ lie between $$f(a)$$ and $$f(b)$$, and values to the right of $$b$$ are above $$f(b)$$. Applying the property again to triples within each of these regions shows that $$x<y$$ always implies $$f(x)<f(y)$$. Thus $$f$$ is strictly increasing. If $$f(a)>f(b)$$, the same argument shows that $$f$$ is strictly decreasing.
+Choose $$a<b$$ in $$I$$. Suppose $$f(a)<f(b)$$. Applying the betweenness property to triples involving $$a,b$$ shows
+
+$$
+x<a\Rightarrow f(x)<f(a),\qquad
+a<x<b\Rightarrow f(a)<f(x)<f(b),\qquad
+x>b\Rightarrow f(b)<f(x).
+$$
+
+These inequalities already order values from different regions. Within each region they also force increasing order: if $$x<y<a$$, the triple $$x<y<a$$ puts $$f(y)$$ between $$f(x)$$ and $$f(a)$$, and since $$f(y)<f(a)$$ it follows that $$f(x)<f(y)$$. If $$a<x<y<b$$, the triple $$a<x<y$$ puts $$f(x)$$ between $$f(a)$$ and $$f(y)$$, and since $$f(x)>f(a)$$ it follows that $$f(x)<f(y)$$. If $$b<x<y$$, the triple $$b<x<y$$ puts $$f(x)$$ between $$f(b)$$ and $$f(y)$$, and since $$f(x)>f(b)$$ it again follows that $$f(x)<f(y)$$. The boundary cases with $$x=a$$ or $$y=b$$ follow from the displayed inequalities. Hence $$x<y$$ always implies $$f(x)<f(y)$$, so $$f$$ is strictly increasing. If $$f(a)>f(b)$$, apply the same argument to $$-f$$ to conclude that $$f$$ is strictly decreasing.
 
 ### Exercise 3
 

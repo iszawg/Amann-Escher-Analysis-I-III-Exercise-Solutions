@@ -12,7 +12,9 @@ If empty metric spaces are allowed, the statement as printed needs the nonemptin
 
 ### Exercise 2
 
-If $$Y$$ is closed in the compact metric space $$X$$, then $$Y$$ is compact as a closed subset of a compact space. Conversely, every compact subset of a metric space is closed. Thus $$Y$$ is compact if and only if it is closed in $$X$$.
+Suppose first that $$Y$$ is closed in the compact metric space $$X$$. Let $$\{V_\alpha\}$$ be an open cover of $$Y$$ in its relative topology. For each $$\alpha$$ choose an open set $$U_\alpha\subseteq X$$ with $$V_\alpha=U_\alpha\cap Y$$. The sets $$\{U_\alpha\}\cup\{X\setminus Y\}$$ form an open cover of $$X$$. Compactness gives a finite subcover; after discarding $$X\setminus Y$$ if it was selected, the remaining finitely many $$U_\alpha$$ still cover $$Y$$. Their corresponding $$V_\alpha$$ give a finite subcover of $$Y$$, so $$Y$$ is compact.
+
+Conversely, suppose $$Y$$ is compact and fix $$x\in X\setminus Y$$. For each $$y\in Y$$, the balls $$B(y,d(x,y)/3)$$ and $$B(x,d(x,y)/3)$$ are disjoint. The first family covers $$Y$$, so finitely many balls $$B(y_j,d(x,y_j)/3)$$ cover $$Y$$. Let $$r=\min_j d(x,y_j)/3>0$$. Then $$B(x,r)$$ is disjoint from every selected ball and hence from $$Y$$. Thus every point of $$X\setminus Y$$ has an open neighborhood disjoint from $$Y$$, proving that $$Y$$ is closed. Therefore $$Y$$ is compact if and only if it is closed in $$X$$.
 
 ### Exercise 3
 

@@ -45,4 +45,8 @@ The twelve sections in Chapter I are available:
 - [1. Differentiability](chapter-4-differentiation/1-differentiability.md) — Exercises 1–12.
 - [2. The Mean Value Theorem and its Applications](chapter-4-differentiation/2-mean-value-theorem-and-its-applications.md) — Exercises 1–21.
 
+## Chapter V — Sequences of Functions
+
+- [1. Uniform Convergence](chapter-5-sequences-of-functions/1-uniform-convergence.md) — Exercises 1–9.
+
 Further sections will be added as their exercises are solved.

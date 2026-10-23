@@ -37,5 +37,7 @@
     * [2. The Mean Value Theorem and its Applications](analysis-i/chapter-4-differentiation/2-mean-value-theorem-and-its-applications.md)
     * [3. Taylor’s Theorem](analysis-i/chapter-4-differentiation/3-taylors-theorem.md)
     * [4. Iterative Procedures](analysis-i/chapter-4-differentiation/4-iterative-procedures.md)
+  * [Chapter V — Sequences of Functions](analysis-i/chapter-5-sequences-of-functions/README.md)
+    * [1. Uniform Convergence](analysis-i/chapter-5-sequences-of-functions/1-uniform-convergence.md)
 * [Analysis II](analysis-ii/README.md)
 * [Analysis III](analysis-iii/README.md)

@@ -58,4 +58,5 @@
     * [2. Differentiability](analysis-ii/chapter-7-multivariable-differential-calculus/2-differentiability.md)
     * [3. Multivariable differentiation rules](analysis-ii/chapter-7-multivariable-differential-calculus/3-multivariable-differentiation-rules.md)
     * [4. Multilinear maps](analysis-ii/chapter-7-multivariable-differential-calculus/4-multilinear-maps.md)
+    * [5. Higher derivatives](analysis-ii/chapter-7-multivariable-differential-calculus/5-higher-derivatives.md)
 * [Analysis III](analysis-iii/README.md)

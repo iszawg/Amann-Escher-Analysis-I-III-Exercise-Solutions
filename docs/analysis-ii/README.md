@@ -20,5 +20,6 @@ Solutions from Volume II of Amann and Escher’s introduction to analysis are be
 - [2. Differentiability](chapter-7-multivariable-differential-calculus/2-differentiability.md) — Exercises 1–13; notes misstatements in Exercises 4(b) and 6 as printed
 - [3. Multivariable differentiation rules](chapter-7-multivariable-differential-calculus/3-multivariable-differentiation-rules.md) — Exercises 1–8
 - [4. Multilinear maps](chapter-7-multivariable-differential-calculus/4-multilinear-maps.md) — Exercises 1–5; notes issues in the printed complex and matrix conventions
+- [5. Higher derivatives](chapter-7-multivariable-differential-calculus/5-higher-derivatives.md) — Exercises 1–21; corrects the printed product rule in Exercise 15(iii)
 
 See [Analysis I](../analysis-i/README.md) for the first volume’s solutions, or return to the [project overview](../README.md).

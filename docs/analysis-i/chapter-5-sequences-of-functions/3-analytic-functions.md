@@ -1,5 +1,9 @@
 This section develops the local structure of analytic functions through power series, zero sets, and classical expansions. Each solution makes the relevant convergence and domain arguments explicit.
 
+## Exercise index
+
+- [Exercise 1](#exercise-1) · [Exercise 2](#exercise-2) · [Exercise 3](#exercise-3) · [Exercise 4](#exercise-4) · [Exercise 5](#exercise-5) · [Exercise 6](#exercise-6) · [Exercise 7](#exercise-7) · [Exercise 8](#exercise-8) · [Exercise 9](#exercise-9) · [Exercise 10](#exercise-10) · [Exercise 11](#exercise-11)
+
 ### Exercise 1
 
 **(a)** Fix $$x_0\in D_{\mathbb R}$$. Since $$f$$ is analytic, on some disk centered at $$x_0$$ it has a convergent expansion

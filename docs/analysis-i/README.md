@@ -50,5 +50,6 @@ The twelve sections in Chapter I are available:
 - [1. Uniform Convergence](chapter-5-sequences-of-functions/1-uniform-convergence.md) — Exercises 1–9.
 - [2. Continuity and Differentiability for Sequences of Functions](chapter-5-sequences-of-functions/2-continuity-and-differentiability.md) — Exercises 1–11.
 - [3. Analytic Functions](chapter-5-sequences-of-functions/3-analytic-functions.md) — Exercises 1–11.
+- [4. Polynomial Approximation](chapter-5-sequences-of-functions/4-polynomial-approximation.md) — Exercises 1–14.
 
 Further sections will be added as their exercises are solved.

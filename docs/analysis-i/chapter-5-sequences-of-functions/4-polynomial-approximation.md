@@ -1,5 +1,9 @@
 The solutions below use the Stone–Weierstrass theorem and the Bernstein polynomial identities developed in this section. Two statements in the printed exercises need qualification: the norm cited in Exercise 1 omits the zeroth derivative, and Exercise 10(a) calls a zero-mean subspace an algebra. Both issues are identified where they occur.
 
+## Exercise index
+
+- [Exercise 1](#exercise-1) · [Exercise 2](#exercise-2) · [Exercise 3](#exercise-3) · [Exercise 4](#exercise-4) · [Exercise 5](#exercise-5) · [Exercise 6](#exercise-6) · [Exercise 7](#exercise-7) · [Exercise 8](#exercise-8) · [Exercise 9](#exercise-9) · [Exercise 10](#exercise-10) · [Exercise 11](#exercise-11) · [Exercise 12](#exercise-12) · [Exercise 13](#exercise-13) · [Exercise 14](#exercise-14)
+
 ### Exercise 1
 
 Let $$r\in\mathbb N$$ be the differentiability order. There is a misprint in the definition cited from Exercise V.2.10: it gives $$\|f\|_{BC^r}=\max_{1\leq j\leq r}\|f^{(j)}\|_\infty$$. This expression vanishes on every constant function, so it is only a seminorm and cannot make $$BC^r(X,\mathbb K)$$ a Banach space. In what follows, use the usual norm that includes the function itself:

@@ -7,7 +7,7 @@ The solutions emphasize the definitions and logical steps needed to reach each r
 ## Browse the volumes
 
 - [Analysis I](analysis-i/README.md) — Foundations, convergence, continuity, and differentiation. Chapter I, Chapter II, Sections 1–9, Chapter III, Sections 1–6, Chapter IV, Sections 1–2, and Chapter V, Sections 1–4, are solved.
-- [Analysis II](analysis-ii/README.md) — Chapter VI, Sections 1–9, and Chapter VII, Section 1: exercises solved.
+- [Analysis II](analysis-ii/README.md) — Chapter VI, Sections 1–9, and Chapter VII, Sections 1–4: exercises solved.
 - [Analysis III](analysis-iii/README.md) — Volume index; chapter navigation will be added as its exercises are worked through.
 
 ## Current progress
@@ -49,6 +49,7 @@ The solutions emphasize the definitions and logical steps needed to reach each r
 | II | Chapter VI, *Integral Calculus in One Variable* — Section 3, *The Cauchy–Riemann Integral* | Exercises 1–10 solved |
 | II | Chapter VI, *Integral Calculus in One Variable* — Section 4, *Properties of integrals* | Exercises 1–16 addressed; Exercise 9 is false as printed |
 | II | Chapter VII, *Multivariable Differential Calculus* — Section 1, *Continuous linear maps* | Exercises 1–25 addressed; Exercises 17 and 25 are false as printed |
+| II | Chapter VII, *Multivariable Differential Calculus* — Sections 2–4 | Exercises 1–13, 1–8, and 1–5 addressed, respectively; notes printed-statement issues in Sections 2 and 4 |
 | I–III | Remaining sections | To be added |
 
 ## Solution conventions

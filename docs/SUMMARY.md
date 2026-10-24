@@ -57,4 +57,5 @@
     * [1. Continuous linear maps](analysis-ii/chapter-7-multivariable-differential-calculus/1-continuous-linear-maps.md)
     * [2. Differentiability](analysis-ii/chapter-7-multivariable-differential-calculus/2-differentiability.md)
     * [3. Multivariable differentiation rules](analysis-ii/chapter-7-multivariable-differential-calculus/3-multivariable-differentiation-rules.md)
+    * [4. Multilinear maps](analysis-ii/chapter-7-multivariable-differential-calculus/4-multilinear-maps.md)
 * [Analysis III](analysis-iii/README.md)

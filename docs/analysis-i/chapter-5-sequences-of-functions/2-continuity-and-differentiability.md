@@ -1,10 +1,6 @@
 This section studies when limits of sequences of functions preserve continuity and differentiability.
 
-## Exercise index
-
-- [Exercise 1](#exercise-1) · [Exercise 2](#exercise-2) · [Exercise 3](#exercise-3) · [Exercise 4](#exercise-4) · [Exercise 5](#exercise-5) · [Exercise 6](#exercise-6) · [Exercise 7](#exercise-7) · [Exercise 8](#exercise-8) · [Exercise 9](#exercise-9) · [Exercise 10](#exercise-10) · [Exercise 11](#exercise-11)
-
-### Exercise 1
+## Exercise 1
 
 **(a)** Let $$\varepsilon>0$$. Uniform convergence gives an index $$N$$ such that
 
@@ -51,7 +47,7 @@ $$
 \mathrm{BUC}(X,E)=C(X,E).
 $$
 
-### Exercise 2
+## Exercise 2
 
 For each $$j$$, put $$a_j:=\lim_{k\to\infty}x_{jk}$$, which exists by (i). Fix $$k$$. Condition (ii) says that $$(x_{jk})_{j\in\mathbb N}$$ is Cauchy in $$E$$, so it has a limit; write
 
@@ -87,7 +83,7 @@ $$
 \lim_{k\to\infty}\left(\lim_{j\to\infty}x_{jk}\right).
 $$
 
-### Exercise 3
+## Exercise 3
 
 First suppose that $$f_n$$ increases pointwise to $$f$$. Fix $$\varepsilon>0$$. For each $$x\in X$$, pointwise convergence gives an index $$N_x$$ such that
 
@@ -119,7 +115,7 @@ $$
 
 This bound holds for every $$y\in X$$, so the convergence is uniform. If $$f_n$$ decreases pointwise, apply the same argument to $$-f_n\uparrow -f$$. Thus the continuity of the limit and monotonicity in $$n$$ imply uniform convergence.
 
-### Exercise 4
+## Exercise 4
 
 **(a) The continuity of the limit is necessary.** On the compact interval $$[0,1]$$, let
 
@@ -149,7 +145,7 @@ $$
 
 for every $$n$$. The sequence is not monotone in $$n$$: at $$x=2^{-m}$$ its value is $$1$$ for $$n=m$$ and $$0$$ for every $$n\ne m$$.
 
-### Exercise 5
+## Exercise 5
 
 We first prove uniform convergence for a subsequence whose functions are all nondecreasing. Let $$\varepsilon>0$$. Since $$f$$ is continuous on the compact interval $$I=[a,b]$$, it is uniformly continuous. Choose a finite partition
 
@@ -179,7 +175,7 @@ Thus this subsequence converges uniformly to $$f$$. For a nonincreasing subseque
 
 If all $$f_n$$ have the same direction of monotonicity, this proves uniform convergence directly, and passing to the pointwise limit shows that $$f$$ has that direction. Even if the direction may vary with $$n$$, split the indices into those for which $$f_n$$ is nondecreasing and those for which it is nonincreasing. At least one set is infinite; its pointwise limit shows that $$f$$ is monotone. Each infinite subsequence converges uniformly by the partition argument above. If both sets are infinite, their two uniform estimates together give uniform convergence of the whole sequence; if one set is finite, the other contains the entire tail. In every interpretation, $$f$$ is monotone and $$f_n\to f$$ uniformly.
 
-### Exercise 6
+## Exercise 6
 
 Uniform convergence of $$f_n$$ to zero means $$\|f_n\|_\infty\to0$$. Since multiplication by $$(-1)^n$$ does not change absolute values,
 
@@ -189,7 +185,7 @@ $$
 
 Therefore $$(-1)^n f_n$$ converges uniformly to zero. The monotonicity assumption is not needed for this conclusion.
 
-### Exercise 7
+## Exercise 7
 
 Let
 
@@ -225,7 +221,7 @@ $$
 
 uniformly in $$n>m$$. If $$M=0$$, all the partial sums $$\alpha_k$$ and therefore all $$g_k$$ vanish, so the conclusion is immediate. Otherwise, the displayed estimate is the uniform Cauchy criterion for the series. Thus $$\sum_{k=0}^{\infty}g_k f_k$$ converges uniformly.
 
-### Exercise 8
+## Exercise 8
 
 Fix $$\alpha\in(0,\pi)$$. For $$x\in[\alpha,2\pi-\alpha]$$,
 
@@ -250,7 +246,7 @@ $$
 
 on $$[\alpha,2\pi-\alpha]$$.
 
-### Exercise 9
+## Exercise 9
 
 By induction, $$\|A^k x_0\|\leq\alpha^k\|x_0\|$$ for every $$k\geq0$$. Fix $$R>0$$. On $$|z|\leq R$$, the series defining $$u$$ is dominated by
 
@@ -276,7 +272,7 @@ $$
 
 Thus $$u\in C^\infty(\mathbb K,E)$$ and, in particular, $$\partial^n u(z)=A^n u(z)$$ for every $$n\in\mathbb N^+$$.
 
-### Exercise 10 — a correction to the printed statement
+## Exercise 10 — a correction to the printed statement
 
 The displayed definition includes $$\partial^j f$$ for $$j=0,\ldots,n$$, but the printed quantity is
 
@@ -339,7 +335,7 @@ $$
 
 Therefore $$g_j$$ is differentiable at $$a$$ with derivative $$g_{j+1}(a)$$. Since $$a$$ was arbitrary, $$g_0\in C^n(X,E)$$ and $$\partial^j g_0=g_j$$ for all $$j\leq n$$. Each derivative is bounded, so $$g_0\in BC^n(X,E)$$. Finally, uniform convergence of every derivative gives $$\|f_m-g_0\|_{*,n}\to0$$. The corrected space is complete and hence Banach.
 
-### Exercise 11
+## Exercise 11
 
 Since $$(f_n'(x_0))$$ is uniformly convergent, it is uniformly Cauchy. Also, $$(f_n(x_0))$$ is Cauchy by assumption. The mean value estimate (Theorem IV.2.18), applied to $$f_n-f_m$$ between $$x_0$$ and any $$x\in[a,b]$$, gives
 

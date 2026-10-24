@@ -9,7 +9,7 @@
 ### 内容范围
 
 - **Analysis I**：目前已有第 I–V 章的解答，主题包括基础逻辑与代数、数列与级数、连续函数与拓扑、一元微分，以及函数列与函数逼近。
-- **Analysis II**：第 VI 章已有各节解答，第 VII 章第 1 节已完成习题 1–25；第 VI 章第 4 节第 9 题以及第 VII 章第 17、25 题的印刷题面有误，正文均作了说明。
+- **Analysis II**：第 VI 章已有各节解答，第 VII 章第 1–3 节已有解答；第 VI 章第 4 节第 9 题以及第 VII 章第 1 节第 17、25 题的印刷题面有误，正文均作了说明。
 - **Analysis III**：已建立卷册导航页，习题解答内容尚待整理。
 
 习题解答正文目前主要使用英文；本 README 提供中英文介绍。
@@ -38,7 +38,7 @@ This is an unofficial study project for Herbert Amann and Joachim Escher’s thr
 ### Scope
 
 - **Analysis I**: Solutions are currently available across Chapters I–V, covering foundational logic and algebra, sequences and series, continuity and topology, one-variable differentiation, and sequences and approximation of functions.
-- **Analysis II**: Solutions cover the sections currently completed in Chapter VI and Exercises 1–25 in Chapter VII, Section 1. Chapter VI, Section 4, Exercise 9 and Chapter VII, Exercises 17 and 25 are identified as false as printed.
+- **Analysis II**: Solutions cover the sections currently completed in Chapter VI and Sections 1–3 of Chapter VII. Chapter VI, Section 4, Exercise 9 and Chapter VII, Section 1, Exercises 17 and 25 are identified as false as printed.
 - **Analysis III**: The volume navigation page is in place; exercise solutions have not yet been added.
 
 The solution notes are currently written mainly in English. This README is available in both Chinese and English.

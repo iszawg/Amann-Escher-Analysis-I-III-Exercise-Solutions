@@ -48,4 +48,5 @@
     * [2. Continuous Extensions](analysis-ii/chapter-6-integral-calculus/2-continuous-extensions.md)
     * [3. The Cauchy–Riemann Integral](analysis-ii/chapter-6-integral-calculus/3-cauchy-riemann-integral.md)
     * [4. Properties of Integrals](analysis-ii/chapter-6-integral-calculus/4-properties-of-integrals.md)
+    * [5. The Technique of Integration](analysis-ii/chapter-6-integral-calculus/5-technique-of-integration.md)
 * [Analysis III](analysis-iii/README.md)

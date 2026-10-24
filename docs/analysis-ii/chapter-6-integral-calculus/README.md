@@ -4,3 +4,4 @@
 - [2. Continuous extensions](2-continuous-extensions.md) — Exercises 1–7
 - [3. The Cauchy–Riemann Integral](3-cauchy-riemann-integral.md) — Exercises 1–10
 - [4. Properties of Integrals](4-properties-of-integrals.md) — Exercises 1–16
+- [5. The Technique of Integration](5-technique-of-integration.md) — Exercises 1–10

@@ -1,6 +1,6 @@
 # Chapter V — Sequences of Functions
 
-## 3. Analytic Functions
+## 3.&#8203; Analytic Functions
 
 This section develops the local structure of analytic functions through power series, zero sets, and classical expansions. Each solution makes the relevant convergence and domain arguments explicit.
 

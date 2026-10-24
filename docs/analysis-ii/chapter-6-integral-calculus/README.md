@@ -5,3 +5,4 @@
 - [3. The Cauchy–Riemann Integral](3-cauchy-riemann-integral.md) — Exercises 1–10
 - [4. Properties of Integrals](4-properties-of-integrals.md) — Exercises 1–16
 - [5. The Technique of Integration](5-technique-of-integration.md) — Exercises 1–10
+- [6. Sums and integrals](6-sums-and-integrals.md) — Exercises 1–10; Exercise 4(ii) corrects the printed n = 0 case

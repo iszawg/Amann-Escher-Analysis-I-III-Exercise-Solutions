@@ -1,7 +1,3 @@
-# Chapter V — Sequences of Functions
-
-## 4. Polynomial Approximation
-
 The solutions below use the Stone–Weierstrass theorem and the Bernstein polynomial identities developed in this section. Two statements in the printed exercises need qualification: the norm cited in Exercise 1 omits the zeroth derivative, and Exercise 10(a) calls a zero-mean subspace an algebra. Both issues are identified where they occur.
 
 ### Exercise 1

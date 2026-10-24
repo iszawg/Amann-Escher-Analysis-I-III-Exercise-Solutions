@@ -1,4 +1,6 @@
-# 1. Jump Continuous Functions
+# Chapter VI — Integral Calculus in One Variable
+
+## 1. Jump Continuous Functions
 
 Throughout, let $$I=[\alpha,\beta]$$ be a compact interval and let $$E$$ be a Banach space, as in the section. A function is jump continuous when its finite one-sided limits exist at the relevant points; the limits need not equal its values at the points.
 

@@ -14,4 +14,8 @@ Solutions from Volume II of Amann and Escher’s introduction to analysis are be
 - [8. Improper integrals](chapter-6-integral-calculus/8-improper-integrals.md) — Exercises 1–9; corrects the sign in Exercise 8
 - [9. The gamma function](chapter-6-integral-calculus/9-gamma-function.md) — Exercises 1–13
 
+## Chapter VII — Multivariable Differential Calculus
+
+- [1. Continuous linear maps](chapter-7-multivariable-differential-calculus/1-continuous-linear-maps.md) — Exercises 1–25; identifies misstatements in Exercises 17 and 25 as printed
+
 See [Analysis I](../analysis-i/README.md) for the first volume’s solutions, or return to the [project overview](../README.md).

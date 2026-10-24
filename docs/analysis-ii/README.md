@@ -12,5 +12,6 @@ Solutions from Volume II of Amann and Escher’s introduction to analysis are be
 - [6. Sums and integrals](chapter-6-integral-calculus/6-sums-and-integrals.md) — Exercises 1–10; Exercise 4(ii) corrects the printed n = 0 case
 - [7. Fourier series](chapter-6-integral-calculus/7-fourier-series.md) — Exercises 1–11; corrects misprints in Exercises 1, 2, 3, and 8(iii)
 - [8. Improper integrals](chapter-6-integral-calculus/8-improper-integrals.md) — Exercises 1–9; corrects the sign in Exercise 8
+- [9. The gamma function](chapter-6-integral-calculus/9-gamma-function.md) — Exercises 1–13
 
 See [Analysis I](../analysis-i/README.md) for the first volume’s solutions, or return to the [project overview](../README.md).

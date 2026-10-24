@@ -52,4 +52,5 @@
     * [6. Sums and integrals](analysis-ii/chapter-6-integral-calculus/6-sums-and-integrals.md)
     * [7. Fourier series](analysis-ii/chapter-6-integral-calculus/7-fourier-series.md)
     * [8. Improper integrals](analysis-ii/chapter-6-integral-calculus/8-improper-integrals.md)
+    * [9. The gamma function](analysis-ii/chapter-6-integral-calculus/9-gamma-function.md)
 * [Analysis III](analysis-iii/README.md)

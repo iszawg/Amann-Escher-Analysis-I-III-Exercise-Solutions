@@ -381,7 +381,7 @@ $$
 =\left[\frac{\sin(kx)}k\right]_0^\pi=0.
 $$
 
-Consequently $$\int_0^\pi S(x)\,dx=0$$. If $$S$$ is identically zero, every interior point is a zero. Otherwise it must take both positive and negative values in $$[0,\pi]$$: a continuous function of one sign that is not identically zero has a nonzero integral. By the intermediate value theorem, a zero lies strictly between a point of positive value and a point of negative value; such points can be chosen in the open interval, since the endpoint values cannot account for a nonzero integral of one sign in the interior. Hence some $$\alpha\in(0,\pi)$$ satisfies $$S(\alpha)=0$$.
+Consequently $$\int_0^\pi S(x)\,dx=0$$. If $$S$$ is identically zero, every interior point is a zero. Otherwise it must take both positive and negative values in the open interval: if it had only one sign there and were nonzero somewhere, continuity would make its integral strictly positive or strictly negative. By the intermediate value theorem, a zero lies between points of opposite signs. Hence some $$\alpha\in(0,\pi)$$ satisfies $$S(\alpha)=0$$.
 
 ### Exercise 15
 

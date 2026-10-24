@@ -9,7 +9,7 @@
 ### 内容范围
 
 - **Analysis I**：目前已有第 I–V 章的解答，主题包括基础逻辑与代数、数列与级数、连续函数与拓扑、一元微分，以及函数列与函数逼近。
-- **Analysis II**：已完成第 VI 章第 1 节“Jump continuous functions”的习题 1–11，以及第 2 节“Continuous extensions”的习题 1–7 解答。
+- **Analysis II**：第 VI 章第 1–4 节已有解答，分别覆盖习题 1–11、1–7、1–10 和 1–16；第 4 节第 9 题按教材印刷式核验后发现结论不成立，已在正文说明。
 - **Analysis III**：已建立卷册导航页，习题解答内容尚待整理。
 
 习题解答正文目前主要使用英文；本 README 提供中英文介绍。
@@ -38,7 +38,7 @@ This is an unofficial study project for Herbert Amann and Joachim Escher’s thr
 ### Scope
 
 - **Analysis I**: Solutions are currently available across Chapters I–V, covering foundational logic and algebra, sequences and series, continuity and topology, one-variable differentiation, and sequences and approximation of functions.
-- **Analysis II**: Solutions are available for Exercises 1–11 in Chapter VI, Section 1, *Jump continuous functions*, and Exercises 1–7 in Section 2, *Continuous extensions*.
+- **Analysis II**: Solutions address Exercises 1–11, 1–7, 1–10, and 1–16 in Chapter VI, Sections 1–4, respectively. Section 4, Exercise 9 is identified as false as printed.
 - **Analysis III**: The volume navigation page is in place; exercise solutions have not yet been added.
 
 The solution notes are currently written mainly in English. This README is available in both Chinese and English.

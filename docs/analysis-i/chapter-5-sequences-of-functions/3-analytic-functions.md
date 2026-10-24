@@ -1,6 +1,10 @@
+# Chapter V — Sequences of Functions
+
+## 3. Analytic Functions
+
 This section develops the local structure of analytic functions through power series, zero sets, and classical expansions. Each solution makes the relevant convergence and domain arguments explicit.
 
-## Exercise 1
+### Exercise 1
 
 **(a)** Fix $$x_0\in D_{\mathbb R}$$. Since $$f$$ is analytic, on some disk centered at $$x_0$$ it has a convergent expansion
 
@@ -28,7 +32,7 @@ $$
 
 Uniqueness of power-series coefficients (equivalently, differentiating at $$x_0$$) implies $$\operatorname{Im}(a_k)=0$$ for every $$k$$. Thus all $$a_k$$ are real, proving the equivalence.
 
-## Exercise 2
+### Exercise 2
 
 Fix $$z_0\in D$$. Write the local power series of $$f$$ at $$z_0$$ as
 
@@ -53,7 +57,7 @@ $$
 
 This is a convergent power-series composition near $$z_0$$, so $$1/f$$ is analytic there. Since $$z_0$$ was arbitrary and $$f$$ has no zeros on $$D$$, $$1/f$$ is analytic throughout $$D$$.
 
-## Exercise 3
+### Exercise 3
 
 For $$z\ne0$$, the exponential series gives
 
@@ -76,7 +80,7 @@ $$
 
 Thus $$h(z)\ne0$$ whenever $$|z|<1/(e-1)$$.
 
-## Exercise 4
+### Exercise 4
 
 Set $$H(z):=h(z)=\sum_{k=0}^{\infty}z^k/(k+1)!$$. By Exercise 3, $$H$$ has no zeros near zero, so write the Taylor expansion
 
@@ -104,7 +108,7 @@ $$
 
 Every binomial coefficient in the recurrence is an integer. Starting from $$B_0=1$$, induction therefore shows that each $$B_m$$ is rational.
 
-## Exercise 5
+### Exercise 5
 
 For a holomorphic function, its complex derivative can be computed using increments along either coordinate direction.
 
@@ -124,7 +128,7 @@ $$
 
 is analytic as well. Part (iii) now implies that $$f$$ is constant.
 
-## Exercise 6
+### Exercise 6
 
 If $$f$$ is even, then $$f(x_n)=f(-x_n)$$ for every $$n$$. If all odd coefficients vanish, its power series contains only even powers, so $$f(-z)=f(z)$$ throughout $$\rho B$$. This proves (i) and (iii) each imply the other direction needed for evenness.
 
@@ -138,7 +142,7 @@ The analytic function $$g$$ vanishes at all the $$x_n$$. Since $$x_n\ne0$$ and $
 
 For odd functions the analogous conditions are: (i) $$f(-z)=-f(z)$$; (ii) $$f(-x_n)=-f(x_n)$$ for every $$n$$; (iii) $$a_{2m}=0$$ for every $$m\in\mathbb N$$. The same argument applies to $$f(z)+f(-z)=2\sum_{m\ge0}a_{2m}z^{2m}$$.
 
-## Exercise 7
+### Exercise 7
 
 For $$n\ge1$$, factor the common product in the two terms on the right to obtain
 
@@ -162,7 +166,7 @@ $$
 
 These are the two formulas in (3.4).
 
-## Exercise 8
+### Exercise 8
 
 For $$|z|<1$$, apply the binomial-series expansion to both factors and use $$ (1+z)^\alpha(1+z)^\beta=(1+z)^{\alpha+\beta}$$. The Cauchy product on the left is valid because both power series converge absolutely there. Its coefficient of $$z^k$$ is
 
@@ -172,7 +176,7 @@ $$
 
 whereas the coefficient of $$z^k$$ in the right-hand expansion is $$\binom{\alpha+\beta}{k}$$. Equality of the analytic functions implies equality of their Taylor coefficients, proving the identity for all $$\alpha,\beta\in\mathbb C$$ and $$k\in\mathbb N$$.
 
-## Exercise 9
+### Exercise 9
 
 The exponential function is entire, so
 
@@ -204,7 +208,7 @@ $$
 
 Thus each denominator in $$\tanh=\sinh/\cosh$$, $$\tan=\sin/\cos$$, and $$\cot=\cos/\sin$$ is nonzero on the stated domain. Its reciprocal is analytic there by Exercise 2, and multiplying by the analytic numerator proves that all three quotients are analytic on their stated domains.
 
-## Exercise 10
+### Exercise 10
 
 Since $$\cos0=\cosh0=1$$, both functions take values near $$1$$ for $$z$$ near zero. Composing them with the analytic logarithm near $$1$$ proves that $$\log(\cos z)$$ and $$\log(\cosh z)$$ are analytic near zero. Their derivatives are $$-\tan z$$ and $$\tanh z$$. Dividing the Taylor series for sine and cosine, or for hyperbolic sine and cosine, gives
 
@@ -244,7 +248,7 @@ $$
 
 Restricting these series to real $$x$$ gives the requested real-analytic expansions. The first two series converge at least for $$|z|<\pi/2$$, and the last for $$|z|<1$$.
 
-## Exercise 11
+### Exercise 11
 
 For $$|x|<1$$, the geometric series gives
 

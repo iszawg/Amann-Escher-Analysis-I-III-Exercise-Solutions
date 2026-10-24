@@ -1,6 +1,10 @@
+# Chapter V — Sequences of Functions
+
+## 4. Polynomial Approximation
+
 The solutions below use the Stone–Weierstrass theorem and the Bernstein polynomial identities developed in this section. Two statements in the printed exercises need qualification: the norm cited in Exercise 1 omits the zeroth derivative, and Exercise 10(a) calls a zero-mean subspace an algebra. Both issues are identified where they occur.
 
-## Exercise 1
+### Exercise 1
 
 Let $$r\in\mathbb N$$ be the differentiability order. There is a misprint in the definition cited from Exercise V.2.10: it gives $$\|f\|_{BC^r}=\max_{1\leq j\leq r}\|f^{(j)}\|_\infty$$. This expression vanishes on every constant function, so it is only a seminorm and cannot make $$BC^r(X,\mathbb K)$$ a Banach space. In what follows, use the usual norm that includes the function itself:
 
@@ -50,7 +54,7 @@ Uniform convergence lets us pass to the limit in this identity. It follows succe
 
 The norm is submultiplicative when $$r=0$$, since $$\|fg\|_\infty\leq\|f\|_\infty\|g\|_\infty$$. For every $$r\geq1$$, submultiplicativity fails in general. Take $$X=(-1,1)$$ and $$f(x)=x$$. Then $$\|f\|_r=1$$, while $$\|f^2\|_r\geq\|2x\|_\infty=2$$. Therefore, for arbitrary open $$X$$, the usual space is a Banach algebra at order $$r=0$$. Higher orders are Banach spaces with continuous multiplication, but this maximum norm is not generally an algebra norm.
 
-## Exercise 2
+### Exercise 2
 
 For each $$j=0,\ldots,k$$, define the continuous nonzero linear (or conjugate-linear, depending on the inner-product convention) functional
 
@@ -66,13 +70,13 @@ $$
 
 A finite intersection of open dense sets is open and dense. To see density directly, intersect any nonempty open set successively with each open dense factor; at every step the intersection remains nonempty and open. This proves the claim.
 
-## Exercise 3
+### Exercise 3
 
 **(a)** The assertion is false. In $$\mathbb R$$, both $$\mathbb Q$$ and $$\mathbb R\setminus\mathbb Q$$ are dense, but their intersection is empty and hence not dense.
 
 **(b)** The assertion is true. A finite intersection of open sets is open. For density, let $$U$$ be any nonempty open subset of $$M$$. Since the first dense open set meets $$U$$, their intersection is nonempty and open. Intersecting this set successively with each remaining dense open set keeps it nonempty and open. Thus every nonempty open $$U$$ meets the finite intersection, which is exactly density.
 
-## Exercise 4
+### Exercise 4
 
 Assume $$n\geq1$$, as required for the uncountability claim. The Euclidean space $$\mathbb K^n$$ is complete. Since every $$D_k$$ is open and dense, the Baire category theorem implies that
 
@@ -92,7 +96,7 @@ $$
 
 is nonempty. The first intersection is $$D$$, while the second removes every element in the assumed enumeration of $$D$$. This is a contradiction. Hence $$D$$ is uncountable.
 
-## Exercise 5
+### Exercise 5
 
 For $$k\in\mathbb N^\times$$, let
 
@@ -110,7 +114,7 @@ $$
 
 But Exercise 4(b) says that a countable intersection of open dense subsets of $$\mathbb R$$ is uncountable. Since $$\mathbb Q$$ is countable, this is impossible. No such function exists.
 
-## Exercise 6
+### Exercise 6
 
 Let $$\Phi:\mathbb K^n\to V$$ be the coordinate map
 
@@ -135,7 +139,7 @@ $$
 
 Thus the set is dense in $$V$$.
 
-## Exercise 7
+### Exercise 7
 
 If $$x,y\in M$$ are distinct, some coordinate, say the $$j$$th, satisfies $$x_j\ne y_j$$. The coordinate polynomial $$X_j$$ then has $$X_j(x)\ne X_j(y)$$, so $$A$$ separates points.
 
@@ -148,7 +152,7 @@ $$
 
 The right-hand side is the restriction to $$M$$ of the polynomial with conjugated coefficients. Hence $$\overline p\in A$$, and $$A$$ is self-adjoint.
 
-## Exercise 8
+### Exercise 8
 
 By the Weierstrass approximation theorem, choose polynomials $$p_n$$ with coefficients in $$\mathbb K$$ such that $$p_n\to f$$ uniformly on $$[a,b]$$. Define
 
@@ -158,11 +162,11 @@ $$
 
 Each $$F_n$$ is a polynomial primitive, so $$F_n\in C^1([a,b],\mathbb K)$$, $$F_n'=p_n$$, and $$F_n(a)=0$$. The derivatives $$F_n'$$ converge uniformly to $$f$$, and the values $$F_n(a)$$ converge. Exercise V.2.11 therefore implies that $$(F_n)$$ converges uniformly to some function $$F$$. The differentiability theorem for limits in Section V.2 now gives $$F\in C^1([a,b],\mathbb K)$$ and $$F'=f$$. Thus $$f$$ has an antiderivative.
 
-## Exercise 9
+### Exercise 9
 
 Periodicity gives $$f(0)=f(2\pi)$$. Rolle's theorem applied to $$f$$ on $$[0,2\pi]$$ gives a point $$c\in(0,2\pi)$$ with $$f'(c)=0$$.
 
-## Exercise 10
+### Exercise 10
 
 Write an absolutely convergent trigonometric series with zero constant coefficient as
 
@@ -201,7 +205,7 @@ because every sine and cosine term has integral zero. If $$f$$ had no zero in $$
 
 **(d)** For complex-valued functions, take $$f(t)=e^{it}=\cos t+i\sin t$$. This is a trigonometric polynomial with zero constant coefficient, so it belongs to $$D_0(\mathbb R,\mathbb C)$$, but $$|f(t)|=1$$ for every $$t$$. Thus the real-valued conclusion in (c) fails over $$\mathbb C$$.
 
-## Exercise 11
+### Exercise 11
 
 By the binomial theorem,
 
@@ -243,7 +247,7 @@ $$
 \end{aligned}
 $$
 
-## Exercise 12
+### Exercise 12
 
 Take $$n\geq1$$ and, for $$x\in[0,1]$$, set $$w_{n,k}(x):=B_{n,k}(x)$$. These weights are nonnegative and sum to one by Exercise 11(a). Thus
 
@@ -272,7 +276,7 @@ $$
 
 This proves convergence in $$C([0,1],E)$$ and, equivalently, uniform convergence.
 
-## Exercise 13
+### Exercise 13
 
 **(a)** Let $$D$$ be a countable dense subset of the separable metric space $$X$$. Consider all open balls $$B(d,q)$$ with $$d\in D$$ and positive rational radius $$q\in\mathbb Q$$. There are countably many. They form a basis: if $$x\in U$$ and $$U$$ is open, choose $$\varepsilon>0$$ with $$B(x,\varepsilon)\subseteq U$$. Density gives $$d\in D$$ with $$d(x,d)<\varepsilon/3$$. Choose rational $$q$$ such that $$d(x,d)<q<\varepsilon-d(x,d)$$. Then $$x\in B(d,q)\subseteq B(x,\varepsilon)\subseteq U$$.
 
@@ -280,7 +284,7 @@ This proves convergence in $$C([0,1],E)$$ and, equivalently, uniform convergence
 
 **(c)** The space $$\mathbb R^n$$ is separable because $$\mathbb Q^n$$ is countable and dense. Part (b), applied to any subset $$A\subseteq\mathbb R^n$$ with its induced metric, shows that $$A$$ is separable.
 
-## Exercise 14
+### Exercise 14
 
 The empty space and the one-point space have separable continuous-function spaces, so assume $$X$$ has at least two points. Let $$\mathcal B$$ be a countable basis for $$X$$, and, for each proper open set $$B\in\mathcal B$$, define
 

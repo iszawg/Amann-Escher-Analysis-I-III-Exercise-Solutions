@@ -2,7 +2,7 @@
 
 ## 2. Differentiability
 
-Exercises follow the numbering in the textbook. Inline formulas use GitBook's `$$...$$` math syntax.
+Exercises follow the numbering in the textbook.
 
 ### Exercise 1
 

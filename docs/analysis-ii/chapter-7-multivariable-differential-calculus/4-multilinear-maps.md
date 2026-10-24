@@ -1,8 +1,10 @@
 # Chapter VII — Multivariable Differential Calculus
 
+## 4. Multilinear maps
+
 Exercises follow the numbering in the textbook. Inner products are taken to be linear in the first argument. The notes below flag a few places where the printed complex-scalar or matrix conventions need clarification.
 
-## Exercise 1
+### Exercise 1
 
 Let $$H$$ be a finite-dimensional Hilbert space.
 
@@ -69,7 +71,7 @@ $$
 
 Thus the coefficient matrix in an expansion $$a(x,y)=\sum_{j,k}c_{jk}x_jy_k$$ is $$[c_{jk}]=A^{\mathsf T}$$. Accordingly, the printed formula with coefficients $$a_{jk}$$ is correct if $$[a_{jk}]$$ denotes the transpose of the standard column-vector matrix of $$A$$; if $$[a_{jk}]$$ is the standard matrix of $$A$$, its indices in that sum must be reversed.
 
-## Exercise 2
+### Exercise 2
 
 The symmetric forms form a closed subspace of $$\mathcal L_m(E,F)$$. Indeed, suppose $$\varphi_n\in\mathcal L^m_{\mathrm{sym}}(E,F)$$ and $$\varphi_n\to\varphi$$ in the multilinear operator norm. For every permutation $$\sigma\in S_m$$ and every $$x_1,\ldots,x_m\in E$$,
 
@@ -88,7 +90,7 @@ $$
 
 is a symmetric $$m$$-linear map. Differentiability gives convergence in $$\mathcal L_m(E,F)$$ to $$\partial f(x)h$$ as $$t\to0$$. Closedness therefore implies $$\partial f(x)h\in\mathcal L^m_{\mathrm{sym}}(E,F)$$.
 
-## Exercise 3
+### Exercise 3
 
 Set $$B(t):=e^{tA}$$ and write its columns as $$b_1(t),\ldots,b_n(t)$$. By Example 4.8(a),
 
@@ -111,7 +113,7 @@ $$
 
 The hint as printed defines the difference $$\det(e^{tA})-e^{t\operatorname{tr}(A)}$$ and says its derivative is zero. The differential equation above shows that this difference instead has derivative $$\operatorname{tr}(A)$$ times itself. The normalized product $$q(t)$$ is the quantity with zero derivative.
 
-## Exercise 4
+### Exercise 4
 
 Let $$\mathcal Y:=\mathcal L(\mathcal L(E,F),\mathcal L(F,E))$$. For fixed $$T_1,T_2\in\mathcal L(F,E)$$, the map $$S\mapsto T_1ST_2$$ is linear, and the operator norm inequality gives
 
@@ -129,7 +131,7 @@ $$
 
 so $$g$$ is bounded as a bilinear map from $$\mathcal L(F,E)\times\mathcal L(F,E)$$ into $$\mathcal Y$$. Consequently $$g\in\mathcal L^2(\mathcal L(F,E);\mathcal Y)$$.
 
-## Exercise 5
+### Exercise 5
 
 Assume first that $$H$$ is real. Expanding at $$x$$ in an increment $$y$$ gives
 

@@ -55,4 +55,5 @@
     * [9. The gamma function](analysis-ii/chapter-6-integral-calculus/9-gamma-function.md)
   * [Chapter VII — Multivariable Differential Calculus](analysis-ii/chapter-7-multivariable-differential-calculus/README.md)
     * [1. Continuous linear maps](analysis-ii/chapter-7-multivariable-differential-calculus/1-continuous-linear-maps.md)
+    * [2. Differentiability](analysis-ii/chapter-7-multivariable-differential-calculus/2-differentiability.md)
 * [Analysis III](analysis-iii/README.md)

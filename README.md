@@ -15,6 +15,7 @@
 
 ### 阅读文档
 
+- [GitBook 在线文档](https://iszawgs-organization.gitbook.io/amann-and-escher-analysis-i-iii-solutions/)
 - [文档首页](docs/README.md)
 - [完整目录](docs/SUMMARY.md)
 - [Analysis I](docs/analysis-i/README.md)
@@ -42,6 +43,7 @@ The solution notes are currently written mainly in English. This README is avail
 
 ### Browse the documentation
 
+- [GitBook site](https://iszawgs-organization.gitbook.io/amann-and-escher-analysis-i-iii-solutions/)
 - [Documentation home](docs/README.md)
 - [Full table of contents](docs/SUMMARY.md)
 - [Analysis I](docs/analysis-i/README.md)

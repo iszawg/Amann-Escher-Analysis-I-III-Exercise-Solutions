@@ -50,4 +50,5 @@
     * [4. Properties of Integrals](analysis-ii/chapter-6-integral-calculus/4-properties-of-integrals.md)
     * [5. The Technique of Integration](analysis-ii/chapter-6-integral-calculus/5-technique-of-integration.md)
     * [6. Sums and integrals](analysis-ii/chapter-6-integral-calculus/6-sums-and-integrals.md)
+    * [7. Fourier series](analysis-ii/chapter-6-integral-calculus/7-fourier-series.md)
 * [Analysis III](analysis-iii/README.md)

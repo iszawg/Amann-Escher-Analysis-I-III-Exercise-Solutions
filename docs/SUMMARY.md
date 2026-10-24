@@ -41,5 +41,6 @@
     * [1. Uniform Convergence](analysis-i/chapter-5-sequences-of-functions/1-uniform-convergence.md)
     * [2. Continuity and Differentiability for Sequences of Functions](analysis-i/chapter-5-sequences-of-functions/2-continuity-and-differentiability.md)
     * [3. Analytic Functions](analysis-i/chapter-5-sequences-of-functions/3-analytic-functions.md)
+    * [4. Polynomial Approximation](analysis-i/chapter-5-sequences-of-functions/4-polynomial-approximation.md)
 * [Analysis II](analysis-ii/README.md)
 * [Analysis III](analysis-iii/README.md)

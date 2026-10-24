@@ -7,3 +7,4 @@
 - [5. The Technique of Integration](5-technique-of-integration.md) — Exercises 1–10
 - [6. Sums and integrals](6-sums-and-integrals.md) — Exercises 1–10; Exercise 4(ii) corrects the printed n = 0 case
 - [7. Fourier series](7-fourier-series.md) — Exercises 1–11; corrects misprints in Exercises 1, 2, 3, and 8(iii)
+- [8. Improper integrals](8-improper-integrals.md) — Exercises 1–9; corrects the sign in Exercise 8

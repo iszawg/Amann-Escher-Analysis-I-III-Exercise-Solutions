@@ -43,4 +43,6 @@
     * [3. Analytic Functions](analysis-i/chapter-5-sequences-of-functions/3-analytic-functions.md)
     * [4. Polynomial Approximation](analysis-i/chapter-5-sequences-of-functions/4-polynomial-approximation.md)
 * [Analysis II](analysis-ii/README.md)
+  * [Chapter VI — Integral Calculus in One Variable](analysis-ii/chapter-6-integral-calculus/README.md)
+    * [1. Jump Continuous Functions](analysis-ii/chapter-6-integral-calculus/1-jump-continuous-functions.md)
 * [Analysis III](analysis-iii/README.md)

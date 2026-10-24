@@ -7,7 +7,7 @@ The solutions emphasize the definitions and logical steps needed to reach each r
 ## Browse the volumes
 
 - [Analysis I](analysis-i/README.md) — Foundations, convergence, continuity, and differentiation. Chapter I, Chapter II, Sections 1–9, Chapter III, Sections 1–6, Chapter IV, Sections 1–2, and Chapter V, Sections 1–4, are solved.
-- [Analysis II](analysis-ii/README.md) — Volume index; chapter navigation will be added as its exercises are worked through.
+- [Analysis II](analysis-ii/README.md) — Chapter VI, Section 1, *Jump continuous functions*: Exercises 1–11 solved.
 - [Analysis III](analysis-iii/README.md) — Volume index; chapter navigation will be added as its exercises are worked through.
 
 ## Current progress
@@ -44,6 +44,7 @@ The solutions emphasize the definitions and logical steps needed to reach each r
 | I | Chapter V, *Sequences of Functions* — Section 2, *Continuity and Differentiability for Sequences of Functions* | Exercises 1–11 solved |
 | I | Chapter V, *Sequences of Functions* — Section 3, *Analytic Functions* | Exercises 1–11 solved |
 | I | Chapter V, *Sequences of Functions* — Section 4, *Polynomial Approximation* | Exercises 1–14 solved |
+| II | Chapter VI, *Integral Calculus in One Variable* — Section 1, *Jump continuous functions* | Exercises 1–11 solved |
 | I–III | Remaining sections | To be added |
 
 ## Solution conventions

@@ -2,7 +2,7 @@
 
 ## 9. Manifolds
 
-These are detailed solutions to Exercises 1–18. Inline mathematics uses GitBook's `$$...$$` syntax; displayed calculations use the same delimiters on separate lines.
+These are detailed solutions to Exercises 1–18. Inline mathematics is enclosed by two dollar signs on each side of a formula; displayed calculations put the same delimiter on separate lines.
 
 ### Exercise 1
 

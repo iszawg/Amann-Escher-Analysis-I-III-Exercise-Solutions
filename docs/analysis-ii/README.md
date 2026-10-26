@@ -24,5 +24,6 @@ Solutions from Volume II of Amann and Escher’s introduction to analysis are be
 - [6. Nemytskii operators and the calculus of variations](chapter-7-multivariable-differential-calculus/6-nemytskii-operators-and-calculus-of-variations.md) — Exercises 1–12
 - [7. Inverse maps](chapter-7-multivariable-differential-calculus/7-inverse-maps.md) — Exercises 1–8
 - [8. Implicit functions](chapter-7-multivariable-differential-calculus/8-implicit-functions.md) — Exercises 1–12
+- [9. Manifolds](chapter-7-multivariable-differential-calculus/9-manifolds.md) — Exercises 1–18; notes misstatements in Exercises 2 and 15 as printed
 
 See [Analysis I](../analysis-i/README.md) for the first volume’s solutions, or return to the [project overview](../README.md).

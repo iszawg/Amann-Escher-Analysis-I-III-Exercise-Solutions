@@ -8,3 +8,4 @@
 - [6. Nemytskii operators and the calculus of variations](6-nemytskii-operators-and-calculus-of-variations.md) — Exercises 1–12
 - [7. Inverse maps](7-inverse-maps.md) — Exercises 1–8
 - [8. Implicit functions](8-implicit-functions.md) — Exercises 1–12
+- [9. Manifolds](9-manifolds.md) — Exercises 1–18; notes misstatements in Exercises 2 and 15 as printed

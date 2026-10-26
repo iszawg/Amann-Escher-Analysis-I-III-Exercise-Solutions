@@ -63,4 +63,5 @@
     * [7. Inverse maps](analysis-ii/chapter-7-multivariable-differential-calculus/7-inverse-maps.md)
     * [8. Implicit functions](analysis-ii/chapter-7-multivariable-differential-calculus/8-implicit-functions.md)
     * [9. Manifolds](analysis-ii/chapter-7-multivariable-differential-calculus/9-manifolds.md)
+    * [10. Tangents and normals](analysis-ii/chapter-7-multivariable-differential-calculus/10-tangents-and-normals.md)
 * [Analysis III](analysis-iii/README.md)

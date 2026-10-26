@@ -9,3 +9,4 @@
 - [7. Inverse maps](7-inverse-maps.md) — Exercises 1–8
 - [8. Implicit functions](8-implicit-functions.md) — Exercises 1–12
 - [9. Manifolds](9-manifolds.md) — Exercises 1–18; notes misstatements in Exercises 2 and 15 as printed
+- [10. Tangents and normals](10-tangents-and-normals.md) — Exercises 1–14; corrects misstatements in Exercises 8, 12, and 13 as printed

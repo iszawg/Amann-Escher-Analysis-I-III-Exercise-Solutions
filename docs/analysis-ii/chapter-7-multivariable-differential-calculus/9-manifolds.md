@@ -2,7 +2,7 @@
 
 ## 9. Manifolds
 
-These are detailed solutions to Exercises 1–18. Inline mathematics uses GitBook's $$...$$ syntax; displayed calculations use the same delimiters on separate lines.
+These are detailed solutions to Exercises 1–18. Inline mathematics uses GitBook's `$$...$$` syntax; displayed calculations use the same delimiters on separate lines.
 
 ### Exercise 1
 
@@ -340,7 +340,7 @@ $$
 y^{n+1}=\arccos(x_{n+1}/r)\in(0,\pi).
 $$
 
-The first $$n$$ coordinates have norm $$r\sin y^{n+1}$$. After dividing them by $$\sin y^{n+1}$$, the resulting vector has norm $$r$$ and lies outside $$H_n$$. By induction it has a unique representation by $$f_n$$ with first coordinate $$r$$. The recursion then represents the original vector by $$f_{n+1}$$. Conversely, with all angular coordinates in the stated open intervals, a point in the image cannot lie on the excluded cut $$H_{n+1}$$. This proves
+The first $$n$$ coordinates have norm $$r\sin y^{n+1}$$. After dividing them by $$\sin y^{n+1}$$, the resulting vector has norm $$r$$ and lies outside $$H_n$$. By induction it has a unique representation by $$f_n$$ with first coordinate $$r$$. The recursion then represents the original vector by $$f_{n+1}$$. Conversely, the second coordinate of a point in the image is zero only when $$y^2=\pi$$, since all the sine factors $$\sin y^3,\ldots,\sin y^{n+1}$$ are positive. In that case the first coordinate is negative, so the image avoids $$H_{n+1}$$. This proves
 
 $$
 f_n(V_n)=\mathbb R^n\setminus H_n.

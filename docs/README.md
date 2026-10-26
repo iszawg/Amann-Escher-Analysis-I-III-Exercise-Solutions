@@ -7,7 +7,7 @@ The solutions emphasize the definitions and logical steps needed to reach each r
 ## Browse the volumes
 
 - [Analysis I](analysis-i/README.md) — Foundations, convergence, continuity, and differentiation. Chapter I, Chapter II, Sections 1–9, Chapter III, Sections 1–6, Chapter IV, Sections 1–2, and Chapter V, Sections 1–4, are solved.
-- [Analysis II](analysis-ii/README.md) — Chapter VI, Sections 1–9, and Chapter VII, Sections 1–6: exercises solved.
+- [Analysis II](analysis-ii/README.md) — Chapter VI, Sections 1–9, and Chapter VII, Sections 1–8: exercises solved.
 - [Analysis III](analysis-iii/README.md) — Volume index; chapter navigation will be added as its exercises are worked through.
 
 ## Current progress
@@ -52,6 +52,8 @@ The solutions emphasize the definitions and logical steps needed to reach each r
 | II | Chapter VII, *Multivariable Differential Calculus* — Sections 2–4 | Exercises 1–13, 1–8, and 1–5 addressed, respectively; notes printed-statement issues in Sections 2 and 4 |
 | II | Chapter VII, *Multivariable Differential Calculus* — Section 5, *Higher derivatives* | Exercises 1–21 addressed; corrects the printed product rule in Exercise 15(iii) |
 | II | Chapter VII, *Multivariable Differential Calculus* — Section 6, *Nemytskii operators and the calculus of variations* | Exercises 1–12 solved |
+| II | Chapter VII, *Multivariable Differential Calculus* — Section 7, *Inverse maps* | Exercises 1–8 solved |
+| II | Chapter VII, *Multivariable Differential Calculus* — Section 8, *Implicit functions* | Exercises 1–12 solved |
 | I–III | Remaining sections | To be added |
 
 ## Solution conventions

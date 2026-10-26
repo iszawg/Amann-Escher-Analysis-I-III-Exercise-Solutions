@@ -61,4 +61,5 @@
     * [5. Higher derivatives](analysis-ii/chapter-7-multivariable-differential-calculus/5-higher-derivatives.md)
     * [6. Nemytskii operators and the calculus of variations](analysis-ii/chapter-7-multivariable-differential-calculus/6-nemytskii-operators-and-calculus-of-variations.md)
     * [7. Inverse maps](analysis-ii/chapter-7-multivariable-differential-calculus/7-inverse-maps.md)
+    * [8. Implicit functions](analysis-ii/chapter-7-multivariable-differential-calculus/8-implicit-functions.md)
 * [Analysis III](analysis-iii/README.md)

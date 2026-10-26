@@ -23,5 +23,6 @@ Solutions from Volume II of Amann and Escher’s introduction to analysis are be
 - [5. Higher derivatives](chapter-7-multivariable-differential-calculus/5-higher-derivatives.md) — Exercises 1–21; corrects the printed product rule in Exercise 15(iii)
 - [6. Nemytskii operators and the calculus of variations](chapter-7-multivariable-differential-calculus/6-nemytskii-operators-and-calculus-of-variations.md) — Exercises 1–12
 - [7. Inverse maps](chapter-7-multivariable-differential-calculus/7-inverse-maps.md) — Exercises 1–8
+- [8. Implicit functions](chapter-7-multivariable-differential-calculus/8-implicit-functions.md) — Exercises 1–12
 
 See [Analysis I](../analysis-i/README.md) for the first volume’s solutions, or return to the [project overview](../README.md).

@@ -25,5 +25,10 @@ Solutions from Volume II of Amann and Escher’s introduction to analysis are be
 - [7. Inverse maps](chapter-7-multivariable-differential-calculus/7-inverse-maps.md) — Exercises 1–8
 - [8. Implicit functions](chapter-7-multivariable-differential-calculus/8-implicit-functions.md) — Exercises 1–12
 - [9. Manifolds](chapter-7-multivariable-differential-calculus/9-manifolds.md) — Exercises 1–18; notes misstatements in Exercises 2 and 15 as printed
+- [10. Tangents and normals](chapter-7-multivariable-differential-calculus/10-tangents-and-normals.md) — Exercises 1–14; corrects misstatements in Exercises 8, 12, and 13 as printed
+
+## Chapter VIII — Line Integrals
+
+- [1. Curves and their lengths](chapter-8-line-integrals/1-curves-and-their-lengths.md) — Exercises 1–8; notes the regularity issue in Exercise 6(d)
 
 See [Analysis I](../analysis-i/README.md) for the first volume’s solutions, or return to the [project overview](../README.md).

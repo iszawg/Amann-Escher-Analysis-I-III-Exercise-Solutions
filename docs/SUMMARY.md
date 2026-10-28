@@ -66,4 +66,5 @@
     * [10. Tangents and normals](analysis-ii/chapter-7-multivariable-differential-calculus/10-tangents-and-normals.md)
   * [Chapter VIII — Line Integrals](analysis-ii/chapter-8-line-integrals/README.md)
     * [1. Curves and their lengths](analysis-ii/chapter-8-line-integrals/1-curves-and-their-lengths.md)
+    * [2. Curves in Rn](analysis-ii/chapter-8-line-integrals/2-curves-in-rn.md)
 * [Analysis III](analysis-iii/README.md)

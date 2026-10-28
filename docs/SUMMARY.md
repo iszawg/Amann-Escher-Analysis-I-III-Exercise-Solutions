@@ -67,4 +67,5 @@
   * [Chapter VIII — Line Integrals](analysis-ii/chapter-8-line-integrals/README.md)
     * [1. Curves and their lengths](analysis-ii/chapter-8-line-integrals/1-curves-and-their-lengths.md)
     * [2. Curves in Rn](analysis-ii/chapter-8-line-integrals/2-curves-in-rn.md)
+    * [3. Pfaff forms](analysis-ii/chapter-8-line-integrals/3-pfaff-forms.md)
 * [Analysis III](analysis-iii/README.md)

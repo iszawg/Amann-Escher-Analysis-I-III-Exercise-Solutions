@@ -78,3 +78,5 @@
     * [3. Outer measures](analysis-iii/chapter-9-elements-of-measure-theory/3-outer-measures.md)
     * [4. Measurable sets](analysis-iii/chapter-9-elements-of-measure-theory/4-measurable-sets.md)
     * [5. The Lebesgue measure](analysis-iii/chapter-9-elements-of-measure-theory/5-the-lebesgue-measure.md)
+  * [Chapter X — Integration Theory](analysis-iii/chapter-10-integration-theory/README.md)
+    * [1. Measurable functions](analysis-iii/chapter-10-integration-theory/1-measurable-functions.md)

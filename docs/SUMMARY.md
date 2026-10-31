@@ -69,4 +69,5 @@
     * [2. Curves in Rn](analysis-ii/chapter-8-line-integrals/2-curves-in-rn.md)
     * [3. Pfaff forms](analysis-ii/chapter-8-line-integrals/3-pfaff-forms.md)
     * [4. Line integrals](analysis-ii/chapter-8-line-integrals/4-line-integrals.md)
+    * [5. Holomorphic functions](analysis-ii/chapter-8-line-integrals/5-holomorphic-functions.md)
 * [Analysis III](analysis-iii/README.md)

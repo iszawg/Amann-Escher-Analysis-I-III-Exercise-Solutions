@@ -1,5 +1,5 @@
 # Analysis III
 
-This is the navigation entry for Volume III of Amann and Escher’s introduction to analysis. Its chapter and section index will be added from the corresponding volume as solutions are prepared.
+- [Chapter IX — Elements of Measure Theory](chapter-9-elements-of-measure-theory/README.md): [1. Measurable spaces](chapter-9-elements-of-measure-theory/1-measurable-spaces.md) — Exercises 1–19
 
-See [Analysis I](../analysis-i/README.md) for the first available solutions, or return to the [project overview](../README.md).
+Return to the [project overview](../README.md).

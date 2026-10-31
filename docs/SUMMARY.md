@@ -75,3 +75,4 @@
   * [Chapter IX — Elements of Measure Theory](analysis-iii/chapter-9-elements-of-measure-theory/README.md)
     * [1. Measurable spaces](analysis-iii/chapter-9-elements-of-measure-theory/1-measurable-spaces.md)
     * [2. Measures](analysis-iii/chapter-9-elements-of-measure-theory/2-measures.md)
+    * [3. Outer measures](analysis-iii/chapter-9-elements-of-measure-theory/3-outer-measures.md)

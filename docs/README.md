@@ -60,6 +60,7 @@ The solutions emphasize the definitions and logical steps needed to reach each r
 | II | Chapter VIII, *Line Integrals* — Section 6, *Meromorphic functions* | Exercises 1–21 addressed; clarifies assumptions in Exercises 12–15 |
 | III | Chapter IX, *Elements of Measure Theory* — Section 1, *Measurable spaces* | Exercises 1–19 addressed |
 | III | Chapter IX, *Elements of Measure Theory* — Section 2, *Measures* | Exercises 1–13 addressed; Exercise 2 requires a finiteness qualification |
+| III | Chapter IX, *Elements of Measure Theory* — Section 3, *Outer measures* | Exercises 1–11 addressed; Exercise 7 is false as printed |
 | I–III | Remaining sections | To be added |
 
 ## Solution conventions

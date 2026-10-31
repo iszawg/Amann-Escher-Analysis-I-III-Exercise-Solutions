@@ -10,7 +10,7 @@
 
 - **Analysis I**：目前已有第 I–V 章的解答，主题包括基础逻辑与代数、数列与级数、连续函数与拓扑、一元微分，以及函数列与函数逼近。
 - **Analysis II**：第 VI 章第 1–9 节、第 VII 章第 1–10 节和第 VIII 章第 1–6 节已有习题解答；第 VI 章第 4 节第 9 题、第 VII 章第 1 节第 17、25 题、第 VII 章第 9 节第 2、15 题，以及第 VIII 章第 1 节第 6 题的题面或正则性问题、第 VIII 章第 3 节第 10 题的模结构问题，第 4 节第 14 题的自由同伦与固定基点同伦之别，以及第 5 节第 3、15、17、18 题的题面问题，以及第 6 节第 12–15 题的参数与假设问题均在正文说明。
-- **Analysis III**：第 IX 章第 1–2 节已有习题解答；第 2 节第 2 题的容斥公式需要有限性条件，正文作了说明。
+- **Analysis III**：第 IX 章第 1–3 节已有习题解答；第 2 节第 2 题的容斥公式需要有限性条件，第 3 节第 7 题的乘积维数等式一般不成立，正文作了说明。
 
 习题解答正文目前主要使用英文；本 README 提供中英文介绍。
 
@@ -39,7 +39,7 @@ This is an unofficial study project for Herbert Amann and Joachim Escher’s thr
 
 - **Analysis I**: Solutions are currently available across Chapters I–V, covering foundational logic and algebra, sequences and series, continuity and topology, one-variable differentiation, and sequences and approximation of functions.
 - **Analysis II**: Solutions cover Sections 1–9 of Chapter VI, Sections 1–10 of Chapter VII, and Sections 1–6 of Chapter VIII. Chapter VI, Section 4, Exercise 9; Chapter VII, Section 1, Exercises 17 and 25; Chapter VII, Section 9, Exercises 2 and 15; Chapter VIII, Section 1, Exercise 6; and the module-structure claim in Chapter VIII, Section 3, Exercise 10 are identified as misstated or underspecified as printed. Section 4, Exercise 14 distinguishes free from based loop homotopy; Section 5, Exercises 3, 15, 17, and 18 contain printed wording or domain issues; Section 6, Exercises 12–15 need parameter or hypothesis clarifications.
-- **Analysis III**: Chapter IX, Sections 1–2 have exercise solutions; Section 2, Exercise 2 requires a finiteness qualification as explained in the solution.
+- **Analysis III**: Chapter IX, Sections 1–3 have exercise solutions; Section 2, Exercise 2 requires a finiteness qualification, and Section 3, Exercise 7 is false as printed.
 
 The solution notes are currently written mainly in English. This README is available in both Chinese and English.
 

@@ -81,3 +81,4 @@
   * [Chapter X — Integration Theory](analysis-iii/chapter-10-integration-theory/README.md)
     * [1. Measurable functions](analysis-iii/chapter-10-integration-theory/1-measurable-functions.md)
     * [2. Integrable functions](analysis-iii/chapter-10-integration-theory/2-integrable-functions.md)
+    * [3. Convergence theorems](analysis-iii/chapter-10-integration-theory/3-convergence-theorems.md)

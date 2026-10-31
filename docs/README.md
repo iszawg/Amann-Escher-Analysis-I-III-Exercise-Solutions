@@ -8,7 +8,7 @@ The solutions emphasize the definitions and logical steps needed to reach each r
 
 - [Analysis I](analysis-i/README.md) — Foundations, convergence, continuity, and differentiation. Chapter I, Chapter II, Sections 1–9, Chapter III, Sections 1–6, Chapter IV, Sections 1–2, and Chapter V, Sections 1–4, are solved.
 - [Analysis II](analysis-ii/README.md) — Chapter VI, Sections 1–9, Chapter VII, Sections 1–10, and Chapter VIII, Sections 1–6: exercises addressed.
-- [Analysis III](analysis-iii/README.md) — Chapter IX, Section 1: Exercises 1–19; Section 2: Exercises 1–13 addressed.
+- [Analysis III](analysis-iii/README.md) — Chapter IX, Sections 1–4: Exercises 1–19, 1–13, 1–11, and 1–10 addressed, respectively.
 
 ## Current progress
 
@@ -61,6 +61,7 @@ The solutions emphasize the definitions and logical steps needed to reach each r
 | III | Chapter IX, *Elements of Measure Theory* — Section 1, *Measurable spaces* | Exercises 1–19 addressed |
 | III | Chapter IX, *Elements of Measure Theory* — Section 2, *Measures* | Exercises 1–13 addressed; Exercise 2 requires a finiteness qualification |
 | III | Chapter IX, *Elements of Measure Theory* — Section 3, *Outer measures* | Exercises 1–11 addressed; Exercise 7 is false as printed |
+| III | Chapter IX, *Elements of Measure Theory* — Section 4, *Measurable sets* | Exercises 1–10 addressed |
 | I–III | Remaining sections | To be added |
 
 ## Solution conventions

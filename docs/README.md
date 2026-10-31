@@ -8,7 +8,7 @@ The solutions emphasize the definitions and logical steps needed to reach each r
 
 - [Analysis I](analysis-i/README.md) — Foundations, convergence, continuity, and differentiation. Chapter I, Chapter II, Sections 1–9, Chapter III, Sections 1–6, Chapter IV, Sections 1–2, and Chapter V, Sections 1–4, are solved.
 - [Analysis II](analysis-ii/README.md) — Chapter VI, Sections 1–9, Chapter VII, Sections 1–10, and Chapter VIII, Sections 1–6: exercises addressed.
-- [Analysis III](analysis-iii/README.md) — Chapter IX, Section 1: Exercises 1–19 addressed.
+- [Analysis III](analysis-iii/README.md) — Chapter IX, Section 1: Exercises 1–19; Section 2: Exercises 1–13 addressed.
 
 ## Current progress
 
@@ -59,6 +59,7 @@ The solutions emphasize the definitions and logical steps needed to reach each r
 | II | Chapter VIII, *Line Integrals* — Section 5, *Holomorphic functions* | Exercises 1–18 addressed; notes printed issues in Exercises 3, 15, 17, and 18 |
 | II | Chapter VIII, *Line Integrals* — Section 6, *Meromorphic functions* | Exercises 1–21 addressed; clarifies assumptions in Exercises 12–15 |
 | III | Chapter IX, *Elements of Measure Theory* — Section 1, *Measurable spaces* | Exercises 1–19 addressed |
+| III | Chapter IX, *Elements of Measure Theory* — Section 2, *Measures* | Exercises 1–13 addressed; Exercise 2 requires a finiteness qualification |
 | I–III | Remaining sections | To be added |
 
 ## Solution conventions

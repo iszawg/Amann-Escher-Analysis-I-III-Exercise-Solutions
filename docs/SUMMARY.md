@@ -80,3 +80,4 @@
     * [5. The Lebesgue measure](analysis-iii/chapter-9-elements-of-measure-theory/5-the-lebesgue-measure.md)
   * [Chapter X — Integration Theory](analysis-iii/chapter-10-integration-theory/README.md)
     * [1. Measurable functions](analysis-iii/chapter-10-integration-theory/1-measurable-functions.md)
+    * [2. Integrable functions](analysis-iii/chapter-10-integration-theory/2-integrable-functions.md)

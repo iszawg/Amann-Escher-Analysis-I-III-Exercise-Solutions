@@ -8,7 +8,7 @@ The solutions emphasize the definitions and logical steps needed to reach each r
 
 - [Analysis I](analysis-i/README.md) — Foundations, convergence, continuity, and differentiation. Chapter I, Chapter II, Sections 1–9, Chapter III, Sections 1–6, Chapter IV, Sections 1–2, and Chapter V, Sections 1–4, are solved.
 - [Analysis II](analysis-ii/README.md) — Chapter VI, Sections 1–9, Chapter VII, Sections 1–10, and Chapter VIII, Sections 1–6: exercises addressed.
-- [Analysis III](analysis-iii/README.md) — Chapter IX, Sections 1–4: Exercises 1–19, 1–13, 1–11, and 1–10 addressed, respectively.
+- [Analysis III](analysis-iii/README.md) — Chapter IX, Sections 1–5 and Chapter X, Sections 1–2: exercises addressed.
 
 ## Current progress
 
@@ -63,6 +63,8 @@ The solutions emphasize the definitions and logical steps needed to reach each r
 | III | Chapter IX, *Elements of Measure Theory* — Section 3, *Outer measures* | Exercises 1–11 addressed; Exercise 7 is false as printed |
 | III | Chapter IX, *Elements of Measure Theory* — Section 4, *Measurable sets* | Exercises 1–10 addressed |
 | III | Chapter IX, *Elements of Measure Theory* — Section 5, *The Lebesgue measure* | Exercises 1–21 addressed; Exercise 18(c) needs a countability hypothesis |
+| III | Chapter X, *Integration Theory* — Section 1, *Measurable functions* | Exercises 1–19 addressed |
+| III | Chapter X, *Integration Theory* — Section 2, *Integrable functions* | Exercises 1–15 addressed; Exercise 14 requires positive total measure |
 | I–III | Remaining sections | To be added |
 
 ## Solution conventions

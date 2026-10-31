@@ -34,5 +34,6 @@ Solutions from Volume II of Amann and Escher’s introduction to analysis are be
 - [3. Pfaff forms](chapter-8-line-integrals/3-pfaff-forms.md) — Exercises 1–13; notes the module-structure issue in Exercise 10
 - [4. Line integrals](chapter-8-line-integrals/4-line-integrals.md) — Exercises 1–14; distinguishes free and based homotopy in Exercise 14
 - [5. Holomorphic functions](chapter-8-line-integrals/5-holomorphic-functions.md) — Exercises 1–18; notes printed issues in Exercises 3, 15, 17, and 18
+- [6. Meromorphic functions](chapter-8-line-integrals/6-meromorphic-functions.md) — Exercises 1–21; clarifies the parameter and connectedness assumptions in Exercises 12–15
 
 See [Analysis I](../analysis-i/README.md) for the first volume’s solutions, or return to the [project overview](../README.md).

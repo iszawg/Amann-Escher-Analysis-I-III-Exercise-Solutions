@@ -32,5 +32,6 @@ Solutions from Volume II of Amann and Escher’s introduction to analysis are be
 - [1. Curves and their lengths](chapter-8-line-integrals/1-curves-and-their-lengths.md) — Exercises 1–8; notes the regularity issue in Exercise 6(d)
 - [2. Curves in Rn](chapter-8-line-integrals/2-curves-in-rn.md) — Exercises 1–10
 - [3. Pfaff forms](chapter-8-line-integrals/3-pfaff-forms.md) — Exercises 1–13; notes the module-structure issue in Exercise 10
+- [4. Line integrals](chapter-8-line-integrals/4-line-integrals.md) — Exercises 1–14; distinguishes free and based homotopy in Exercise 14
 
 See [Analysis I](../analysis-i/README.md) for the first volume’s solutions, or return to the [project overview](../README.md).

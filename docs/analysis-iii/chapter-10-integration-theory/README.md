@@ -4,3 +4,4 @@
 - [2. Integrable functions](2-integrable-functions.md) — Exercises 1–15; Exercise 14 requires positive total measure for its average
 - [3. Convergence theorems](3-convergence-theorems.md) — Exercises 1–7; Exercise 7(i) assumes a nonzero target space
 - [4. Lebesgue spaces](4-lebesgue-spaces.md) — Exercises 1–18; qualifications for the zero space in Exercise 2 and the norm claim in Exercise 13
+- [5. The n-dimensional Bochner–Lebesgue integral](5-n-dimensional-bochner-lebesgue-integral.md) — Exercises 1–13; qualifications to Exercises 1, 5, 8(a), and 10

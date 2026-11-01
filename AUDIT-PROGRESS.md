@@ -57,7 +57,9 @@ This record identifies sections compared exercise by exercise with the three Ama
 | II | VII.7 The Inverse Function Theorem | 1–8 |
 | II | VII.8 Implicit Functions | 1–12 |
 | II | VII.9 Manifolds | 1–18 |
+| II | VII.10 Tangential Spaces | 1–14 |
 | II | VIII.1 Curves and Their Lengths | 1–8 |
+| II | VIII.2 Curves in Rn | 1–10 |
 | III | IX.1 Measurable Spaces | 1–19 |
 | III | IX.2 Measures | 1–13 |
 | III | IX.3 Outer Measures | 1–11 |
@@ -82,4 +84,4 @@ This record identifies sections compared exercise by exercise with the three Ama
 | III | XII.2 Integration of Differential Forms | 1–6 |
 | III | XII.3 Stokes’s Theorem | 1–14 |
 
-Total recorded in this audit: 77 sections, 936 exercises. Continue with sections not listed here, and add each section only after comparing all of its exercises and subparts with the source.
+Total recorded in this audit: 79 sections, 960 exercises. Continue with sections not listed here, and add each section only after comparing all of its exercises and subparts with the source.

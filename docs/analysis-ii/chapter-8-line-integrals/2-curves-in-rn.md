@@ -44,7 +44,7 @@ $$
 
 ### Exercise 2
 
-Apply the polar-coordinate formula from Exercise 1 to each curve. In all three cases, the sign below follows the given direction of parametrization.
+For the first two curves use the computation in Exercise 1; calculate the cycloid directly from its Cartesian derivatives. Although the limaçon has signed radius $$r(t)=1+2\cos t$$, the same algebra applies because $$r^2+\dot r^{\,2}=5+4\cos t>0$$, so its parametrization is regular. In all three cases, the sign below follows the given direction of parametrization.
 
 **(i) Limacon of Pascal.** Here $$r(t)=1+2\cos t$$, $$\dot r=-2\sin t$$, and $$\ddot r=-2\cos t$$. Thus
 

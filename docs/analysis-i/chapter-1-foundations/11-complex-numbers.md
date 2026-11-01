@@ -81,7 +81,9 @@ Since $$1/z_2=\overline{z_2}$$, its real and imaginary parts are $$1/\sqrt2$$ an
 
 ### Exercise 3
 
-Write $$z=x+iy$$.
+Write $$z=x+iy$$. The shaded regions include their boundary lines; the third set is the circle itself.
+
+![Sketches of the right half-plane, left wedge, and circle in the complex plane](../../assets/analysis-i-i-11-exercise-3-complex-sets.png)
 
 **(a)** Squaring the two sides of the defining inequality gives
 $$

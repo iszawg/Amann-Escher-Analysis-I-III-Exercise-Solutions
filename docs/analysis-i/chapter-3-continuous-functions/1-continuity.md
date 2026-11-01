@@ -10,6 +10,8 @@ $$
 \operatorname{zigzag}(x)=|n-x|.
 $$
 
+![The periodic triangular-wave graph of zigzag](../../assets/analysis-i-iii-1-exercise-1-zigzag.png)
+
 **(a)** If $$-\tfrac12\le x<\tfrac12$$, then $$\lfloor x+\tfrac12\rfloor=0$$ and $$\operatorname{zigzag}(x)=|x|$$. At $$x=\tfrac12$$, the value is also $$|1-\tfrac12|=\tfrac12=|x|$$.
 
 **(b)** For every integer $$n$$,

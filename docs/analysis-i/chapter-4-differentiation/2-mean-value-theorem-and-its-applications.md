@@ -103,6 +103,8 @@ Thus $$g'(0)=f''(0)/2$$ and $$g'$$ is continuous at zero. Away from zero the dis
 
 ### Exercise 5
 
+![Graphs of hyperbolic cosine and sine and their indicated inverse branches](../../assets/analysis-i-iv-2-exercise-5-inverses.png)
+
 The function $$\cosh$$ maps $$[0,\infty)$$ onto $$[1,\infty)$$ and is strictly increasing there: its derivative is $$\sinh x>0$$ for $$x>0$$. Thus its restriction has an inverse $$\cosh^{-1}:[1,\infty)\to[0,\infty)$$. Likewise, $$\sinh$$ is strictly increasing on $$\mathbb R$$ because $$\cosh x>0$$, and its limits at the two ends of the real line are $$-\infty$$ and $$+\infty$$. It therefore has an inverse $$\sinh^{-1}:\mathbb R\to\mathbb R$$.
 
 If $$y=\cosh u$$ with $$u\ge0$$, then $$e^u+e^{-u}=2y$$. Solving the resulting quadratic in $$e^u>0$$ gives $$e^u=y+\sqrt{y^2-1}$$. If $$y=\sinh u$$, solving $$e^u-e^{-u}=2y$$ gives $$e^u=y+\sqrt{y^2+1}$$. Taking logarithms yields
@@ -117,7 +119,15 @@ $$
 \sinh^{-1}(y)=\log\bigl(y+\sqrt{y^2+1}\bigr),\quad y\in\mathbb R.
 $$
 
-For $$y>1$$ and $$y\in\mathbb R$$, respectively, differentiation gives
+For $$y>1$$, the inverse function theorem and $$\cosh^2u-\sinh^2u=1$$ give
+
+$$
+(\cosh^{-1})'(y)
+=\frac1{\sinh(\cosh^{-1}y)}
+=\frac1{\sqrt{y^2-1}},
+$$
+
+where the positive square root is used because $$\cosh^{-1}y>0$$. Similarly, $$\cosh(\sinh^{-1}y)=\sqrt{1+y^2}>0$$, so the inverse function theorem yields $$(\sinh^{-1})'(y)=1/\sqrt{1+y^2}$$ for every real $$y$$. Differentiating these first derivatives by the chain rule gives, respectively,
 
 $$
 (\cosh^{-1})'(y)=\frac1{\sqrt{y^2-1}},\qquad

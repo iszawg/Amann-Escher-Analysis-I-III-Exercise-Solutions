@@ -116,9 +116,13 @@ $$
 
 ### Exercise 5
 
+![Real graphs of the hyperbolic cosine, sine, tangent and cotangent](../../assets/analysis-i-iii-6-exercise-5-hyperbolic.png)
+
 For real arguments, $$\cosh$$ is even and has a minimum $$1$$ at $$0$$; its graph is U-shaped. The function $$\sinh$$ is odd and strictly increasing through the origin. The function $$\tanh$$ is odd and strictly increasing, with horizontal asymptotes $$y=\pm1$$. The function $$\coth$$ is odd and strictly decreasing on each side of its vertical asymptote $$x=0$$; its horizontal asymptotes are $$y=1$$ as $$x\to+\infty$$ and $$y=-1$$ as $$x\to-\infty$$.
 
-**(a)** The exponential function is continuous, so $$\cosh$$ and $$\sinh$$ are continuous on $$\mathbb{C}$$. The zeros of $$\cosh z$$ are $$i\pi(\mathbb{Z}+1/2)$$, and the zeros of $$\sinh z$$ are $$i\pi\mathbb{Z}$$. Therefore their quotients $$\tanh$$ and $$\coth$$ are continuous on the domains stated in the exercise.
+**(a)** The exponential function is continuous, so $$\cosh$$ and $$\sinh$$ are continuous on $$\mathbb{C}$$. The zeros of $$\cosh z$$ are $$i\pi(\mathbb{Z}+1/2)$$, and the zeros of $$\sinh z$$ are $$i\pi\mathbb{Z}$$. Therefore $$\tanh$$ is continuous on $$\mathbb C\setminus i\pi(\mathbb Z+1/2)$$, and $$\coth$$ is continuous on $$\mathbb C\setminus i\pi\mathbb Z$$.
+
+The printed domain and codomain for $$\coth$$ are not valid: $$\coth$$ is not defined at $$i\pi\in\mathbb C^\times$$, and its value at $$i\pi/2$$ is zero. Thus the displayed map $$\mathbb C^\times\to\mathbb C\setminus i\pi\mathbb Z$$ is not well defined. In fact, writing $$w=e^{2z}$$ gives $$\coth z=(w+1)/(w-1)$$; as $$w$$ ranges over $$\mathbb C\setminus\{0,1\}$$, the image is $$\mathbb C\setminus\{-1,1\}$$.
 
 **(b)** For real $$x$$,
 

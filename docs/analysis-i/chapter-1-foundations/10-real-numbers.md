@@ -32,6 +32,10 @@ $$
 C=\left\{(x,y)\in\mathbb R^2:x>1,\ \frac{x-1}{2}<y<\sqrt{x^2-1}\right\}.
 $$
 
+![Sketches of the three planar sets A, B, and C](../../assets/analysis-i-i-10-exercise-1-planar-sets.png)
+
+Solid boundary segments are included; dashed segments and the open point are excluded. The unbounded regions in (b) and (c) continue beyond the viewing window.
+
 ### Exercise 2
 
 **(a)** Write $$K=\mathbb Q(\sqrt2)=\{a+b\sqrt2:a,b\in\mathbb Q\}$$. It is closed under addition, subtraction, and multiplication. If $$a+b\sqrt2\ne0$$, then
@@ -55,6 +59,8 @@ Suppose $$s\in K$$ were the supremum of $$S$$ in $$K$$. If $$s<\sqrt3$$, rationa
 **(b)** Every subfield $$F\subset\mathbb R$$ contains $$1$$, all integer multiples of $$1$$, their negatives, and the inverses of nonzero integers. Thus it contains every rational number, so $$\mathbb Q\subset F$$. Since $$\mathbb Q$$ is itself a subfield of $$\mathbb R$$, it is the smallest one.
 
 ### Exercise 3
+
+The printed hypothesis $$a,b\in\mathbb R^+$$ includes zero in the book's notation. Arbitrary rational exponents require positive bases: for instance, $$a=0$$ and $$r=-1$$ make $$a^r$$ undefined. We prove all three identities for $$a,b>0$$; zero bases can be included only in cases where every expression involved is defined.
 
 Let $$r=p/q$$ and $$s=u/v$$, with $$p,u\in\mathbb Z$$ and $$q,v\in\mathbb N^\times$$. Positive rational powers are defined using the unique positive roots from Proposition 10.9.
 
@@ -197,7 +203,7 @@ $$
 
 ### Exercise 11
 
-Assume $$|\alpha|=\alpha_1+\cdots+\alpha_n\ge1$$. Form a list of $$|\alpha|$$ numbers by repeating $$x_j$$ exactly $$\alpha_j$$ times. Its product is $$x^\alpha=\prod_{j=1}^n x_j^{\alpha_j}$$, and its arithmetic mean is
+The printed range includes $$\alpha=0$$, but then both the zeroth root and division by $$|\alpha|=0$$ are undefined. Thus assume $$|\alpha|=\alpha_1+\cdots+\alpha_n\ge1$$. Form a list of $$|\alpha|$$ numbers by repeating $$x_j$$ exactly $$\alpha_j$$ times. Its product is $$x^\alpha=\prod_{j=1}^n x_j^{\alpha_j}$$, and its arithmetic mean is
 
 $$
 \frac{\sum_{j=1}^n\alpha_jx_j}{|\alpha|}

@@ -13,7 +13,9 @@ This record identifies sections compared exercise by exercise with the three Ama
 | I | I.7 Groups and Homomorphisms | 1–11 |
 | I | I.8 Rings, Fields and Polynomials | 1–16 |
 | I | I.9 Rational Numbers | 1–9 |
+| I | I.10 Real Numbers | 1–16 |
 | I | I.11 Complex Numbers | 1–15 |
+| I | I.12 Vector Spaces, Affine Spaces and Algebras | 1–17 |
 | I | II.1 Convergence of Sequences | 1–13 |
 | I | II.2 Real and Complex Sequences | 1–9 |
 | I | II.3 Normed Vector Spaces | 1–15 |
@@ -50,4 +52,4 @@ This record identifies sections compared exercise by exercise with the three Ama
 | III | X.8 The Substitution Rule | 1–7 |
 | III | X.9 The Fourier Transform | 1–13 |
 
-Total recorded in this audit: 45 sections, 509 exercises. Continue with sections not listed here, and add each section only after comparing all of its exercises and subparts with the source.
+Total recorded in this audit: 47 sections, 542 exercises. Continue with sections not listed here, and add each section only after comparing all of its exercises and subparts with the source.

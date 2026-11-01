@@ -150,10 +150,10 @@ $$
 
 Therefore $$B_{|\cdot|}(x,r)\subset B_d(x,\varepsilon)$$, proving equivalence.
 
-**(c)** Suppose a metric $$\rho$$ on $$\mathbb R$$ were equivalent to the natural metric and restricted to $$d$$ on $$X$$. Then $$1/n\to0$$ also in $$\rho$$. The reverse triangle inequality yields $$\rho(1/n,1)\to\rho(0,1)<\infty$$. But on $$X$$,
+**(c)** Suppose a metric $$\rho$$ on $$\mathbb R$$ were equivalent to the natural metric and restricted to $$d$$ on $$X$$. Then $$1/n\to0$$ also in $$\rho$$. The reverse triangle inequality yields $$\rho(1/n,1/2)\to\rho(0,1/2)<\infty$$. But for $$n\ge3$$ both $$1/n$$ and $$1/2$$ lie in $$X$$, so
 
 $$
-\rho(1/n,1)=d(1/n,1)=|n-1|\longrightarrow+\infty,
+\rho(1/n,1/2)=d(1/n,1/2)=|n-2|\longrightarrow+\infty,
 $$
 
 which is a contradiction.

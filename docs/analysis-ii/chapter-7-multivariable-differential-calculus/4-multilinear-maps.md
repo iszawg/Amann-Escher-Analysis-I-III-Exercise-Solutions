@@ -111,7 +111,7 @@ $$
 \boxed{\det(e^A)=e^{\operatorname{tr}(A)}}.
 $$
 
-The hint as printed defines the difference $$\det(e^{tA})-e^{t\operatorname{tr}(A)}$$ and says its derivative is zero. The differential equation above shows that this difference instead has derivative $$\operatorname{tr}(A)$$ times itself. The normalized product $$q(t)$$ is the quantity with zero derivative.
+For the difference $$h(t)=\det(e^{tA})-e^{t\operatorname{tr}(A)}$$ in the hint, the differential equation gives $$h'(t)=\operatorname{tr}(A)h(t)$$ and $$h(0)=0$$. It follows that $$h\equiv0$$, and hence $$h'\equiv0$$ as the hint asserts. The normalized product $$q(t)$$ above gives the same conclusion directly.
 
 ### Exercise 4
 

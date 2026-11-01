@@ -5,6 +5,8 @@ This record identifies sections compared exercise by exercise with the three Ama
 | Volume | Section | Exercises checked |
 | --- | --- | --- |
 | I | I.11 Complex Numbers | 1–15 |
+| I | II.1 Convergence of Sequences | 1–13 |
+| I | II.2 Real and Complex Sequences | 1–9 |
 | I | II.3 Normed Vector Spaces | 1–15 |
 | I | II.4 Monotone Sequences | 1–10 |
 | I | II.5 Infinite Limits | 1–6 |
@@ -18,6 +20,8 @@ This record identifies sections compared exercise by exercise with the three Ama
 | II | VI.8 Improper Integrals | 1–9 |
 | II | VI.9 The Gamma Function | 1–13 |
 | II | VII.2 Differentiability | 1–13 |
+| II | VII.3 Rules of Differentiation | 1–8 |
+| II | VII.4 Multilinear Maps | 1–5 |
 | III | IX.1 Measurable Spaces | 1–19 |
 | III | IX.2 Measures | 1–13 |
 | III | IX.3 Outer Measures | 1–11 |
@@ -25,5 +29,7 @@ This record identifies sections compared exercise by exercise with the three Ama
 | III | IX.5 The Lebesgue Measure | 1–21 |
 | III | X.1 Measurable Functions | 1–19 |
 | III | X.2 Integrable Functions | 1–15 |
+| III | X.3 Convergence Theorems | 1–7 |
+| III | X.4 Lebesgue Spaces | 1–18 |
 
-Total recorded in this audit: 21 sections, 262 exercises. Continue with sections not listed here, and add each section only after comparing all of its exercises and subparts with the source.
+Total recorded in this audit: 27 sections, 322 exercises. Continue with sections not listed here, and add each section only after comparing all of its exercises and subparts with the source.

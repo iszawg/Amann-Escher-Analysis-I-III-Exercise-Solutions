@@ -48,6 +48,7 @@ This record identifies sections compared exercise by exercise with the three Ama
 | II | VI.7 Fourier Series | 1–11 |
 | II | VI.8 Improper Integrals | 1–9 |
 | II | VI.9 The Gamma Function | 1–13 |
+| II | VII.1 Continuous Linear Maps | 1–25 |
 | II | VII.2 Differentiability | 1–13 |
 | II | VII.3 Rules of Differentiation | 1–8 |
 | II | VII.4 Multilinear Maps | 1–5 |
@@ -71,4 +72,4 @@ This record identifies sections compared exercise by exercise with the three Ama
 | III | XI.6 Vector Analysis | 1–11 |
 | III | XII.2 Integration of Differential Forms | 1–6 |
 
-Total recorded in this audit: 66 sections, 769 exercises. Continue with sections not listed here, and add each section only after comparing all of its exercises and subparts with the source.
+Total recorded in this audit: 67 sections, 794 exercises. Continue with sections not listed here, and add each section only after comparing all of its exercises and subparts with the source.

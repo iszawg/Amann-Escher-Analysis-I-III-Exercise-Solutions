@@ -105,7 +105,7 @@ so $$(C^{-1})^*=(C^*)^{-1}$$.
 
 For the standard inner products on $$\mathbb K^n$$ and $$\mathbb K^m$$, direct substitution in the defining identity shows that the matrix of $$A^*$$ is the conjugate transpose $$[\overline{a^j_k}]$$.
 
-If $$A=A^*$$, then
+For an arbitrary $$A\in L(E,F)$$, the product rule gives
 
 $$
 (A^*A)^*=A^*A,\qquad (AA^*)^*=AA^*.
@@ -214,23 +214,35 @@ $$
 
 Their diagonal entries already differ, proving (i).
 
-For (ii), set
+For (ii), a real construction works over both $$\mathbb R$$ and $$\mathbb C$$. Put
 
 $$
-S=\begin{pmatrix}1&0\\0&-1\end{pmatrix},
-\qquad
-T=\begin{pmatrix}-1/2&\sqrt3/2\\sqrt3/2&1/2\end{pmatrix},
-\qquad
-A=2\pi iS,\quad B=2\pi iT.
+r=\frac{7+3\sqrt5}{2},\qquad
+S=\begin{pmatrix}0&-1\\1&0\end{pmatrix},\qquad
+T=\begin{pmatrix}0&-r\\r^{-1}&0\end{pmatrix},\qquad
+A=2\pi S,\quad B=2\pi T.
 $$
 
-Direct multiplication gives $$S^2=T^2=(S+T)^2=I$$. If $$R^2=I$$, its exponential series separates into even and odd powers:
+The relation $$r+r^{-1}=7$$ gives
 
 $$
-e^{2\pi iR}=\cos(2\pi)I+i\sin(2\pi)R=I.
+S^2=T^2=-I,\qquad (S+T)^2=-(2+r+r^{-1})I=-9I.
 $$
 
-Consequently $$e^A=e^B=e^{A+B}=I$$. The off-diagonal entries of $$ST$$ and $$TS$$ have opposite signs, so $$AB\neq BA$$. This gives the requested example.
+For any matrix $$R$$ with $$R^2=-a^2I$$, separation of the exponential series into even and odd terms yields
+
+$$
+e^{tR}=\cos(at)I+\frac{\sin(at)}aR.
+$$
+
+Applying this with $$a=1$$ to $$S,T$$ and $$a=3$$ to $$S+T$$ at $$t=2\pi$$ shows that $$e^A=e^B=e^{A+B}=I$$. On the other hand,
+
+$$
+ST=\operatorname{diag}(-r^{-1},-r),\qquad
+TS=\operatorname{diag}(-r,-r^{-1}),
+$$
+
+which are distinct because $$r\ne1$$. Hence $$AB\ne BA$$ while the exponentials agree.
 
 ### Exercise 11
 

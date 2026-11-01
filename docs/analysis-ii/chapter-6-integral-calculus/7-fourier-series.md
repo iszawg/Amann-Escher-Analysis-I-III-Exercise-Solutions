@@ -256,7 +256,7 @@ $$
 \frac{\sin(2\pi kx)}{k^{2n+1}}.
 $$
 
-The coefficients are absolutely summable for every $$m\ge2$$, so these Fourier series converge uniformly. Their limits have the computed Fourier coefficients; completeness of the trigonometric system identifies the limits with the continuous periodic extensions $$\widetilde B_m$$. For $$m=1$$, Exercise 4 gives the sine series directly, including the normalized values at the integers. We obtain
+The coefficients are absolutely summable for every $$m\ge2$$, so these Fourier series converge uniformly. Their limits have the computed Fourier coefficients; completeness of the trigonometric system identifies the limits with the continuous periodic extensions $$\widetilde B_m$$. We obtain, at every real $$x$$,
 
 $$
 \widetilde B_{2n}(x)
@@ -271,10 +271,18 @@ $$
 \widetilde B_{2n+1}(x)
 =2\frac{(-1)^{n-1}(2n+1)!}{(2\pi)^{2n+1}}
 \sum_{k=1}^{\infty}\frac{\sin(2\pi kx)}{k^{2n+1}}
-\qquad(n\ge0),
+\qquad(n\ge1).
 $$
 
-which are the stated expansions.
+The remaining case $$n=0$$ requires care at the integers. Exercise 4 gives
+
+$$
+-\frac1\pi\sum_{k=1}^{\infty}\frac{\sin(2\pi kx)}{k}
+=x-\lfloor x\rfloor-\frac12
+\qquad(x\notin\mathbb Z).
+$$
+
+At an integer every summand is zero, so the series sums to $$0$$, the average of the two one-sided limits. But the literal periodic extension of $$B_1|_{[0,1)}$$ has value $$B_1(0)=-\tfrac12$$ at every integer. Thus the printed equality in the case $$n=0$$ holds away from the integers; at the integers it holds for the normalized extension obtained by replacing those values by $$0$$. The Fourier coefficients are unaffected by this change at isolated points.
 
 ### Exercise 6
 

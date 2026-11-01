@@ -149,9 +149,6 @@ The derivative of $$\cosh^{-1}$$ is unbounded at the endpoint $$y=1$$, so these 
 
 For the original hyperbolic functions, $$\cosh''=\cosh>0$$, so $$\cosh$$ is strictly convex on $$\mathbb R$$. Since $$\sinh''=\sinh$$, $$\sinh$$ is strictly concave on $$(-\infty,0)$$, strictly convex on $$(0,\infty)$$, and has an inflection point at zero. The graphs follow from these monotonicity and curvature properties: $$\cosh$$ is even with minimum $$1$$ at zero, $$\sinh$$ is odd through zero, $$\cosh^{-1}$$ rises from $$(1,0)$$ with a vertical tangent and is concave, and $$\sinh^{-1}$$ is odd, increasing, and changes curvature at zero.
 
-![Graphs of cosh, sinh, arcosh and arsinh](../../assets/analysis-i-iv-2-exercise-5-hyperbolic-functions.png)
-
-The marked points are included; the inverse cosine is defined only for $$x\ge1$$.
 
 ### Exercise 6
 

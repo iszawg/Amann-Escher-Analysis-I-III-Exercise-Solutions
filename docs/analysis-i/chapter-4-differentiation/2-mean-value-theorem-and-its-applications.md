@@ -57,7 +57,7 @@ $$
 
 As $$h\downarrow0$$, also $$c_h\to a+$$, so the right difference quotient tends to $$L$$. Hence the right derivative of $$f$$ at $$a$$ exists and equals $$L$$. This proves the endpoint claim $$f'(a)=\lim_{x\to a+}f'(x)$$.
 
-There is a gap in the stronger conclusion as the exercise is printed: continuity of $$f$$ and differentiability on $$(a,b)$$ do not imply that $$f'$$ is continuous there, and differentiability at $$b$$ is not assumed. For example, choose $$c\in(a,b)$$ and let $$f(x)=(x-c)^2\sin(1/(x-c))$$ for $$x\ne c$$, with $$f(c)=0$$. This function is continuous on $$[a,b]$$ and differentiable on $$(a,b)$$; its derivative has a finite limit at $$a$$, but at $$c$$ it equals zero while, for $$x\ne c$$,
+There is a gap in the stronger conclusion as the exercise is printed: continuity of $$f$$ and differentiability on $$(a,b]$$ do not imply that $$f'$$ is continuous on $$(a,b]$$. For example, choose $$c\in(a,b)$$ and let $$f(x)=(x-c)^2\sin(1/(x-c))$$ for $$x\ne c$$, with $$f(c)=0$$. This function is continuous on $$[a,b]$$ and differentiable on $$(a,b)$$; its derivative has a finite limit at $$a$$, but at $$c$$ it equals zero while, for $$x\ne c$$,
 
 $$
 f'(x)=2(x-c)\sin\left(\frac1{x-c}\right)-\cos\left(\frac1{x-c}\right),
@@ -93,7 +93,13 @@ $$
 \lim_{t\downarrow0}g'(t)=\frac{f''(0)}2.
 $$
 
-The same mean value theorem calculation applied to $$[0,u]$$ shows directly that
+By Taylor’s formula at zero, using $$f'(0)=0$$,
+
+$$
+f(u)-f(0)=\frac{f''(0)}2u^2+o(u^2).
+$$
+
+Since $$t=u^2$$, this yields
 
 $$
 \lim_{t\downarrow0}\frac{g(t)-g(0)}t=\frac{f''(0)}2.
@@ -142,6 +148,10 @@ $$
 The derivative of $$\cosh^{-1}$$ is unbounded at the endpoint $$y=1$$, so these derivative formulas apply on its open domain $$y>1$$. The second derivatives show that $$\cosh^{-1}$$ is strictly concave on $$(1,\infty)$$. The function $$\sinh^{-1}$$ is strictly convex on $$(-\infty,0)$$ and strictly concave on $$(0,\infty)$$, with an inflection point at zero.
 
 For the original hyperbolic functions, $$\cosh''=\cosh>0$$, so $$\cosh$$ is strictly convex on $$\mathbb R$$. Since $$\sinh''=\sinh$$, $$\sinh$$ is strictly concave on $$(-\infty,0)$$, strictly convex on $$(0,\infty)$$, and has an inflection point at zero. The graphs follow from these monotonicity and curvature properties: $$\cosh$$ is even with minimum $$1$$ at zero, $$\sinh$$ is odd through zero, $$\cosh^{-1}$$ rises from $$(1,0)$$ with a vertical tangent and is concave, and $$\sinh^{-1}$$ is odd, increasing, and changes curvature at zero.
+
+![Graphs of cosh, sinh, arcosh and arsinh](../../assets/analysis-i-iv-2-exercise-5-hyperbolic-functions.png)
+
+The marked points are included; the inverse cosine is defined only for $$x\ge1$$.
 
 ### Exercise 6
 
@@ -353,7 +363,7 @@ as $$h\downarrow0$$; the left-hand limit follows in the same way from $$m(x-h,x)
 
 ### Exercise 15
 
-Fix $$x\in I\setminus\{a\}$$. Apply Cauchy's mean value theorem to $$\varphi$$ and $$\psi$$ on the interval with endpoints $$a$$ and $$x$$. Since $$\varphi(a)=\psi(a)=0$$ and $$\psi(x)\ne0$$, there is a point $$\xi_1$$ strictly between them such that
+Fix $$x\in I\setminus\{a\}$$. The ordinary mean value theorem gives $$\psi(x)-\psi(a)=\psi'(c)(x-a)$$ for some $$c$$ strictly between $$a$$ and $$x$$. The assumptions imply $$\psi'(c)\ne0$$, so $$\psi(x)\ne0$$ even when $$x$$ is an endpoint of $$I$$. Apply Cauchy's mean value theorem to $$\varphi$$ and $$\psi$$ on the interval with endpoints $$a$$ and $$x$$. Since $$\varphi(a)=\psi(a)=0$$, there is a point $$\xi_1$$ strictly between them such that
 
 $$
 \frac{\varphi(x)}{\psi(x)}=\frac{\varphi'(\xi_1)}{\psi'(\xi_1)}.

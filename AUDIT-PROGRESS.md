@@ -31,10 +31,13 @@ This record identifies sections compared exercise by exercise with the three Ama
 | I | III.4 Connectivity | 1–12 |
 | I | III.5 Functions on R | 1–7 |
 | I | III.6 The Exponential and Related Functions | 1–16 |
+| I | IV.1 Differentiation | 1–12 |
+| I | IV.2 The Mean Value Theorem and its Applications | 1–21 |
 | I | IV.4 Iterative Procedures | 1–10 |
 | I | V.1 Uniform Convergence | 1–9 |
 | I | V.2 Continuity and Differentiability | 1–11 |
 | I | V.3 Analytic Functions | 1–11 |
+| I | V.4 Polynomial Approximation | 1–14 |
 | II | VI.1 Jump Continuous Functions | 1–11 |
 | II | VI.2 Continuous Extensions | 1–7 |
 | II | VI.3 The Cauchy–Riemann Integral | 1–10 |
@@ -67,4 +70,4 @@ This record identifies sections compared exercise by exercise with the three Ama
 | III | XI.6 Vector Analysis | 1–11 |
 | III | XII.2 Integration of Differential Forms | 1–6 |
 
-Total recorded in this audit: 62 sections, 709 exercises. Continue with sections not listed here, and add each section only after comparing all of its exercises and subparts with the source.
+Total recorded in this audit: 65 sections, 756 exercises. Continue with sections not listed here, and add each section only after comparing all of its exercises and subparts with the source.

@@ -69,7 +69,7 @@ $$
 The first support is $$[-2,2]$$ and the second is $$[0,4]$$; their product is strictly positive on $$(0,2)$$. The convolution theorem therefore gives
 
 $$
-\widehat{f*g}(\xi)=\sqrt{2\pi}\,c^2(2-|\xi|)_+(2-|\xi-2|)_+, 
+\widehat{f*g}(\xi)=\sqrt{2\pi}\,c^2(2-|\xi|)_+(2-|\xi-2|)_+,
 $$
 
 which is nonzero, and injectivity of the transform shows $$f*g\ne0$$. In fact, Fourier inversion gives $$(f*g)(0)=c^2\int_0^2\xi(2-\xi)\,d\xi=\pi/6$$. A corrected version replaces $$e^{2ix}$$ by $$e^{ibx}$$ with $$|b|\ge4$$. Then the two Fourier supports have disjoint interiors, their product vanishes everywhere, and the convolution is zero.

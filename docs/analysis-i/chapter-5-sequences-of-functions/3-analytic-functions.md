@@ -220,6 +220,20 @@ $$
 \tanh z=z-\frac{z^3}{3}+\frac{2z^5}{15}-\frac{17z^7}{315}+\frac{62z^9}{2835}+\cdots.
 $$
 
+The complete series can be specified recursively. Write $$\tan z=\sum_{n=0}^\infty a_nz^{2n+1}$$. From $$\tan'=1+\tan^2$$, comparison of coefficients gives
+
+$$
+a_0=1,\qquad
+a_n=\frac1{2n+1}\sum_{j=0}^{n-1}a_j a_{n-1-j}\quad(n\ge1).
+$$
+
+The identity $$\tanh z=-i\tan(iz)$$ gives $$\tanh z=\sum_{n\ge0}(-1)^na_nz^{2n+1}$$. Hence, for $$|z|<\pi/2$$, the full expansions are
+
+$$
+\log(\cos z)=-\sum_{n=0}^\infty\frac{a_n}{2n+2}z^{2n+2},\qquad
+\log(\cosh z)=\sum_{n=0}^\infty\frac{(-1)^na_n}{2n+2}z^{2n+2}.
+$$
+
 Integrating term by term and using $$\log(\cos0)=\log(\cosh0)=0$$ yields
 
 $$

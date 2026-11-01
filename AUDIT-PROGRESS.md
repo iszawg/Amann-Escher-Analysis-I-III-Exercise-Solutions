@@ -74,7 +74,10 @@ This record identifies sections compared exercise by exercise with the three Ama
 | III | XI.2 Multilinear Algebra | 1–11 |
 | III | XI.3 The Local Theory of Differential Forms | 1–13 |
 | III | XI.4 Vector Fields and Differential Forms | 1–4 |
+| III | XI.5 Riemannian Metrics | 1–15 |
 | III | XI.6 Vector Analysis | 1–11 |
+| III | XII.1 Volume Measure | 1–16 |
 | III | XII.2 Integration of Differential Forms | 1–6 |
+| III | XII.3 Stokes’s Theorem | 1–14 |
 
-Total recorded in this audit: 72 sections, 861 exercises. Continue with sections not listed here, and add each section only after comparing all of its exercises and subparts with the source.
+Total recorded in this audit: 75 sections, 906 exercises. Continue with sections not listed here, and add each section only after comparing all of its exercises and subparts with the source.

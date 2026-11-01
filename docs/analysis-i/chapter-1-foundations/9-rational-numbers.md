@@ -154,7 +154,7 @@ $$
 
 The Euclidean algorithm is unique at every step. It gives the unique canonical expansion, with $$q_k\ge2$$ when $$k\ge1$$, which is the condition $$q_k\ne1$$ stated in the exercise.
 
-The printed definition requires $$q_0\in\mathbb N^\times$$, but its hint allows $$q_0\in\mathbb N$$. Allowing $$q_0=0$$ is necessary to represent $$x=0$$ as $$[0]$$. A terminal $$1$$ is the noncanonical alternative, since it can be absorbed into the preceding term:
+The printed definition requires $$q_0\in\mathbb N^\times$$, but its hint allows $$q_0\in\mathbb N$$. Allowing $$q_0=0$$ is necessary both for $$x=0$$, represented by $$[0]$$, and for every rational $$0<x<1$$, whose integer part is zero. A terminal $$1$$ is the noncanonical alternative when $$k\ge1$$, since it can be absorbed into the preceding term:
 
 $$
 [q_0;\ldots,q_{k-1},1]=[q_0;\ldots,q_{k-1}+1].

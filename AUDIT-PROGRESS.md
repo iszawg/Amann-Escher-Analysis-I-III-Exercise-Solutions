@@ -4,6 +4,7 @@ This record identifies sections compared exercise by exercise with the three Ama
 
 | Volume | Section | Exercises checked |
 | --- | --- | --- |
+| I | I.9 Rational Numbers | 1–9 |
 | I | I.11 Complex Numbers | 1–15 |
 | I | II.1 Convergence of Sequences | 1–13 |
 | I | II.2 Real and Complex Sequences | 1–9 |
@@ -31,5 +32,6 @@ This record identifies sections compared exercise by exercise with the three Ama
 | III | X.2 Integrable Functions | 1–15 |
 | III | X.3 Convergence Theorems | 1–7 |
 | III | X.4 Lebesgue Spaces | 1–18 |
+| III | X.5 The n-dimensional Bochner–Lebesgue Integral | 1–13 |
 
-Total recorded in this audit: 27 sections, 322 exercises. Continue with sections not listed here, and add each section only after comparing all of its exercises and subparts with the source.
+Total recorded in this audit: 29 sections, 344 exercises. Continue with sections not listed here, and add each section only after comparing all of its exercises and subparts with the source.

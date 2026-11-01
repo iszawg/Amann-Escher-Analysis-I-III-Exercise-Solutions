@@ -111,7 +111,11 @@ $$
 \overline B_X(2,4)=\{z\in\mathbb C:|z|\le3,\ |z-2|\le4\}.
 $$
 
-The second set is the intersection of $$X$$ with the closed disk of radius $$4$$ centered at $$2$$. In particular, it is contained in $$X=\overline B_X(0,3)$$, as required.
+The second set is the intersection of $$X$$ with the closed disk of radius $$4$$ centered at $$2$$. In particular, it is contained in $$X=\overline B_X(0,3)$$. The inclusion is strict: $$-3\in X$$ but $$|-3-2|=5>4$$.
+
+![The closed disk X and its intersection with the disk centered at 2](../../assets/analysis-i-ii-1-exercise-8-closed-balls.png)
+
+In the sketch, the shaded intersection is $$\overline B_X(2,4)$$. For the boundary intersections, writing $$z=x+iy$$ and subtracting $$x^2+y^2=9$$ from $$(x-2)^2+y^2=16$$ gives $$x=-3/4$$ and $$y=\pm3\sqrt{15}/4$$.
 
 ### Exercise 9
 

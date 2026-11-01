@@ -86,3 +86,4 @@
     * [5. The n-dimensional Bochner–Lebesgue integral](analysis-iii/chapter-10-integration-theory/5-n-dimensional-bochner-lebesgue-integral.md)
     * [6. Fubini’s theorem](analysis-iii/chapter-10-integration-theory/6-fubinis-theorem.md)
     * [7. The convolution](analysis-iii/chapter-10-integration-theory/7-the-convolution.md)
+    * [8. The substitution rule](analysis-iii/chapter-10-integration-theory/8-the-substitution-rule.md)

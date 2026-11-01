@@ -88,3 +88,5 @@
     * [7. The convolution](analysis-iii/chapter-10-integration-theory/7-the-convolution.md)
     * [8. The substitution rule](analysis-iii/chapter-10-integration-theory/8-the-substitution-rule.md)
     * [9. The Fourier transform](analysis-iii/chapter-10-integration-theory/9-the-fourier-transform.md)
+  * [Chapter XI — Manifolds and Differential Forms](analysis-iii/chapter-11-manifolds-and-differential-forms/README.md)
+    * [1. Submanifolds](analysis-iii/chapter-11-manifolds-and-differential-forms/1-submanifolds.md)

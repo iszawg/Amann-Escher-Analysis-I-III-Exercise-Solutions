@@ -98,3 +98,4 @@
   * [Chapter XII — Integration on Manifolds](analysis-iii/chapter-12-integration-on-manifolds/README.md)
     * [1. Volume measure](analysis-iii/chapter-12-integration-on-manifolds/1-volume-measure.md)
     * [2. Integration of differential forms](analysis-iii/chapter-12-integration-on-manifolds/2-integration-of-differential-forms.md)
+    * [3. Stokes’s theorem](analysis-iii/chapter-12-integration-on-manifolds/3-stokess-theorem.md)

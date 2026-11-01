@@ -8,7 +8,7 @@ The solutions emphasize the definitions and logical steps needed to reach each r
 
 - [Analysis I](analysis-i/README.md) — Foundations, convergence, continuity, and differentiation. Chapter I, Chapter II, Sections 1–9, Chapter III, Sections 1–6, Chapter IV, Sections 1–2, and Chapter V, Sections 1–4, are solved.
 - [Analysis II](analysis-ii/README.md) — Chapter VI, Sections 1–9, Chapter VII, Sections 1–10, and Chapter VIII, Sections 1–6: exercises addressed.
-- [Analysis III](analysis-iii/README.md) — Chapter IX, Sections 1–5, Chapter X, Sections 1–9, and Chapter XI, Sections 1–6, and Chapter XII, Sections 1–2: exercises addressed.
+- [Analysis III](analysis-iii/README.md) — Chapter IX, Sections 1–5, Chapter X, Sections 1–9, and Chapter XI, Sections 1–6, and Chapter XII, Sections 1–3: exercises addressed.
 
 ## Current progress
 
@@ -80,6 +80,7 @@ The solutions emphasize the definitions and logical steps needed to reach each r
 | III | Chapter XI, *Manifolds and Differential Forms* — Section 6, *Vector analysis* | Exercises 1–11 addressed; corrects pseudo-Riemannian signs, Maxwell statements, and the torus definition |
 | III | Chapter XII, *Integration on Manifolds* — Section 1, *Volume measure* | Exercises 1–16 addressed; corrects Exercises 5, 8, 14, and 16 |
 | III | Chapter XII, *Integration on Manifolds* — Section 2, *Integration of differential forms* | Exercises 1–6 addressed; corrects Exercises 1 and 5 and discusses incomplete flows |
+| III | Chapter XII, *Integration on Manifolds* — Section 3, *Stokes’s theorem* | Exercises 1–14 addressed; clarifies connectedness, orientation, form degrees, and the printed potential |
 | I–III | Remaining sections | To be added |
 
 ## Solution conventions

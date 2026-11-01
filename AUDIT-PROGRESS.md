@@ -4,6 +4,8 @@ This record identifies sections compared exercise by exercise with the three Ama
 
 | Volume | Section | Exercises checked |
 | --- | --- | --- |
+| I | I.6 Countability | 1–9 |
+| I | I.7 Groups and Homomorphisms | 1–11 |
 | I | I.8 Rings, Fields and Polynomials | 1–16 |
 | I | I.9 Rational Numbers | 1–9 |
 | I | I.11 Complex Numbers | 1–15 |
@@ -16,6 +18,8 @@ This record identifies sections compared exercise by exercise with the three Ama
 | I | II.7 Series | 1–15 |
 | I | II.8 Absolute Convergence | 1–10 |
 | I | II.9 Power Series | 1–10 |
+| II | VI.2 Continuous Extensions | 1–7 |
+| II | VI.3 The Cauchy–Riemann Integral | 1–10 |
 | II | VI.4 Properties of Integrals | 1–16 |
 | II | VI.5 Technique of Integration | 1–10 |
 | II | VI.6 Sums and Integrals | 1–10 |
@@ -36,5 +40,7 @@ This record identifies sections compared exercise by exercise with the three Ama
 | III | X.4 Lebesgue Spaces | 1–18 |
 | III | X.5 The n-dimensional Bochner–Lebesgue Integral | 1–13 |
 | III | X.6 Fubini's Theorem | 1–13 |
+| III | X.7 The Convolution | 1–15 |
+| III | X.8 The Substitution Rule | 1–7 |
 
-Total recorded in this audit: 32 sections, 389 exercises. Continue with sections not listed here, and add each section only after comparing all of its exercises and subparts with the source.
+Total recorded in this audit: 38 sections, 448 exercises. Continue with sections not listed here, and add each section only after comparing all of its exercises and subparts with the source.

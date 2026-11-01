@@ -82,10 +82,10 @@ be the set of first occurrence indices. Distinct elements of $$A$$ have distinct
 If $$X$$ is finite, then its power set is finite, so its set of finite subsets is countable. Now suppose $$X$$ is countably infinite. For each $$n\in\mathbb N$$, let $$E_n(X)$$ be the set of subsets of $$X$$ with at most $$n$$ elements. The set $$X^n$$ is countable: after identifying $$X$$ with $$\mathbb N$$, finite powers of $$\mathbb N$$ can be enumerated by repeatedly listing pairs along diagonals. For $$n>0$$, the map
 
 $$
-X^n\to E_n(X),\qquad (x_1,\ldots,x_n)\mapsto\{x_1,\ldots,x_n\}
+X^n\to E_n(X)\setminus\{\varnothing\},\qquad (x_1,\ldots,x_n)\mapsto\{x_1,\ldots,x_n\}
 $$
 
-is surjective, since a shorter list can be padded with repeated entries. Also $$E_0(X)=\{\varnothing\}$$. Thus each $$E_n(X)$$ is countable. The set of all finite subsets is $$\bigcup_{n\in\mathbb N}E_n(X)$$. Enumerating each $$E_n(X)$$ and then listing the pairs of indices $$(n,k)$$ along diagonals gives a surjection from $$\mathbb N$$ onto this union. By Exercise 7, the set of finite subsets of $$X$$ is countable.
+is surjective, since a nonempty shorter list can be padded with repeated entries. The empty set is not in this image; adjoining it separately shows that $$E_n(X)$$ is countable. Also $$E_0(X)=\{\varnothing\}$$. The set of all finite subsets is $$\bigcup_{n\in\mathbb N}E_n(X)$$. Enumerating each $$E_n(X)$$ and then listing the pairs of indices $$(n,k)$$ along diagonals gives a surjection from $$\mathbb N$$ onto this union. By Exercise 7, the set of finite subsets of $$X$$ is countable.
 
 ### Exercise 9
 

@@ -29,6 +29,7 @@ This record identifies sections compared exercise by exercise with the three Ama
 | I | III.3 Compactness | 1–15 |
 | I | III.4 Connectivity | 1–12 |
 | I | III.5 Functions on R | 1–7 |
+| I | III.6 The Exponential and Related Functions | 1–16 |
 | II | VI.1 Jump Continuous Functions | 1–11 |
 | II | VI.2 Continuous Extensions | 1–7 |
 | II | VI.3 The Cauchy–Riemann Integral | 1–10 |
@@ -57,4 +58,4 @@ This record identifies sections compared exercise by exercise with the three Ama
 | III | X.9 The Fourier Transform | 1–13 |
 | III | XI.4 Vector Fields and Differential Forms | 1–4 |
 
-Total recorded in this audit: 52 sections, 601 exercises. Continue with sections not listed here, and add each section only after comparing all of its exercises and subparts with the source.
+Total recorded in this audit: 53 sections, 617 exercises. Continue with sections not listed here, and add each section only after comparing all of its exercises and subparts with the source.

@@ -115,7 +115,7 @@ $$
 \mathcal H^s(C)\le\liminf_{k\to\infty}2^k(3^{-k})^s=1.
 $$
 
-For the lower bound, first justify using finite open interval covers. Given any countable cover $$(A_i)$$ of $$C$$ by bounded sets and $$\varepsilon>0$$, enclose each nonempty $$A_i$$ in an open interval $$I_i$$ with
+For the lower bound, first justify using finite open interval covers. Given any countable cover $$(A_i)_{i\ge1}$$ of $$C$$ by bounded sets and $$\varepsilon>0$$, enclose each nonempty $$A_i$$ in an open interval $$I_i$$ with
 
 $$
 \operatorname{diam}(I_i)^s

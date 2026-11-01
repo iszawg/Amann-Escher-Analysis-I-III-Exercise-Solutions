@@ -55,6 +55,7 @@ This record identifies sections compared exercise by exercise with the three Ama
 | II | VII.5 Higher Derivatives | 1–21 |
 | II | VII.6 Nemytskii Operators and the Calculus of Variations | 1–12 |
 | II | VII.7 The Inverse Function Theorem | 1–8 |
+| II | VII.8 Implicit Functions | 1–12 |
 | II | VIII.1 Curves and Their Lengths | 1–8 |
 | III | IX.1 Measurable Spaces | 1–19 |
 | III | IX.2 Measures | 1–13 |
@@ -80,4 +81,4 @@ This record identifies sections compared exercise by exercise with the three Ama
 | III | XII.2 Integration of Differential Forms | 1–6 |
 | III | XII.3 Stokes’s Theorem | 1–14 |
 
-Total recorded in this audit: 75 sections, 906 exercises. Continue with sections not listed here, and add each section only after comparing all of its exercises and subparts with the source.
+Total recorded in this audit: 76 sections, 918 exercises. Continue with sections not listed here, and add each section only after comparing all of its exercises and subparts with the source.

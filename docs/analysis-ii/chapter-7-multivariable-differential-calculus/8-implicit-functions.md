@@ -269,7 +269,9 @@ on each branch where a continuous choice of the angle is fixed. These level curv
 
 The maximal solution interval is the connected interval containing $$0$$ on which the explicit solution stays finite and in the domain of the vector field.
 
-**(a)** For $$\dot x=x^{1+\alpha}$$ with $$\alpha>0$$ and initial value $$\xi>0$$, separation gives
+**(a)** When $$\alpha=0$$, the equation is $$\dot x=x$$ on all of $$\mathbb R$$. Its solution is $$u(t,\xi)=\xi e^t$$ for every $$t,\xi\in\mathbb R$$, so $$D(f)=\mathbb R^2$$.
+
+Now suppose $$\alpha>0$$. For initial value $$\xi>0$$, separation gives
 
 $$
 x^{-1-\alpha}\,dx=dt,

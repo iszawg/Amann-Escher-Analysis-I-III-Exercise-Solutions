@@ -95,3 +95,5 @@
     * [4. Vector fields and differential forms](analysis-iii/chapter-11-manifolds-and-differential-forms/4-vector-fields-and-differential-forms.md)
     * [5. Riemannian metrics](analysis-iii/chapter-11-manifolds-and-differential-forms/5-riemannian-metrics.md)
     * [6. Vector analysis](analysis-iii/chapter-11-manifolds-and-differential-forms/6-vector-analysis.md)
+  * [Chapter XII — Integration on Manifolds](analysis-iii/chapter-12-integration-on-manifolds/README.md)
+    * [1. Volume measure](analysis-iii/chapter-12-integration-on-manifolds/1-volume-measure.md)

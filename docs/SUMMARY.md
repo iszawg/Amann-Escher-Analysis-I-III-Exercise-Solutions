@@ -92,3 +92,4 @@
     * [1. Submanifolds](analysis-iii/chapter-11-manifolds-and-differential-forms/1-submanifolds.md)
     * [2. Multilinear algebra](analysis-iii/chapter-11-manifolds-and-differential-forms/2-multilinear-algebra.md)
     * [3. The local theory of differential forms](analysis-iii/chapter-11-manifolds-and-differential-forms/3-the-local-theory-of-differential-forms.md)
+    * [4. Vector fields and differential forms](analysis-iii/chapter-11-manifolds-and-differential-forms/4-vector-fields-and-differential-forms.md)

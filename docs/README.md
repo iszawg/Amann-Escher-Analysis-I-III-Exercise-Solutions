@@ -8,7 +8,7 @@ The solutions emphasize the definitions and logical steps needed to reach each r
 
 - [Analysis I](analysis-i/README.md) — Foundations, convergence, continuity, and differentiation. Chapter I, Chapter II, Sections 1–9, Chapter III, Sections 1–6, Chapter IV, Sections 1–2, and Chapter V, Sections 1–4, are solved.
 - [Analysis II](analysis-ii/README.md) — Chapter VI, Sections 1–9, Chapter VII, Sections 1–10, and Chapter VIII, Sections 1–6: exercises addressed.
-- [Analysis III](analysis-iii/README.md) — Chapter IX, Sections 1–5, Chapter X, Sections 1–9, and Chapter XI, Sections 1–3: exercises addressed.
+- [Analysis III](analysis-iii/README.md) — Chapter IX, Sections 1–5, Chapter X, Sections 1–9, and Chapter XI, Sections 1–4: exercises addressed.
 
 ## Current progress
 
@@ -75,6 +75,7 @@ The solutions emphasize the definitions and logical steps needed to reach each r
 | III | Chapter XI, *Manifolds and Differential Forms* — Section 1, *Submanifolds* | Exercises 1–10 addressed; corrects Exercise 10 under the book’s compact-support definition |
 | III | Chapter XI, *Manifolds and Differential Forms* — Section 2, *Multilinear algebra* | Exercises 1–11 addressed; corrections to Exercises 5 and 10 |
 | III | Chapter XI, *Manifolds and Differential Forms* — Section 3, *The local theory of differential forms* | Exercises 1–13 addressed; qualifications for Exercises 5 and 12(vi) |
+| III | Chapter XI, *Manifolds and Differential Forms* — Section 4, *Vector fields and differential forms* | Exercises 1–4 addressed; corrects the inclusion in Exercise 1 |
 | I–III | Remaining sections | To be added |
 
 ## Solution conventions

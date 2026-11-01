@@ -8,3 +8,4 @@
 - [6. Fubini’s theorem](6-fubinis-theorem.md) — Exercises 1–13; qualifications to centroid formulas and strict inclusion
 - [7. The convolution](7-the-convolution.md) — Exercises 1–15; corrections to Exercises 5, 8, and 12, and a derivative qualification for Exercise 10
 - [8. The substitution rule](8-the-substitution-rule.md) — Exercises 1–7; corrections to the hint in Exercise 6 and the domain in Exercise 7
+- [9. The Fourier transform](9-the-fourier-transform.md) — Exercises 1–13; corrections to Exercises 2, 5–7, 8(iv), and 9

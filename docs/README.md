@@ -8,7 +8,7 @@ The solutions emphasize the definitions and logical steps needed to reach each r
 
 - [Analysis I](analysis-i/README.md) — Foundations, convergence, continuity, and differentiation. Chapter I, Chapter II, Sections 1–9, Chapter III, Sections 1–6, Chapter IV, Sections 1–2, and Chapter V, Sections 1–4, are solved.
 - [Analysis II](analysis-ii/README.md) — Chapter VI, Sections 1–9, Chapter VII, Sections 1–10, and Chapter VIII, Sections 1–6: exercises addressed.
-- [Analysis III](analysis-iii/README.md) — Chapter IX, Sections 1–5 and Chapter X, Sections 1–8: exercises addressed.
+- [Analysis III](analysis-iii/README.md) — Chapter IX, Sections 1–5 and Chapter X, Sections 1–9: exercises addressed.
 
 ## Current progress
 
@@ -71,6 +71,7 @@ The solutions emphasize the definitions and logical steps needed to reach each r
 | III | Chapter X, *Integration Theory* — Section 6, *Fubini’s theorem* | Exercises 1–13 addressed; qualifications for centroid formulas and strict inclusion |
 | III | Chapter X, *Integration Theory* — Section 7, *The convolution* | Exercises 1–15 addressed; corrections to Exercises 5, 8, and 12 |
 | III | Chapter X, *Integration Theory* — Section 8, *The substitution rule* | Exercises 1–7 addressed; corrects the hint in Exercise 6 and the domain in Exercise 7 |
+| III | Chapter X, *Integration Theory* — Section 9, *The Fourier transform* | Exercises 1–13 addressed; corrections to Exercises 2, 5–7, 8(iv), and 9 |
 | I–III | Remaining sections | To be added |
 
 ## Solution conventions

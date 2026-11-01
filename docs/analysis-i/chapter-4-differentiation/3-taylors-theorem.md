@@ -32,7 +32,7 @@ $$
 f(z)=a\cos\left(\frac z\omega\right)+\omega^2b\sin\left(\frac z\omega\right).
 $$
 
-Indeed, this function satisfies the differential equation, has value $$a$$ at zero, and its derivative at zero is $$\omega b$$. Any solution is uniquely determined by these two initial values: differentiating the equation repeatedly determines all derivatives at zero, or equivalently the difference of two solutions solves the same linear equation with zero initial data and is identically zero. The equation also gives derivatives of every order recursively, so $$f\in C^\infty(\mathbb C)$$.
+Indeed, this function satisfies the differential equation, has value $$a$$ at zero, and its derivative at zero is $$\omega b$$. The equation also gives derivatives of every order recursively, so $$f\in C^\infty(\mathbb C)$$. To prove uniqueness, let $$h$$ be the difference of two solutions. Set $$\lambda=i/\omega$$; then $$h''=\lambda^2h$$ and $$h(0)=h'(0)=0$$. Define $$u=h'+\lambda h$$. It satisfies $$u'=\lambda u$$ and $$u(0)=0$$, so $$e^{-\lambda z}u(z)$$ has derivative zero and is identically zero. Thus $$h'+\lambda h=0$$. Applying the same argument to $$e^{\lambda z}h(z)$$ gives $$h\equiv0$$.
 
 For part (b), the equation is $$f''=f/\omega^2$$. The unique solution is
 
@@ -40,7 +40,7 @@ $$
 f(z)=a\cosh\left(\frac z\omega\right)+\omega^2b\sinh\left(\frac z\omega\right).
 $$
 
-The same initial-value check and uniqueness argument apply. If $$\omega=0$$, either equation reduces to $$f=0$$. A solution exists exactly when $$a=0$$; in that case the unique solution is $$f\equiv0$$, and the derivative condition is automatically satisfied for every $$b$$.
+The same initial-value check and uniqueness argument apply, this time with $$\lambda=1/\omega$$. If $$\omega=0$$, either equation reduces to $$f=0$$. A solution exists exactly when $$a=0$$; in that case the unique solution is $$f\equiv0$$, and the derivative condition is automatically satisfied for every $$b$$.
 
 ### Exercise 3
 
@@ -394,7 +394,7 @@ These alternating values attain both bounds $$1$$ and $$-1$$. Interior points $$
 
 ### Exercise 13
 
-For $$n\ge1$$, the leading coefficient of $$T_n$$ is $$2^{n-1}$$, so $$\widetilde T_n=2^{1-n}T_n$$ is monic. By Exercise 12(e), its maximum norm on $$[-1,1]$$ is $$2^{1-n}$$. For $$n=0$$, $$\widetilde T_0=1$$ and the same norm formula gives one.
+For $$n\ge1$$, the leading coefficient of $$T_n$$ is $$2^{n-1}$$, so $$\widetilde T_n=2^{1-n}T_n$$ is monic. By Exercise 12(e), its maximum norm on $$[-1,1]$$ is $$2^{1-n}$$. For $$n=0$$, the definition is separate: $$\widetilde T_0=1$$ and its norm is $$1$$. The expression $$2^{1-n}$$ applies only when $$n\ge1$$.
 
 **(a)** Let $$p\in\mathcal P_n$$. For $$n=0$$ the claim is immediate. For $$n\ge1$$, suppose for contradiction that
 
@@ -408,7 +408,9 @@ $$
 \|\widetilde T_n\|_\infty\le\|p\|_\infty.
 $$
 
-**(b)** Let $$m=(a+b)/2$$ and $$L=(b-a)/2>0$$, and define
+**(b)** For $$n=0$$, the only monic constant polynomial is $$p=1$$, and the printed lower bound would say $$1\ge2$$. Thus the stated formula requires $$n\ge1$$; at $$n=0$$ the sharp lower bound is $$1$$.
+
+For $$n\ge1$$, let $$m=(a+b)/2$$ and $$L=(b-a)/2>0$$, and define
 
 $$
 q(t)=\frac{p(m+Lt)}{L^n}.

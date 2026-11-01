@@ -4,6 +4,11 @@ This record identifies sections compared exercise by exercise with the three Ama
 
 | Volume | Section | Exercises checked |
 | --- | --- | --- |
+| I | I.1 Logic | 1–2 |
+| I | I.2 Sets | 1–8 |
+| I | I.3 Functions | 1–7 |
+| I | I.4 Relations and Operations | 1–9 |
+| I | I.5 The Natural Numbers | 1–11 |
 | I | I.6 Countability | 1–9 |
 | I | I.7 Groups and Homomorphisms | 1–11 |
 | I | I.8 Rings, Fields and Polynomials | 1–16 |
@@ -43,5 +48,6 @@ This record identifies sections compared exercise by exercise with the three Ama
 | III | X.6 Fubini's Theorem | 1–13 |
 | III | X.7 The Convolution | 1–15 |
 | III | X.8 The Substitution Rule | 1–7 |
+| III | X.9 The Fourier Transform | 1–13 |
 
-Total recorded in this audit: 39 sections, 459 exercises. Continue with sections not listed here, and add each section only after comparing all of its exercises and subparts with the source.
+Total recorded in this audit: 45 sections, 509 exercises. Continue with sections not listed here, and add each section only after comparing all of its exercises and subparts with the source.

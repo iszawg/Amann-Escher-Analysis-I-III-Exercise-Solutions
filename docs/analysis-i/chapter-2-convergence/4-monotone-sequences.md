@@ -4,7 +4,7 @@
 
 ### Exercise 1
 
-Let $$M:=\max\{a_1,\ldots,a_k\}>0$$. Then
+Let $$M:=\max\{a_1,\ldots,a_k\}\ge0$$. Then
 
 $$
 M^n\le a_1^n+\cdots+a_k^n\le kM^n.

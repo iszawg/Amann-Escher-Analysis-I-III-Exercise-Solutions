@@ -53,20 +53,20 @@ $$
 
 ### Exercise 5
 
-For the measure from IX.4.10, $$\mu_F=\sum_{k\in\mathbb Z}p_k\delta_{a_k}$$ on $$\mathcal P(\mathbb R)$$, and the complement of the atoms is null. Set $$J=\{k:p_k>0\}$$. Then
+For the measure from IX.4.10, let $$S=\{a_k:k\in\mathbb Z\}$$ and put $$p(s)=F(s+)-F(s)$$ for each distinct $$s\in S$$. Then $$\mu_F=\sum_{s\in S}p(s)\delta_s$$ on $$\mathcal P(\mathbb R)$$, and the complement of the atoms is null. Set $$J=\{s\in S:p(s)>0\}$$. Then
 
 $$
 \mathcal L^1(\mathbb R,\mu_F,\mathbb K)
 =\left\{f:\mathbb R\to\mathbb K:
-\sum_{k\in J}p_k|f(a_k)|<\infty\right\},
+\sum_{s\in J}p(s)|f(s)|<\infty\right\},
 \qquad
-\int_{\mathbb R}f\,d\mu_F=\sum_{k\in J}p_k f(a_k).
+\int_{\mathbb R}f\,d\mu_F=\sum_{s\in J}p(s) f(s).
 $$
 
-The series on the right converges absolutely; no condition is imposed at zero-mass atoms or away from the atoms. To prove sufficiency, use finite sums $$s_n=\sum_{k\in J,\,|k|\le n}f(a_k)\chi_{\{a_k\}}$$. These are simple, converge to $$f$$ almost everywhere, and are Cauchy in $$L^1$$ because their distances are tails of the displayed nonnegative series. Their integrals are the corresponding partial sums. Conversely, if $$f$$ is integrable, monotonicity applied to any finite collection of positive-mass atoms gives
+The series on the right converges absolutely; no condition is imposed at zero-mass atoms or away from the atoms. Count each point only once: the original hypotheses do not explicitly rule out repeated values of $$a_k$$, as explained in IX.4.10. To prove sufficiency, exhaust the countable set $$J$$ by finite subsets $$J_n$$ and use $$s_n=\sum_{s\in J_n}f(s)\chi_{\{s\}}$$. These are simple, converge to $$f$$ almost everywhere, and are Cauchy in $$L^1$$ because their distances are tails of the displayed nonnegative series. Their integrals are the corresponding finite sums. Conversely, if $$f$$ is integrable, monotonicity applied to any finite collection of positive-mass atoms gives
 
 $$
-\sum_{k\in H}p_k|f(a_k)|\le\int_{\mathbb R}|f|\,d\mu_F
+\sum_{s\in H}p(s)|f(s)|\le\int_{\mathbb R}|f|\,d\mu_F
 \qquad(H\subset J\text{ finite}),
 $$
 

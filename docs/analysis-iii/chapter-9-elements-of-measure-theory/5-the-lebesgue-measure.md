@@ -6,13 +6,13 @@ These notes address Exercises 1–21. We use $$\mathcal L(n)$$ for the Lebesgue 
 
 ### Exercise 1
 
-First suppose that $$U\subset\mathbb R^m$$ and $$V\subset\mathbb R^n$$ are open. Each is a countable disjoint union of half-open dyadic cubes: use maximal dyadic cubes contained in the open set. Products of these cubes are disjoint half-open rectangles. Since Lebesgue measure agrees with volume on rectangles, countable additivity gives
+First suppose that $$U\subset\mathbb R^m$$ and $$V\subset\mathbb R^n$$ are bounded and open. Each is a countable disjoint union of half-open dyadic cubes: use maximal dyadic cubes contained in the open set. Boundedness ensures that every such cube has a maximal ancestor among those contained in the set. Products of these cubes are disjoint half-open rectangles. Since Lebesgue measure agrees with volume on rectangles, countable additivity gives
 
 $$
 \lambda_{m+n}(U\times V)=\lambda_m(U)\lambda_n(V).
 $$
 
-This remains valid for infinite values by monotone limits of finite sums.
+For arbitrary open $$U,V$$, apply this equality to $$U_j=U\cap(-j,j)^m$$ and $$V_j=V\cap(-j,j)^n$$, then let $$j\to\infty$$. Continuity from below gives the same formula, including infinite values (with the usual convention $$0\cdot\infty=0$$ for measures). The bounded exhaustion is needed here: an unbounded open set such as all of $$\mathbb R^m$$ need not have maximal dyadic cubes.
 
 If $$N\subset\mathbb R^m$$ is null, then $$N\times\mathbb R^n$$ is null. Indeed, cover $$N$$ by open sets of arbitrarily small measure, multiply by each bounded open cube $$(-k,k)^n$$, use the open-set formula, and take the countable union over $$k$$. The analogous statement holds with the factors interchanged. In particular every subset of either product is Lebesgue measurable by completeness.
 

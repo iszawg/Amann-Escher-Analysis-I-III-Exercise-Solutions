@@ -176,6 +176,8 @@ Finite sums and products of continuous coordinate functions are continuous, so $
 
 ### Exercise 17
 
+The supremum in the printed definition need not be finite, so in general $$\omega_f(x,\varepsilon)$$ takes values in $$[0,\infty]$$. For example, on $$\mathbb R$$ let $$f(0)=0$$ and $$f(t)=1/t$$ for $$t\ne0$$. The image of every ball about zero is unbounded, and $$\omega_f(0,\varepsilon)=\infty$$. The continuity criterion below remains valid with extended values; alternatively, local boundedness is sufficient to make the modulus finite for small enough radii.
+
 Suppose first that $$f$$ is continuous at $$x$$. Given $$\eta>0$$, choose $$\delta>0$$ such that $$d(f(y),f(x))<\eta/2$$ whenever $$y\in B(x,\delta)$$. For $$y,z\in B(x,\delta)$$, the triangle inequality gives $$d(f(y),f(z))<\eta$$. Therefore $$\omega_f(x,\delta)\le\eta$$, and since this holds for every $$\eta>0$$, $$\omega_f(x)=0$$.
 
 Conversely, suppose $$\omega_f(x)=0$$. For any $$\eta>0$$, there is some $$\varepsilon>0$$ with $$\omega_f(x,\varepsilon)<\eta$$. Since $$x\in B(x,\varepsilon)$$, for every $$y\in B(x,\varepsilon)$$ we have

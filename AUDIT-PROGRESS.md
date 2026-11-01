@@ -25,6 +25,7 @@ This record identifies sections compared exercise by exercise with the three Ama
 | I | II.7 Series | 1–15 |
 | I | II.8 Absolute Convergence | 1–10 |
 | I | II.9 Power Series | 1–10 |
+| I | III.1 Continuity | 1–18 |
 | I | III.2 Fundamentals of Topology | 1–21 |
 | I | III.3 Compactness | 1–15 |
 | I | III.4 Connectivity | 1–12 |
@@ -58,4 +59,4 @@ This record identifies sections compared exercise by exercise with the three Ama
 | III | X.9 The Fourier Transform | 1–13 |
 | III | XI.4 Vector Fields and Differential Forms | 1–4 |
 
-Total recorded in this audit: 53 sections, 617 exercises. Continue with sections not listed here, and add each section only after comparing all of its exercises and subparts with the source.
+Total recorded in this audit: 54 sections, 635 exercises. Continue with sections not listed here, and add each section only after comparing all of its exercises and subparts with the source.

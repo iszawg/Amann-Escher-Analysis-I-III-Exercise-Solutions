@@ -52,6 +52,8 @@ This record identifies sections compared exercise by exercise with the three Ama
 | II | VII.2 Differentiability | 1–13 |
 | II | VII.3 Rules of Differentiation | 1–8 |
 | II | VII.4 Multilinear Maps | 1–5 |
+| II | VII.5 Higher Derivatives | 1–21 |
+| II | VII.6 Nemytskii Operators and the Calculus of Variations | 1–12 |
 | II | VII.7 The Inverse Function Theorem | 1–8 |
 | II | VIII.1 Curves and Their Lengths | 1–8 |
 | III | IX.1 Measurable Spaces | 1–19 |
@@ -68,8 +70,11 @@ This record identifies sections compared exercise by exercise with the three Ama
 | III | X.7 The Convolution | 1–15 |
 | III | X.8 The Substitution Rule | 1–7 |
 | III | X.9 The Fourier Transform | 1–13 |
+| III | XI.1 Submanifolds | 1–10 |
+| III | XI.2 Multilinear Algebra | 1–11 |
+| III | XI.3 The Local Theory of Differential Forms | 1–13 |
 | III | XI.4 Vector Fields and Differential Forms | 1–4 |
 | III | XI.6 Vector Analysis | 1–11 |
 | III | XII.2 Integration of Differential Forms | 1–6 |
 
-Total recorded in this audit: 67 sections, 794 exercises. Continue with sections not listed here, and add each section only after comparing all of its exercises and subparts with the source.
+Total recorded in this audit: 72 sections, 861 exercises. Continue with sections not listed here, and add each section only after comparing all of its exercises and subparts with the source.

@@ -253,21 +253,30 @@ $$
 
 If $$q(x)=1$$, then $$Ax\ne0$$; otherwise $$q(x)=0$$. Thus $$1$$ is a regular value of $$q$$. Its level set is a smooth hypersurface of $$\mathbb R^n$$, of dimension $$n-1$$.
 
-For a sketch, diagonalize $$A$$ in an orthonormal basis. In dimension two the equation becomes
+For the sketches, the spectral theorem supplies orthogonal coordinates in which the equation is
 
 $$
-\lambda_1 s^2+\lambda_2 t^2=1.
+\lambda_1s_1^2+\cdots+\lambda_ns_n^2=1.
 $$
 
-Depending on the eigenvalues, this is an ellipse, a hyperbola, a pair of parallel lines, or the empty set. For example, positive eigenvalues give an ellipse, opposite signs give a hyperbola, and $$\lambda_1>0,\lambda_2=0$$ gives the two lines $$s=\pm1/\sqrt{\lambda_1}$$.
+After rescaling the nonzero coordinates, the shape is determined by the numbers $$p$$ and $$q$$ of positive and negative eigenvalues; the other coordinates are free. If $$p=0$$ there are no points. In dimension two the three nonempty possibilities are represented below (the displayed equations are normalized examples, not an additional assumption on $$A$$):
 
-In dimension three the equation becomes
+![An ellipse, a hyperbola, and two parallel lines as examples of two-dimensional quadratic level sets](../../assets/analysis-ii-vii-9-exercise-9-curves.png)
 
-$$
-\lambda_1 s_1^2+\lambda_2 s_2^2+\lambda_3 s_3^2=1.
-$$
+An ellipse occurs for $$(p,q)=(2,0)$$, a hyperbola for $$(1,1)$$, and parallel lines for $$(1,0)$$. In dimension three the complete list of nonempty types, up to an orthogonal change and rescaling of coordinates, is
 
-Its nonempty possibilities include ellipsoids, one- or two-sheeted hyperboloids, and their cylindrical degeneracies when an eigenvalue is zero. For instance, all positive eigenvalues give an ellipsoid; one positive and two negative eigenvalues give a two-sheeted hyperboloid; two positive and one negative give a one-sheeted hyperboloid. If all eigenvalues are nonpositive, the level set is empty. The regular-value argument applies to every nonempty case, including the degenerate cylinders and pairs of planes.
+| $$(p,q)$$ | Example | Shape |
+| --- | --- | --- |
+| $$(3,0)$$ | $$s_1^2+s_2^2+s_3^2=1$$ | Ellipsoid |
+| $$(2,1)$$ | $$s_1^2+s_2^2-s_3^2=1$$ | One-sheeted hyperboloid |
+| $$(1,2)$$ | $$s_1^2-s_2^2-s_3^2=1$$ | Two-sheeted hyperboloid |
+| $$(2,0)$$ | $$s_1^2+s_2^2=1$$ | Elliptic cylinder |
+| $$(1,1)$$ | $$s_1^2-s_2^2=1$$ | Hyperbolic cylinder |
+| $$(1,0)$$ | $$s_1^2=1$$ | Two parallel planes |
+
+![Six three-dimensional quadratic level sets: ellipsoid, one- and two-sheeted hyperboloids, elliptic and hyperbolic cylinders, and parallel planes](../../assets/analysis-ii-vii-9-exercise-9-surfaces.png)
+
+The drawings show finite portions of the unbounded surfaces. The regular-value argument above applies to every nonempty case, including the cylinders and parallel planes. If $$p=0$$ the level set is empty; under the usual convention the empty set is also a submanifold.
 
 ### Exercise 10
 

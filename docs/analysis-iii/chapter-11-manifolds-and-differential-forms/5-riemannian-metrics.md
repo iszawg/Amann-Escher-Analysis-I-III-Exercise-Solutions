@@ -138,10 +138,28 @@ $$
 dy_j=R^{-1}dx_j-R^{-3}x_j\sum_kx_k\,dx_k.
 $$
 
-On expanding the wedges in the pullback, terms containing two copies of $$\sum_kx_kdx_k$$ vanish. In a term containing one copy, collect the coefficient of each omitted-coordinate basis form; the correction terms cancel by antisymmetry in the two indices multiplying $$x_ix_k$$. The remaining terms give
+We compute each coefficient explicitly. Let $$J=(1,\ldots,\widehat i,\ldots,n)$$, let $$e_j$$ be the standard basis, and put $$u=x/R$$. Since
 
 $$
-\rho^*\omega_{S^m}=R^{-n}\sum_{i=1}^n(-1)^{i-1}x_i\,
+D\rho_x(e_j)=R^{-1}\left(e_j-\frac{x_j}{R^2}x\right),
+$$
+
+the coefficient of $$dx_J$$ in the pullback is the determinant
+
+$$
+\begin{aligned}
+(\rho^*\omega_{S^{n-1}})_x(e_{j_1},\ldots,e_{j_{n-1}})
+&=\det\bigl(u,D\rho_x e_{j_1},\ldots,D\rho_x e_{j_{n-1}}\bigr)\\
+&=R^{-n}\det\left(x,e_{j_1}-\frac{x_{j_1}}{R^2}x,\ldots,
+ e_{j_{n-1}}-\frac{x_{j_{n-1}}}{R^2}x\right)\\
+&=R^{-n}\det(x,e_{j_1},\ldots,e_{j_{n-1}}).
+\end{aligned}
+$$
+
+In the last step, multilinearity shows that every term containing one of the correction vectors is zero: it then has two columns proportional to $$x$$. Expanding the remaining determinant along its first column leaves only the $$i$$th component, with cofactor sign $$(-1)^{i+1}=(-1)^{i-1}$$. Thus its value is $$(-1)^{i-1}x_i$$, and
+
+$$
+\rho^*\omega_{S^{n-1}}=R^{-n}\sum_{i=1}^n(-1)^{i-1}x_i\,
  dx_1\wedge\cdots\wedge\widehat{dx_i}\wedge\cdots\wedge dx_n.
 $$
 
@@ -156,8 +174,6 @@ and
 $$
 \rho^*\omega_{S^3}=\frac{x_1dx_2\wedge dx_3\wedge dx_4-x_2dx_1\wedge dx_3\wedge dx_4+x_3dx_1\wedge dx_2\wedge dx_4-x_4dx_1\wedge dx_2\wedge dx_3}{R^4}.
 $$
-
-For a direct coefficient check, let $$J$$ omit index $$i$$. In the expansion above, the coefficient of $$dx_J$$ equals $$(-1)^{i-1}x_iR^{-n}$$: all potential correction terms either involve a repeated $$dx_k$$ or cancel in pairs after exchanging their indices. This proves the stated identity for both cases without using the abstract argument in Example 4.13(c).
 
 ### Exercise 8
 

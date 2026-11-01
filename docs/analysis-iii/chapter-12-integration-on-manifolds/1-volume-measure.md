@@ -142,7 +142,17 @@ $$
 F(\theta,\varphi)=(a\cos\theta,b\sin\theta\cos\varphi,b\sin\theta\sin\varphi).
 $$
 
-The area density is $$b\sin\theta\sqrt{a^2\sin^2\theta+b^2\cos^2\theta}$$. Substituting $$u=\cos\theta$$ and using symmetry gives
+The coordinate vectors are orthogonal, with
+
+$$
+\begin{aligned}
+F_\theta&=(-a\sin\theta,b\cos\theta\cos\varphi,b\cos\theta\sin\varphi),\\
+F_\varphi&=(0,-b\sin\theta\sin\varphi,b\sin\theta\cos\varphi),\\
+|F_\theta\times F_\varphi|&=b\sin\theta\sqrt{a^2\sin^2\theta+b^2\cos^2\theta}.
+\end{aligned}
+$$
+
+Substituting $$u=\cos\theta$$ and using symmetry gives
 
 $$
 \begin{aligned}
@@ -152,11 +162,57 @@ $$
 \end{aligned}
 $$
 
-For the **oblate** surface $$(a,a,b)$$, the analogous parametrization gives
+For $$0<e<1$$, the last integral is evaluated using
+
+$$
+\int_0^1\sqrt{1-e^2u^2}\,du
+=\left[\frac{u}{2}\sqrt{1-e^2u^2}+\frac{\arcsin(eu)}{2e}\right]_0^1
+=\frac{b}{2a}+\frac{\arcsin e}{2e}.
+$$
+
+For the **oblate** surface $$(a,a,b)$$, use the parametrization
+
+$$
+G(\theta,\varphi)=(a\sin\theta\cos\varphi,a\sin\theta\sin\varphi,b\cos\theta),
+\quad 0\le\theta\le\pi,\quad 0\le\varphi<2\pi.
+$$
+
+Away from the poles its coordinate vectors are orthogonal, and
+
+$$
+\begin{aligned}
+G_\theta&=(a\cos\theta\cos\varphi,a\cos\theta\sin\varphi,-b\sin\theta),\\
+G_\varphi&=(-a\sin\theta\sin\varphi,a\sin\theta\cos\varphi,0),\\
+|G_\theta\times G_\varphi|
+&=a\sin\theta\sqrt{a^2\cos^2\theta+b^2\sin^2\theta}.
+\end{aligned}
+$$
+
+The poles have area zero. Integrating in $$\varphi$$ and substituting $$u=\cos\theta$$ therefore gives
+
+$$
+\begin{aligned}
+\operatorname{area}(E_{a,b}^{\rm oblate})
+&=2\pi a\int_0^\pi\sin\theta\sqrt{a^2\cos^2\theta+b^2\sin^2\theta}\,d\theta\\
+&=4\pi a^2\int_0^1\sqrt{1-e^2+e^2u^2}\,du.
+\end{aligned}
+$$
+
+For $$0<e<1$$, put $$c=1-e^2>0$$. An antiderivative and its evaluation are
+
+$$
+\begin{aligned}
+\int_0^1\sqrt{c+e^2u^2}\,du
+&=\left[\frac{u}{2}\sqrt{c+e^2u^2}
++\frac{c}{2e}\operatorname{arsinh}\!\left(\frac{eu}{\sqrt c}\right)\right]_0^1\\
+&=\frac12+\frac{1-e^2}{2e}\operatorname{artanh}e,
+\end{aligned}
+$$
+
+where $$\operatorname{arsinh}(e/\sqrt{1-e^2})=\operatorname{artanh}e$$. Consequently,
 
 $$
 \operatorname{area}(E_{a,b}^{\rm oblate})
-=4\pi a^2\int_0^1\sqrt{1-e^2+e^2u^2}\,du
 =2\pi a^2\left(1+\frac{1-e^2}{e}\operatorname{artanh}e\right).
 $$
 

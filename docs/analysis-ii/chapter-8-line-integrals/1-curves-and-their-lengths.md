@@ -188,6 +188,10 @@ $$
 
 Its cylindrical height is $$z=t$$ and its distance from the $$z$$-axis is $$|t|$$, while its angular position rotates with $$t$$ (for $$t<0$$ the negative radial coordinate adds an angle of $$\pi$$). The curve passes through the origin and spirals away on each side.
 
+![Space curve on a double cone, with the parameter increasing through the origin](../../assets/analysis-ii-viii-1-exercise-4-curve.png)
+
+The cone shown as a guide is $$x^2+y^2=z^2$$. At $$t=-3\pi$$ the curve starts at $$(3\pi,0,-3\pi)$$; it reaches the origin at $$t=0$$ and ends at $$(-3\pi,0,3\pi)$$. In the top view, the negative branch has polar angle $$t+\pi$$ and the positive branch has polar angle $$t$$. Each branch makes one and a half turns. The curve itself is smooth at the origin because $$\dot\gamma(0)=(1,0,1)$$.
+
 Differentiation gives
 
 $$

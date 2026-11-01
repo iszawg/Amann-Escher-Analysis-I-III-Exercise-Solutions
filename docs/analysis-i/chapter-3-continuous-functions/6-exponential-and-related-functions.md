@@ -99,7 +99,7 @@ $$
 **(d)** Substitute $$iz$$ into the definitions of cosine and sine:
 
 $$
-\cos(iz)=\frac{e^{iz}+e^{-iz}}2=\cosh z,
+\cos(iz)=\frac{e^{-z}+e^z}2=\cosh z,
 \qquad
 -i\sin(iz)=-i\frac{e^{-z}-e^z}{2i}=\sinh z.
 $$

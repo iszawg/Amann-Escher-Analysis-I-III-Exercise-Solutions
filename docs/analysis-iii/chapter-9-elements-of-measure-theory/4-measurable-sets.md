@@ -177,7 +177,7 @@ If another generating function $$G$$ induces the same Borel measure, then $$G(b)
 
 Let $$S=\{a_k:k\in\mathbb Z\}$$. For any $$x<y$$ inside one of the intervals $$(a_k,a_{k+1})$$, the interval $$[x,y)$$ has measure $$F(y)-F(x)=0$$. Each such interval is a countable union of these null intervals. Moreover, every $$x\notin S$$ belongs to at least one of them: as $$k$$ goes from sufficiently negative to sufficiently positive, the sequence must cross from below $$x$$ to above $$x$$. Hence $$\mathbb R\setminus S$$ is contained in a countable union of measurable null sets. Completeness of $$\mu_F$$ makes every subset of $$\mathbb R\setminus S$$ measurable and null.
 
-For each distinct point $$s\in S$$, put $$p(s)=F(s+)-F(s)$$. By Exercise 8 and left continuity, $$\mu_F(\{s\})=p(s)$$; in particular $$p(a_k)=p_k$$. Every subset of the countable Borel set $$S$$ is Borel. Therefore, for any $$A\subset\mathbb R$$, both $$A\cap S$$ and $$A\setminus S$$ are measurable, and countable additivity gives
+For each distinct point $$s\in S$$, put $$p(s)=F(s+)-F(s)$$. This assigns one jump mass to each point, regardless of how many indices name it. By Exercise 8 and left continuity, $$\mu_F(\{s\})=p(s)$$; in particular $$p(a_k)=p_k$$. Every subset of the countable Borel set $$S$$ is Borel. Therefore, for any $$A\subset\mathbb R$$, both $$A\cap S$$ and $$A\setminus S$$ are measurable, and countable additivity gives
 
 $$
 \mathcal A(\mu_F)=\mathcal P(\mathbb R),\qquad

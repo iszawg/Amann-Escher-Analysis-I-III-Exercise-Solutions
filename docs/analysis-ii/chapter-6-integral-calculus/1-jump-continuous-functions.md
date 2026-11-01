@@ -50,7 +50,7 @@ Thus $$f\in S([-1,1],\mathbb R)$$, even though it is not a staircase function.
 
 ### Exercise 3
 
-The set $$SC(I,E)$$ is a vector subspace: sums and scalar multiples of functions with finitely many discontinuities still have only finitely many discontinuities. It is not closed in $$S(I,E)$$.
+The set $$SC(I,E)$$ is a vector subspace: sums and scalar multiples of functions with finitely many discontinuities still have only finitely many discontinuities. For $$E\ne\{0\}$$ it is not closed in $$S(I,E)$$. The zero-space case is an exception: both spaces then contain only the zero function, so the subspace is closed.
 
 Use the function $$f$$ from Exercise 2. It has a discontinuity at every $$1/n$$ for $$n\geq2$$, so $$f\notin SC([-1,1],\mathbb R)$$. For each positive integer $$N$$, define
 
@@ -68,7 +68,7 @@ $$
 \|g_N-f\|_\infty\leq\frac1{N+2}\longrightarrow0.
 $$
 
-Therefore a sequence in $$SC([-1,1],\mathbb R)$$ converges in $$S([-1,1],\mathbb R)$$ to a function outside $$SC([-1,1],\mathbb R)$$. It is a vector subspace, but not a closed one.
+Therefore a sequence in $$SC([-1,1],\mathbb R)$$ converges in $$S([-1,1],\mathbb R)$$ to a function outside $$SC([-1,1],\mathbb R)$$. For an arbitrary nonzero normed space $$E$$, choose $$e\in E\setminus\{0\}$$ and replace $$f,g_N$$ by $$fe,g_Ne$$. Their discontinuities are the same and $$\|g_Ne-fe\|_\infty=\|e\|\,\|g_N-f\|_\infty\to0$$. An affine change of variable transports the example to any nondegenerate compact interval $$I$$. Thus the subspace is not closed for nonzero $$E$$.
 
 ### Exercise 4
 

@@ -90,3 +90,4 @@
     * [9. The Fourier transform](analysis-iii/chapter-10-integration-theory/9-the-fourier-transform.md)
   * [Chapter XI — Manifolds and Differential Forms](analysis-iii/chapter-11-manifolds-and-differential-forms/README.md)
     * [1. Submanifolds](analysis-iii/chapter-11-manifolds-and-differential-forms/1-submanifolds.md)
+    * [2. Multilinear algebra](analysis-iii/chapter-11-manifolds-and-differential-forms/2-multilinear-algebra.md)

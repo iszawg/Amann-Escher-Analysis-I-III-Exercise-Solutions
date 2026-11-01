@@ -25,6 +25,8 @@ This record identifies sections compared exercise by exercise with the three Ama
 | I | II.7 Series | 1–15 |
 | I | II.8 Absolute Convergence | 1–10 |
 | I | II.9 Power Series | 1–10 |
+| I | III.4 Connectivity | 1–12 |
+| I | III.5 Functions on R | 1–7 |
 | II | VI.1 Jump Continuous Functions | 1–11 |
 | II | VI.2 Continuous Extensions | 1–7 |
 | II | VI.3 The Cauchy–Riemann Integral | 1–10 |
@@ -52,4 +54,4 @@ This record identifies sections compared exercise by exercise with the three Ama
 | III | X.8 The Substitution Rule | 1–7 |
 | III | X.9 The Fourier Transform | 1–13 |
 
-Total recorded in this audit: 47 sections, 542 exercises. Continue with sections not listed here, and add each section only after comparing all of its exercises and subparts with the source.
+Total recorded in this audit: 49 sections, 561 exercises. Continue with sections not listed here, and add each section only after comparing all of its exercises and subparts with the source.

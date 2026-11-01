@@ -48,14 +48,20 @@ Thus $$f_n$$ converges uniformly to the absolute value function on all of $$\mat
 
 ### Exercise 3
 
-On the closed unit disk $$\overline{\mathbb B}_{\mathbb C}$$, the first series is norm convergent, since
+On the open unit disk $$\mathbb B_{\mathbb C}=\{x\in\mathbb C:|x|<1\}$$, the first series is norm convergent, since
 
 $$
 \sum_{n=1}^{\infty}\left\|\frac{x^n}{n^2}\right\|_\infty
 =\sum_{n=1}^{\infty}\frac1{n^2}<\infty.
 $$
 
-The Weierstrass majorant criterion therefore gives uniform convergence. The second series does not even converge pointwise on the whole disk: at $$x=1$$ its terms are all equal to one, so $$\sum_{n=1}^{\infty}x^n$$ diverges. In particular, it does not converge uniformly there.
+The Weierstrass majorant criterion therefore gives uniform convergence. The geometric series $$\sum_{n=1}^{\infty}x^n$$ converges pointwise to $$x/(1-x)$$ for every $$|x|<1$$. It does not converge uniformly: uniform convergence of a series requires its terms to tend uniformly to zero, but
+
+$$
+\sup_{|x|<1}|x^n|=1\qquad(n\ge1).
+$$
+
+The supremum is approached as $$x\to1$$ from inside the disk; the point $$1$$ itself is not in the domain.
 
 ### Exercise 4
 
@@ -83,7 +89,7 @@ for every $$n$$.
 
 ### Exercise 5
 
-Norm convergence here means $$\sum_n\|f_n\|_\infty<\infty$$, with $$X=\overline{\mathbb B}_{\mathbb K}$$.
+Norm convergence here means $$\sum_n\|f_n\|_\infty<\infty$$, with $$X=\mathbb B_{\mathbb K}=\{x:|x|<1\}$$. The functions in this exercise extend continuously to the closed unit ball, so their suprema on the open ball equal the corresponding maxima on its closure.
 
 **(a)** For every $$n$$, $$\|x^n\|_\infty=1$$, so the terms do not tend to zero in norm. The series is not norm convergent.
 
@@ -111,7 +117,7 @@ $$
 \sim\frac{e^{-1/2}}{\sqrt{2n}}.
 $$
 
-The norms therefore have a divergent sum. If $$\mathbb K=\mathbb C$$, evaluating at $$x=i$$ gives $$|f_n(i)|=2^n$$, so the series again fails to converge in norm.
+The norms therefore have a divergent sum. If $$\mathbb K=\mathbb C$$, the points $$x=ri$$ with $$0<r<1$$ give $$|f_n(ri)|=r(1+r^2)^n\to2^n$$ as $$r\uparrow1$$. Thus $$\|f_n\|_\infty\ge2^n$$, so the series again fails to converge in norm.
 
 **(d)** This case also depends on the scalar field. For $$\mathbb K=\mathbb R$$,
 
@@ -125,7 +131,7 @@ $$
 \|f_n\|_\infty=\left(\frac{2}{3\sqrt3}\right)^n,
 $$
 
-and the series is norm convergent by the geometric-series test. For $$\mathbb K=\mathbb C$$, the choice $$x=i$$ gives $$|x(1-x^2)|=2$$, so $$\|f_n\|_\infty\geq2^n$$ and the series is not norm convergent.
+and the series is norm convergent by the geometric-series test. For $$\mathbb K=\mathbb C$$, letting $$x=ri$$ with $$r\uparrow1$$ gives $$|x(1-x^2)|\to2$$, so $$\|f_n\|_\infty\geq2^n$$ and the series is not norm convergent.
 
 ### Exercise 6
 

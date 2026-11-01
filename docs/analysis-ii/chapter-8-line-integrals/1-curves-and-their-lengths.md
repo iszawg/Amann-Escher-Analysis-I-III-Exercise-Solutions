@@ -215,7 +215,7 @@ $$
 
 ### Exercise 5
 
-We verify first that reparametrization is an equivalence relation. The identity change of parameter on each subinterval proves reflexivity. If a piece on one partition is identified with a piece on another by a $$C^q$$ diffeomorphism, the inverse diffeomorphism identifies them in the reverse direction, proving symmetry. If two successive reparametrizations use maps $$\varphi_j$$ and $$\psi_j$$ on corresponding pieces, their composition is again a $$C^q$$ diffeomorphism on each piece; this proves transitivity.
+We verify first that reparametrization is an equivalence relation. The identity change of parameter on each subinterval proves reflexivity. If a piece on one partition is identified with a piece on another by an increasing $$C^q$$ diffeomorphism, its inverse identifies them in the reverse direction, proving symmetry. For transitivity, the two reparametrizations may use different partitions of the intermediate path. Take their common refinement and pull its breakpoints back to the other two parameter intervals. On each refined piece the composition of the two increasing $$C^q$$ changes of parameter is again such a change. Thus the first and last paths are equivalent.
 
 To show that the length does not depend on the representative, consider one pair of corresponding subintervals and a change of parameter $$\varphi$$ between them. A monotone bijection carries partitions of one interval bijectively to partitions of the other (with their order reversed if $$\varphi$$ is decreasing). The corresponding polygonal sums are equal, so taking suprema gives
 
@@ -253,6 +253,10 @@ $$
 The substitution rule therefore leaves its contribution to $$A(\Gamma)$$ unchanged. Subdividing or regrouping pieces also leaves the sum of integrals unchanged, by additivity of the integral. Hence the definition is independent of the chosen piecewise $$C^q$$ parametrization and partition. Reversing orientation changes the sign, as expected for oriented area.
 
 **(b)** On the first interval, put $$x=\alpha+\beta-t$$. The path follows the graph of $$f$$ from $$(\beta,0)$$ to $$(\alpha,0)$$. On the second interval it follows the baseline from $$(\alpha,0)$$ back to $$(\beta,0)$$. Since $$f(\alpha)=f(\beta)=0$$, the two pieces join continuously and the path is closed. Under the stated assumption $$f\in C^1$$, it is piecewise $$C^1$$. If the printed $$C^q$$ is meant for arbitrary $$q>1$$ from Exercise 5, the hypothesis must be strengthened to $$f\in C^q$$.
+
+![A sample graph traversed right to left and its baseline traversed left to right](../../assets/analysis-ii-viii-1-exercise-6-oriented-area.png)
+
+The sketch illustrates a positive function; the calculation also allows $$f$$ to change sign, in which case its integral is signed area.
 
 The baseline contributes zero to the determinant integral. On the graph piece,
 

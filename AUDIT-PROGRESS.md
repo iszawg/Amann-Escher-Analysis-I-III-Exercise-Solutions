@@ -44,6 +44,7 @@ This record identifies sections compared exercise by exercise with the three Ama
 | II | VII.3 Rules of Differentiation | 1–8 |
 | II | VII.4 Multilinear Maps | 1–5 |
 | II | VII.7 The Inverse Function Theorem | 1–8 |
+| II | VIII.1 Curves and Their Lengths | 1–8 |
 | III | IX.1 Measurable Spaces | 1–19 |
 | III | IX.2 Measures | 1–13 |
 | III | IX.3 Outer Measures | 1–11 |
@@ -61,4 +62,4 @@ This record identifies sections compared exercise by exercise with the three Ama
 | III | XI.4 Vector Fields and Differential Forms | 1–4 |
 | III | XI.6 Vector Analysis | 1–11 |
 
-Total recorded in this audit: 56 sections, 654 exercises. Continue with sections not listed here, and add each section only after comparing all of its exercises and subparts with the source.
+Total recorded in this audit: 57 sections, 662 exercises. Continue with sections not listed here, and add each section only after comparing all of its exercises and subparts with the source.

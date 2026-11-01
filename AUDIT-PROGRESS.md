@@ -25,6 +25,8 @@ This record identifies sections compared exercise by exercise with the three Ama
 | I | II.7 Series | 1–15 |
 | I | II.8 Absolute Convergence | 1–10 |
 | I | II.9 Power Series | 1–10 |
+| I | III.2 Fundamentals of Topology | 1–21 |
+| I | III.3 Compactness | 1–15 |
 | I | III.4 Connectivity | 1–12 |
 | I | III.5 Functions on R | 1–7 |
 | II | VI.1 Jump Continuous Functions | 1–11 |
@@ -53,5 +55,6 @@ This record identifies sections compared exercise by exercise with the three Ama
 | III | X.7 The Convolution | 1–15 |
 | III | X.8 The Substitution Rule | 1–7 |
 | III | X.9 The Fourier Transform | 1–13 |
+| III | XI.4 Vector Fields and Differential Forms | 1–4 |
 
-Total recorded in this audit: 49 sections, 561 exercises. Continue with sections not listed here, and add each section only after comparing all of its exercises and subparts with the source.
+Total recorded in this audit: 52 sections, 601 exercises. Continue with sections not listed here, and add each section only after comparing all of its exercises and subparts with the source.

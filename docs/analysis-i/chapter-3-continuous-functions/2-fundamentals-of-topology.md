@@ -60,15 +60,33 @@ $$
 B(x,1)=\{x\},\qquad \overline B(x,1)=X.
 $$
 
-So the open and closed balls need not agree.
+By (a), the singleton $$\{x\}$$ is closed as well as open. Therefore the **closure of the open ball** is
+
+$$
+\overline{B(x,1)}=\{x\}\ne X=\overline B(x,1),
+$$
+
+where $$\overline B(x,1)$$ denotes the closed ball. Thus the closure of an open ball need not equal the closed ball of the same center and radius.
 
 ### Exercise 4
 
-Let $$D=B_{\mathbb R^2}(0,1)$$ and $$L=[0,1)\times\{0\}$$. The closure of $$L$$ in $$\mathbb R^2$$ is $$[0,1]\times\{0\}$$, whose intersection with $$D$$ is exactly $$L$$. Thus $$L$$ is closed relative to $$D$$. Consequently $$S=D\setminus L$$ is open relative to the open set $$D$$, hence open in $$\mathbb R^2$$. Therefore
+Let $$D=B_{\mathbb R^2}(0,1)$$ and $$L=[0,1)\times\{0\}$$, so $$S=D\setminus L$$. Every point of $$D$$ lies in $$\overline S$$: a point off $$L$$ already belongs to $$S$$, while each point of $$L$$ is approached from above or below by points of $$S$$ that remain inside $$D$$. Since $$S\subset D$$, this gives
 
 $$
-\mathring S=S.
+\overline S=\overline D=\{(x,y):x^2+y^2\le1\}.
 $$
+
+Taking the interior **after** taking the closure yields
+
+$$
+(\overline S)^\circ=D=\{(x,y):x^2+y^2<1\}.
+$$
+
+In particular $$(\overline S)^\circ\ne S$$: for example, $$(0,0)\in(\overline S)^\circ$$ but $$(0,0)\notin S$$. Separately, $$S$$ itself is open, since $$L$$ is closed relative to $$D$$; hence $$S^\circ=S$$. The two interiors answer different questions.
+
+![The slit disk and the interior of its closure](../../assets/analysis-i-iii-2-exercise-4-slit-disk.png)
+
+The dashed circle is excluded in both pictures. The dashed slit is excluded from $$S$$, but is restored when the closure is taken.
 
 ### Exercise 5
 

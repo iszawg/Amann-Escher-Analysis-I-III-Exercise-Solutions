@@ -3,7 +3,7 @@
 - [1. Measurable functions](1-measurable-functions.md) — Exercises 1–19; Exercise 10 distinguishes extended-real Borel measurability from almost-everywhere approximation
 - [2. Integrable functions](2-integrable-functions.md) — Exercises 1–15; Exercise 14 requires positive total measure for its average
 - [3. Convergence theorems](3-convergence-theorems.md) — Exercises 1–7; Exercise 7(i) assumes a nonzero target space
-- [4. Lebesgue spaces](4-lebesgue-spaces.md) — Exercises 1–18; qualifications for the zero space in Exercise 2 and the norm claim in Exercise 13
+- [4. Lebesgue spaces](4-lebesgue-spaces.md) — Exercises 1–18; qualifications for the zero space in Exercise 2 and the norm claim in Exercise 13, and a corrected dyadic index range in Exercise 17
 - [5. The n-dimensional Bochner–Lebesgue integral](5-n-dimensional-bochner-lebesgue-integral.md) — Exercises 1–13; qualifications to Exercises 1, 5, 8(a), and 10
 - [6. Fubini’s theorem](6-fubinis-theorem.md) — Exercises 1–13; qualifications to centroid formulas and strict inclusion
 - [7. The convolution](7-the-convolution.md) — Exercises 1–15; corrections to Exercises 5, 8, and 12, and a derivative qualification for Exercise 10

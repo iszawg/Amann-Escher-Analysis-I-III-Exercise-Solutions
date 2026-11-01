@@ -8,5 +8,5 @@ This chapter develops continuity and the topological ideas used in analysis.
 - [2. The Fundamentals of Topology](2-fundamentals-of-topology.md) — Exercises 1–21.
 - [3. Compactness](3-compactness.md) — Exercises 1–15.
 - [4. Connectivity](4-connectivity.md) — Exercises 1–12.
-- [5. Functions on R](5-functions-on-r.md) — Exercises 1–7.
+- [5. Functions on R](5-functions-on-r.md) — Exercises 1–7; Exercise 1 needs a compact interval.
 - [6. The Exponential and Related Functions](6-exponential-and-related-functions.md) — Exercises 1–16.

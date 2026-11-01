@@ -47,7 +47,15 @@ $$
 \Delta u(x)=v''(r)+\frac{m-1}{r}v'(r).
 $$
 
-Indeed, differentiating the first formula once more and summing over $$j$$ gives the second. For $$m=2$$ and $$v(r)=\log r$$, we have $$v'(r)=r^{-1}$$ and $$v''(r)=-r^{-2}$$, hence
+Indeed, since $$\partial_j r=x_j/r$$ and $$\partial_j(x_j/r)=1/r-x_j^2/r^3$$,
+
+$$
+\partial_j^2u
+=v''(r)\frac{x_j^2}{r^2}
++v'(r)\left(\frac1r-\frac{x_j^2}{r^3}\right).
+$$
+
+Summing and using $$\sum_jx_j^2=r^2$$ gives the displayed Laplacian formula. For $$m=2$$ and $$v(r)=\log r$$, we have $$v'(r)=r^{-1}$$ and $$v''(r)=-r^{-2}$$, hence
 
 $$
 \Delta g_2(x)=-r^{-2}+r^{-1}r^{-1}=0.
@@ -278,7 +286,7 @@ $$
 x^4/\alpha^2=\alpha x,
 $$
 
-so the critical points are $$(0,0)$$ and $$(\alpha,\alpha)$$. The Hessian is
+so $$x(x^3-\alpha^3)=0$$. The real solutions are $$x=0$$ and $$x=\alpha$$, and the corresponding values of $$y=-x^2/\alpha$$ are 0 and $$-\alpha$$. Thus the critical points are $$(0,0)$$ and $$(\alpha,-\alpha)$$. The Hessian is
 
 $$
 Hf_\alpha(x,y)=
@@ -288,7 +296,18 @@ Hf_\alpha(x,y)=
 \end{pmatrix}.
 $$
 
-For $$\alpha\ne0$$, its determinant is $$-9\alpha^2<0$$ at the origin and $$-45\alpha^2<0$$ at $$(\alpha,\alpha)$$. Each Hessian is indefinite, so both points are saddle points. If $$\alpha=0$$, then $$f_0(x,0)=x^3$$ takes both signs arbitrarily close to the origin; thus the origin is not a local extremum and is a (degenerate) saddle point. There are no other critical points.
+For $$\alpha\ne0$$, at the origin the determinant is $$-9\alpha^2<0$$, so the origin is a saddle point. At the second critical point,
+
+$$
+Hf_\alpha(\alpha,-\alpha)
+=3\alpha\begin{pmatrix}2&1\\1&2\end{pmatrix},
+\qquad
+\det Hf_\alpha(\alpha,-\alpha)=27\alpha^2>0.
+$$
+
+The matrix in parentheses has eigenvalues 1 and 3. Hence the Hessian is positive definite for $$\alpha>0$$ and negative definite for $$\alpha<0$$. By the second derivative test, $$(\alpha,-\alpha)$$ is a strict local minimum when $$\alpha>0$$ and a strict local maximum when $$\alpha<0$$.
+
+If $$\alpha=0$$, then $$f_0(x,0)=x^3$$ takes both signs arbitrarily close to the origin; thus the origin is a (degenerate) saddle point. There are no other critical points.
 
 ### Exercise 13
 

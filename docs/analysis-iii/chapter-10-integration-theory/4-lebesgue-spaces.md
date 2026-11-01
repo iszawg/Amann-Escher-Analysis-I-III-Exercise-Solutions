@@ -103,10 +103,10 @@ For **(ii)**, with $$A_j(\varepsilon)=\{\|f_j\|>\varepsilon\}$$,
 $$
 \frac{\varepsilon}{1+\varepsilon}\mu(A_j(\varepsilon))
 \le d_0(f_j,0)
-\le\varepsilon+\mu(A_j(\varepsilon)).
+\le\varepsilon\,\mu(X)+\mu(A_j(\varepsilon)).
 $$
 
-The upper bound uses $$h(\|f_j\|)\le\varepsilon$$ on the complement. These inequalities give both implications, taking $$j\to\infty$$ and then $$\varepsilon\downarrow0$$ for the reverse implication.
+The upper bound uses $$h(\|f_j\|)\le\varepsilon$$ on the complement and $$h\le1$$ on the exceptional set; the factor $$\mu(X)$$ is needed unless the measure is normalized. These inequalities give both implications, taking $$j\to\infty$$ and then $$\varepsilon\downarrow0$$ for the reverse implication.
 
 ### Exercise 8
 
@@ -233,7 +233,24 @@ where the second equality applies the same identity to $$f^*$$ and uses (vi). Al
 
 ### Exercise 17
 
-At level $$j$$ there are finitely many dyadic intervals, each of length $$2^{-j}$$. Therefore any enumeration of all of them has levels tending to infinity, and $$\|f_n\|_p=|J_n|^{1/p}\to0$$ for $$p<\infty$$. Every $$x\in[0,1]$$ belongs to at least one interval at every sufficiently fine level and also lies outside at least one interval at every sufficiently fine level. Thus the indicator sequence takes both 1 and 0 infinitely often at each point and cannot converge there.
+The range of $$k$$ in the printed statement needs correction. It reads $$k=0,\ldots,2^{j-1}$$, whereas the usual dyadic construction needs $$k=0,\ldots,2^j-1$$.
+
+**As printed.** For all sufficiently large $$j$$, the right endpoint of every listed interval is at most
+
+$$
+\frac{2^{j-1}+1}{2^j}=\frac12+2^{-j}.
+$$
+
+In particular, $$x=1$$ lies in none of the intervals from levels $$j\ge2$$. Since only finitely many intervals belong to the preceding levels, every relabeling has $$f_n(1)=0$$ eventually. Thus the asserted divergence at every point of $$[0,1]$$ is false. More precisely, for every $$x>1/2$$ the same upper bound eventually excludes $$x$$, while for $$x\in[0,1/2]$$ membership and nonmembership both occur at every sufficiently large level; the indicators diverge at those points.
+
+The convergence in $$L^p$$ is nevertheless correct for the printed family: each level is finite, so the levels in any one-to-one relabeling tend to infinity, and
+
+$$
+\|f_n\|_p=\lambda(J_n)^{1/p}=2^{-j(n)/p}\longrightarrow0
+\qquad(1\le p<\infty).
+$$
+
+**Corrected range.** If the intended range is $$k=0,\ldots,2^j-1$$, the intervals at every level cover $$[0,1]$$. For each fixed $$x\in[0,1]$$ and every sufficiently large $$j$$, at least one interval contains $$x$$ and at least one other interval does not. Any one-to-one relabeling therefore contains infinitely many indices with $$f_n(x)=1$$ and infinitely many with $$f_n(x)=0$$. Thus $$f_n(x)$$ diverges for every $$x\in[0,1]$$, while the same norm calculation proves convergence to zero in every finite $$L^p$$.
 
 ### Exercise 18
 

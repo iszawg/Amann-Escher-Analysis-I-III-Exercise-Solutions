@@ -2,11 +2,19 @@
 
 ## 5. Functions on $$\mathbb{R}$$
 
-In the following, $$I$$ is a compact interval containing more than one point.
+In this section, $$I$$ denotes a nonempty interval in $$\mathbb R$$, as in the book; it need not be compact.
 
 ### Exercise 1
 
-Write $$I=[a,b]$$, where $$a<b$$, and set $$g(x)=f(x)-x$$. Since $$f(I)\subseteq I$$,
+The assertion is **false for a general interval** as printed. The section assumes only that $$I$$ is a nonempty interval. For example, on $$I=(0,1)$$ the continuous map
+
+$$
+f(x)=\frac{x+1}{2}
+$$
+
+maps $$I$$ into itself but has no fixed point in $$I$$: solving $$f(x)=x$$ gives $$x=1$$, which is excluded. Likewise, $$f(x)=x+1$$ has no fixed point on $$\mathbb R$$.
+
+The intended conclusion does hold when $$I$$ is a nonempty **compact** interval. If $$I=\{a\}$$, its only self-map fixes $$a$$. Otherwise write $$I=[a,b]$$ with $$a<b$$ and set $$g(x)=f(x)-x$$. Since $$f(I)\subseteq I$$,
 
 $$
 g(a)=f(a)-a\ge0,\qquad g(b)=f(b)-b\le0.
@@ -18,7 +26,7 @@ The intermediate value theorem gives some $$\xi\in[a,b]$$ with $$g(\xi)=0$$. Hen
 
 First, if $$x<y<z$$, then $$f(y)$$ must lie strictly between $$f(x)$$ and $$f(z)$$. For example, if $$f(y)>\max\{f(x),f(z)\}$$, choose $$c$$ with $$\max\{f(x),f(z)\}<c<f(y)$$. The intermediate value theorem gives one point in $$(x,y)$$ and another in $$(y,z)$$ where $$f=c$$, contradicting injectivity. If $$f(y)<\min\{f(x),f(z)\}$$, choose $$c$$ between $$f(y)$$ and that minimum and use the same argument.
 
-Choose $$a<b$$ in $$I$$. Suppose $$f(a)<f(b)$$. Applying the betweenness property to triples involving $$a,b$$ shows
+If $$I$$ has only one point, strict monotonicity is vacuous. Otherwise choose $$a<b$$ in $$I$$. Suppose $$f(a)<f(b)$$. Applying the betweenness property to triples involving $$a,b$$ shows
 
 * If $$x<a$$, then $$f(x)<f(a)$$.
 * If $$a<x<b$$, then $$f(a)<f(x)<f(b)$$.
@@ -34,7 +42,7 @@ Let $$U$$ be open in $$D$$. Its intersection with each component $$J$$ is a unio
 
 ### Exercise 4
 
-Because $$\sum_{n=1}^{\infty}y_n<\infty$$ and each $$y_n>0$$, every subseries in the definition of $$f$$ converges. If $$x<y$$, choose a rational $$q\in(x,y)$$ and let $$n=\alpha^{-1}(q)$$. Then $$n\in N_y\setminus N_x$$, so
+Because $$\sum_{n=0}^{\infty}y_n<\infty$$ and each $$y_n>0$$, every subseries in the definition of $$f$$ converges. If $$x<y$$, choose a rational $$q\in(x,y)$$ and let $$n=\alpha^{-1}(q)$$. Then $$n\in N_y\setminus N_x$$, so
 
 $$
 f(y)-f(x)=\sum_{k\in N_y\setminus N_x}y_k\ge y_n>0.
@@ -42,7 +50,7 @@ $$
 
 Thus $$f$$ is strictly increasing.
 
-Now let $$x$$ be irrational and fix $$\varepsilon>0$$. Choose $$N$$ so that $$\sum_{k>N}y_k<\varepsilon$$. The finitely many rationals $$\alpha(1),\ldots,\alpha(N)$$ are all different from $$x$$, so there is a $$\delta>0$$ such that none lies between $$x$$ and any $$t$$ with $$|t-x|<\delta$$. For those $$t$$, membership in $$N_t$$ and $$N_x$$ agrees for every $$k\le N$$. Hence
+Now let $$x$$ be irrational and fix $$\varepsilon>0$$. Choose $$N$$ so that $$\sum_{k>N}y_k<\varepsilon$$. The finitely many rationals $$\alpha(0),\ldots,\alpha(N)$$ are all different from $$x$$, so there is a $$\delta>0$$ such that none lies between $$x$$ and any $$t$$ with $$|t-x|<\delta$$. For those $$t$$, membership in $$N_t$$ and $$N_x$$ agrees for every $$k\le N$$. Hence
 
 $$
 |f(t)-f(x)|\le\sum_{k>N}y_k<\varepsilon,
@@ -50,7 +58,7 @@ $$
 
 which proves continuity at every irrational number.
 
-Let $$q=\alpha(n)$$ be rational. Summability of $$(y_k)$$ gives the one-sided limits
+Let $$q=\alpha(n)$$ be rational. To compute the one-sided limits, first restrict the defining sum to finitely many indices. For $$t\uparrow q$$, each of those finitely many terms eventually contributes exactly when $$\alpha(k)<q$$; for $$t\downarrow q$$, it eventually contributes exactly when $$\alpha(k)\le q$$. The remaining tail has arbitrarily small total mass, uniformly in $$t$$. Thus summability of $$(y_k)$$ gives
 
 $$
 f(q-)=\sum_{\alpha(k)<q}y_k,\qquad f(q+)=\sum_{\alpha(k)\le q}y_k.
@@ -92,7 +100,7 @@ $$
 F(a\pm h)-F(a)\ge -mh+(m+1)h=h.
 $$
 
-Every nondegenerate interval contains such an $$a$$ with both $$a-h$$ and $$a+h$$ in the interval: choose $$m$$ large and take a grid point $$k4^{-m}$$ near its midpoint. Thus the function rises from $$a-h$$ to $$a$$ and also from $$a$$ to $$a+h$$. It can be neither increasing nor decreasing on that interval.
+Every nondegenerate interval contains such an $$a$$ with both $$a-h$$ and $$a+h$$ in the interval: choose $$m$$ large and take a grid point $$k4^{-m}$$ near its midpoint. Thus $$F(a-h)>F(a)$$ and $$F(a+h)>F(a)$$: the function decreases from $$a-h$$ to $$a$$ and increases from $$a$$ to $$a+h$$. It can be neither increasing nor decreasing on that interval.
 
 **(c)** Each $$f_n$$ is continuous, and
 

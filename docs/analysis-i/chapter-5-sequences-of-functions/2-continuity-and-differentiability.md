@@ -151,7 +151,7 @@ for every $$n$$. The sequence is not monotone in $$n$$: at $$x=2^{-m}$$ its valu
 
 ### Exercise 5
 
-We first prove uniform convergence for a subsequence whose functions are all nondecreasing. Let $$\varepsilon>0$$. Since $$f$$ is continuous on the compact interval $$I=[a,b]$$, it is uniformly continuous. Choose a finite partition
+We first prove uniform convergence for an infinite subsequence whose functions are all nondecreasing. Its pointwise limit $$f$$ is also nondecreasing: for $$x\le y$$, pass to the limit in $$f_n(x)\le f_n(y)$$ along that subsequence. Let $$\varepsilon>0$$. Since $$f$$ is continuous on the compact interval $$I=[a,b]$$, it is uniformly continuous. Choose a finite partition
 
 $$
 a=x_0<x_1<\cdots<x_q=b
@@ -181,13 +181,20 @@ If all $$f_n$$ have the same direction of monotonicity, this proves uniform conv
 
 ### Exercise 6
 
-Uniform convergence of $$f_n$$ to zero means $$\|f_n\|_\infty\to0$$. Since multiplication by $$(-1)^n$$ does not change absolute values,
+For each fixed $$x\in X$$, the sequence $$f_n(x)$$ decreases to zero. It follows that $$f_n(x)\ge0$$ for every $$n$$. The alternating-series estimate therefore applies to every finite tail: for $$n\ge m$$,
 
 $$
-\|(-1)^n f_n\|_\infty=\|f_n\|_\infty\longrightarrow0.
+\left|\sum_{k=m}^{n}(-1)^k f_k(x)\right|\le f_m(x).
 $$
 
-Therefore $$(-1)^n f_n$$ converges uniformly to zero. The monotonicity assumption is not needed for this conclusion.
+Indeed, after removing the initial sign, the finite alternating sum is nonnegative and no larger than its first term: group successive differences $$f_m-f_{m+1}$$, $$f_{m+2}-f_{m+3}$$, and so on for the lower bound, and group from the other end for the upper bound. Taking the supremum over $$x$$ gives
+
+$$
+\sup_{x\in X}\left|\sum_{k=m}^{n}(-1)^k f_k(x)\right|
+\le \sup_{x\in X}f_m(x)\longrightarrow0\qquad(m\to\infty),
+$$
+
+uniformly in $$n\ge m$$. The uniform Cauchy criterion proves that the **series** $$\sum_{n=0}^{\infty}(-1)^n f_n$$ converges uniformly on $$X$$. Uniform convergence of the terms to zero alone would not prove convergence of the series; the pointwise monotonicity supplies the tail estimate.
 
 ### Exercise 7
 
@@ -341,7 +348,7 @@ Therefore $$g_j$$ is differentiable at $$a$$ with derivative $$g_{j+1}(a)$$. Sin
 
 ### Exercise 11
 
-Since $$(f_n'(x_0))$$ is uniformly convergent, it is uniformly Cauchy. Also, $$(f_n(x_0))$$ is Cauchy by assumption. The mean value estimate (Theorem IV.2.18), applied to $$f_n-f_m$$ between $$x_0$$ and any $$x\in[a,b]$$, gives
+Since $$(f_n')$$ converges uniformly on $$[a,b]$$, it is uniformly Cauchy. Also, $$(f_n(x_0))$$ is Cauchy by assumption. The mean value estimate (Theorem IV.2.18), applied to $$f_n-f_m$$ between $$x_0$$ and any $$x\in[a,b]$$, gives
 
 $$
 \|f_n(x)-f_m(x)\|

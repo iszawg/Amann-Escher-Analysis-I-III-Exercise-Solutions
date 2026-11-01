@@ -307,3 +307,11 @@ $$
 ### Exercise 16
 
 Take $$K=\mathbb F_2$$ and $$p=X^2-X\in\mathbb F_2[X]$$. This is a nonzero polynomial, but its only possible inputs are $$0$$ and $$1$$, and $$p(0)=p(1)=0$$. Therefore its polynomial function is the zero function, so the evaluation homomorphism is not injective in general.
+
+In fact, this holds for **every** finite field $$K$$. The monic polynomial
+
+$$
+P(X)=\prod_{a\in K}(X-a)\in K[X]
+$$
+
+is nonzero, while for every $$x\in K$$ the factor indexed by $$a=x$$ vanishes. Thus $$P$$ and the zero polynomial induce the same function on $$K$$.

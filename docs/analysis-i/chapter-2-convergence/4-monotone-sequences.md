@@ -147,7 +147,7 @@ $$
 c:=\frac{\sqrt{1+4a}-1}{2}.
 $$
 
-Thus $$F(t)>t$$ for $$0<t<c$$ and $$F(t)<t$$ for $$t>c$$. Since $$F(c)=c$$ and $$F$$ is increasing, iteration by $$F$$ moves every positive starting value monotonically toward $$c$$. In particular, the even and odd subsequences $$x_{2n}$$ and $$x_{2n+1}$$ both converge to $$c$$. Therefore
+Thus $$F(t)>t$$ for $$0<t<c$$ and $$F(t)<t$$ for $$t>c$$. Since $$F(c)=c$$ and $$F$$ is increasing, if $$0<t<c$$ then $$t<F(t)<c$$; if $$t>c$$ then $$c<F(t)<t$$. Thus iteration by $$F$$ from any positive starting value is monotone and bounded, so it converges. If its limit is $$\ell$$, continuity gives $$\ell=F(\ell)$$, and the unique nonnegative fixed point is $$c$$. Applying this to the starting values $$x_0$$ and $$x_1$$ shows that the even and odd subsequences $$x_{2n}$$ and $$x_{2n+1}$$ both converge to $$c$$. Therefore
 
 $$
 x_n\longrightarrow\frac{\sqrt{1+4a}-1}{2}.

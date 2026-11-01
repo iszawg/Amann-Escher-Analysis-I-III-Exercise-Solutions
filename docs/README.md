@@ -68,6 +68,7 @@ The solutions emphasize the definitions and logical steps needed to reach each r
 | III | Chapter X, *Integration Theory* — Section 3, *Convergence theorems* | Exercises 1–7 addressed; Exercise 7(i) assumes a nonzero target space |
 | III | Chapter X, *Integration Theory* — Section 4, *Lebesgue spaces* | Exercises 1–18 addressed; qualifications for Exercises 2 and 13 |
 | III | Chapter X, *Integration Theory* — Section 5, *The n-dimensional Bochner–Lebesgue integral* | Exercises 1–13 addressed; qualifications for Exercises 1, 5, 8(a), and 10 |
+| III | Chapter X, *Integration Theory* — Section 6, *Fubini’s theorem* | Exercises 1–13 addressed; qualifications for centroid formulas and strict inclusion |
 | I–III | Remaining sections | To be added |
 
 ## Solution conventions

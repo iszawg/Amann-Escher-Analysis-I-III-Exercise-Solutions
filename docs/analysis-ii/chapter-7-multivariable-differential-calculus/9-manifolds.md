@@ -197,7 +197,7 @@ $$
 
 Every nonzero solution belongs to one of these two regions. Indeed, if $$x=u=0$$, then $$xz=y^2$$ and $$yu=z^2$$ force $$y=z=0$$. The two graph descriptions cover $$f^{-1}(0)\setminus\{0\}$$ and show locally that it is a smooth two-dimensional submanifold of $$\mathbb R^4$$.
 
-**(b)** Write the three rows of the derivative matrix $$Df(x,y,z,u)$$ as
+**(b)** Write the three rows of the derivative matrix $$Dg(x,y,z,u)$$ as
 
 $$
 \begin{aligned}
@@ -214,7 +214,7 @@ $$
 =4(x^2+y^2+z^2+u^2).
 $$
 
-Thus $$Df$$ has rank $$3$$ at every nonzero point. If $$a\ne0$$, then $$0\notin g^{-1}(a)$$ because $$g(0)=0$$. Therefore every point of $$g^{-1}(a)$$ is a regular point of $$g$$, so the regular value theorem makes $$g^{-1}(a)$$ a $$4-3=1$$ dimensional smooth submanifold of $$\mathbb R^4$$, that is, an embedded curve.
+Thus $$Dg$$ has rank $$3$$ at every nonzero point. If $$a\ne0$$, then $$0\notin g^{-1}(a)$$ because $$g(0)=0$$. Therefore every point of $$g^{-1}(a)$$ is a regular point of $$g$$, so the regular value theorem makes $$g^{-1}(a)$$ a $$4-3=1$$ dimensional smooth submanifold of $$\mathbb R^4$$, that is, an embedded curve.
 
 ### Exercise 8
 
@@ -557,7 +557,7 @@ The transition function is therefore inversion $$x\mapsto x/|x|^2$$ on $$\mathbb
 
 ### Exercise 18
 
-Let $$\varphi_\alpha:U_\alpha\to V_\alpha\subseteq\mathbb R^m$$ and $$\psi_\beta:W_\beta\to Z_\beta\subseteq\mathbb R^n$$ be charts from the given atlases. Their product map
+Write $$d=\dim M$$ and $$e=\dim N$$; these dimensions need not equal the ambient dimensions $$m$$ and $$n$$. Let $$\varphi_\alpha:U_\alpha\to V_\alpha\subseteq\mathbb R^d$$ and $$\psi_\beta:W_\beta\to Z_\beta\subseteq\mathbb R^e$$ be charts from the given atlases. Their product map
 
 $$
 \varphi_\alpha\times\psi_\beta:
@@ -566,12 +566,12 @@ U_\alpha\times W_\beta\longrightarrow V_\alpha\times Z_\beta,
 (p,q)\longmapsto(\varphi_\alpha(p),\psi_\beta(q))
 $$
 
-is a homeomorphism onto an open subset of $$\mathbb R^{m+n}$$, since products of open sets are open. Its associated parametrization is
+is a homeomorphism onto an open subset of $$\mathbb R^{d+e}$$, since products of open sets are open. Its associated parametrization is
 
 $$
 (x,y)\longmapsto\bigl(g_\alpha(x),h_\beta(y)\bigr),
 $$
 
-where $$g_\alpha=i_M\circ\varphi_\alpha^{-1}$$ and $$h_\beta=i_N\circ\psi_\beta^{-1}$$. This map is $$C^q$$. Its derivative is block diagonal with blocks $$Dg_\alpha(x)$$ and $$Dh_\beta(y)$$; each block is injective, so the product derivative is injective. Thus each $$\varphi_\alpha\times\psi_\beta$$ is an $$(m+n)$$-dimensional $$C^q$$ chart of $$M\times N$$.
+where $$g_\alpha=i_M\circ\varphi_\alpha^{-1}$$ and $$h_\beta=i_N\circ\psi_\beta^{-1}$$. This map is $$C^q$$. Its derivative is block diagonal with blocks $$Dg_\alpha(x)$$ and $$Dh_\beta(y)$$; each block is injective, so the product derivative is injective. Thus each $$\varphi_\alpha\times\psi_\beta$$ is a $$(d+e)$$-dimensional $$C^q$$ chart of $$M\times N$$.
 
 Finally, every $$(p,q)\in M\times N$$ belongs to some $$U_\alpha\times W_\beta$$ because the original chart domains cover $$M$$ and $$N$$. The product chart domains therefore cover $$M\times N$$, proving that the displayed family is an atlas.

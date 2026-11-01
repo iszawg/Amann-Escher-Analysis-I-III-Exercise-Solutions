@@ -5,3 +5,4 @@
 - [3. The local theory of differential forms](3-the-local-theory-of-differential-forms.md) — Exercises 1–13; qualifies global decomposability in Exercise 5 and corrects Exercise 12(vi)
 - [4. Vector fields and differential forms](4-vector-fields-and-differential-forms.md) — Exercises 1–4; corrects the vector-field inclusion in Exercise 1
 - [5. Riemannian metrics](5-riemannian-metrics.md) — Exercises 1–15; clarifies metric, orientation, parametrization, and connectedness assumptions
+- [6. Vector analysis](6-vector-analysis.md) — Exercises 1–11; corrects pseudo-Riemannian signs, the Maxwell statements, and the torus definition

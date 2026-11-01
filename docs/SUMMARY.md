@@ -94,3 +94,4 @@
     * [3. The local theory of differential forms](analysis-iii/chapter-11-manifolds-and-differential-forms/3-the-local-theory-of-differential-forms.md)
     * [4. Vector fields and differential forms](analysis-iii/chapter-11-manifolds-and-differential-forms/4-vector-fields-and-differential-forms.md)
     * [5. Riemannian metrics](analysis-iii/chapter-11-manifolds-and-differential-forms/5-riemannian-metrics.md)
+    * [6. Vector analysis](analysis-iii/chapter-11-manifolds-and-differential-forms/6-vector-analysis.md)

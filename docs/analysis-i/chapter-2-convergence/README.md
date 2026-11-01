@@ -12,4 +12,4 @@ This chapter develops metric-space convergence, sequences of numbers and vectors
 - [6. Completeness](6-completeness.md) — Exercises 1–7.
 - [7. Series](7-series.md) — Exercises 1–15.
 - [8. Absolute Convergence](8-absolute-convergence.md) — Exercises 1–10.
-- [9. Power Series](9-power-series.md) — Exercises 1–10.
+- [9. Power Series](9-power-series.md) — Exercises 1–10; Exercise 7 needs a global hypothesis for global parity.

@@ -12,7 +12,13 @@ $$
 \partial_2\bigl(A(x)^y\bigr)=A(x)^y\log A(x).
 $$
 
-At $$x=1$$, we have $$A(1)=1$$, so this derivative is zero. In the second term, $$x$$ is fixed when taking $$\partial_2$$; hence
+Since $$x>0$$, repeated use of $$(x^a)^b=x^{ab}$$ gives $$A(x)=x^{x^3}$$ and $$\log A(x)=x^3\log x$$. Thus
+
+$$
+\partial_2\bigl(A(x)^y\bigr)=x^{yx^3}x^3\log x.
+$$
+
+At $$x=1$$, we have $$A(1)=1$$ and $$\log A(1)=0$$, so this derivative is zero. In the second term, $$x$$ is fixed when taking $$\partial_2$$; hence
 
 $$
 \partial_2\bigl((\log x)G(x,y)\bigr)=(\log x)\,\partial_2G(x,y),
@@ -306,7 +312,19 @@ $$
 \nabla f_\infty(x)=\operatorname{sgn}(x_j)e_j.
 $$
 
-If two or more coordinates tie for the maximum, the maximum of their distinct active linear pieces has no linear derivative. In summary, the differentiability sets are: all nonzero $$x$$ for $$1<p<\infty$$; the points with no zero coordinates for $$p=1$$; and the points with a unique largest absolute coordinate for $$p=\infty$$.
+If distinct coordinates $$j,k$$ tie at the positive maximum $$M=\|x\|_\infty$$, set
+
+$$
+h=\operatorname{sgn}(x_j)e_j-\operatorname{sgn}(x_k)e_k.
+$$
+
+For $$|t|<M$$, one of the two active absolute coordinates increases by $$|t|$$ and the other decreases by $$|t|$$. All remaining coordinates retain absolute value at most $$M$$. Therefore
+
+$$
+\|x+th\|_\infty=M+|t|,
+$$
+
+whose difference quotient at $$t=0$$ has different one-sided limits. Hence the norm is not differentiable at a tie. In summary, the differentiability sets are: all nonzero $$x$$ for $$1<p<\infty$$; the points with no zero coordinates for $$p=1$$; and the points with a unique largest absolute coordinate for $$p=\infty$$.
 
 ### Exercise 13
 

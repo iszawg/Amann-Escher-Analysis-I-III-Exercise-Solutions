@@ -175,13 +175,19 @@ If another generating function $$G$$ induces the same Borel measure, then $$G(b)
 
 ### Exercise 10
 
-Let $$S=\{a_k:k\in\mathbb Z\}$$. For any $$x<y$$ inside one of the gaps $$(a_k,a_{k+1})$$, the interval $$[x,y)$$ has measure $$F(y)-F(x)=0$$. Each gap is a countable union of such intervals, so $$\mathbb R\setminus S$$ is a countable union of measurable null sets and is itself null. The completeness of $$\mu_F$$ implies that every subset of $$\mathbb R\setminus S$$ is measurable.
+Let $$S=\{a_k:k\in\mathbb Z\}$$. For any $$x<y$$ inside one of the intervals $$(a_k,a_{k+1})$$, the interval $$[x,y)$$ has measure $$F(y)-F(x)=0$$. Each such interval is a countable union of these null intervals. Moreover, every $$x\notin S$$ belongs to at least one of them: as $$k$$ goes from sufficiently negative to sufficiently positive, the sequence must cross from below $$x$$ to above $$x$$. Hence $$\mathbb R\setminus S$$ is contained in a countable union of measurable null sets. Completeness of $$\mu_F$$ makes every subset of $$\mathbb R\setminus S$$ measurable and null.
 
-By Exercise 8 and left continuity, $$\mu_F(\{a_k\})=F(a_k+)-F(a_k)=p_k$$. Every subset of the countable Borel set $$S$$ is Borel. Therefore, for any $$A\subset\mathbb R$$, both $$A\cap S$$ and $$A\setminus S$$ are measurable, and countable additivity gives
+For each distinct point $$s\in S$$, put $$p(s)=F(s+)-F(s)$$. By Exercise 8 and left continuity, $$\mu_F(\{s\})=p(s)$$; in particular $$p(a_k)=p_k$$. Every subset of the countable Borel set $$S$$ is Borel. Therefore, for any $$A\subset\mathbb R$$, both $$A\cap S$$ and $$A\setminus S$$ are measurable, and countable additivity gives
 
 $$
 \mathcal A(\mu_F)=\mathcal P(\mathbb R),\qquad
-\mu_F(A)=\sum_{\{k\in\mathbb Z:a_k\in A\}}p_k.
+\mu_F(A)=\sum_{s\in A\cap S}p(s).
 $$
 
-The sum is allowed to be infinite; the zero term from $$A\setminus S$$ does not affect it.
+The sum is allowed to be infinite; the zero term from $$A\setminus S$$ does not affect it. If the $$a_k$$ are pairwise distinct, this is also $$\sum_{k:a_k\in A}p_k$$. The printed hypotheses do not explicitly require distinctness, however, so summing over indices without that qualification can overcount. For example, let $$a_k=k$$ for $$k\le0$$ and $$a_k=k-1$$ for $$k\ge1$$, and take
+
+$$
+F(x)=\sum_{\substack{n\in\mathbb Z\\ n<x}}2^{-|n|}.
+$$
+
+Then $$a_0=a_1=0$$, both corresponding jump heights are $$1$$, and all the stated hypotheses hold. Nevertheless $$\mu_F(\{0\})=1$$, whereas the unqualified sum over indices gives $$p_0+p_1=2$$.

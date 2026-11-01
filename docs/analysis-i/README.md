@@ -29,7 +29,7 @@ The twelve sections in Chapter I are available:
 - [6. Completeness](chapter-2-convergence/6-completeness.md) — Exercises 1–7.
 - [7. Series](chapter-2-convergence/7-series.md) — Exercises 1–15.
 - [8. Absolute Convergence](chapter-2-convergence/8-absolute-convergence.md) — Exercises 1–10.
-- [9. Power Series](chapter-2-convergence/9-power-series.md) — Exercises 1–10.
+- [9. Power Series](chapter-2-convergence/9-power-series.md) — Exercises 1–10; Exercise 7 needs a global hypothesis for global parity.
 
 ## Chapter III — Continuous Functions
 

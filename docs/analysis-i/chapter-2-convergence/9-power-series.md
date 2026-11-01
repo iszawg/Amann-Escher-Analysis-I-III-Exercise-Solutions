@@ -129,7 +129,7 @@ $$
 
 ### Exercise 7
 
-On a disk centered at zero, both $$x$$ and $$-x$$ are in the domain. If $$f(x)=\sum_{k=0}^{\infty}a_kx^k$$, then
+Suppose $$f(x)=\sum_{k=0}^{\infty}a_kx^k$$ on a disk $$D=\{x:|x|<r\}$$ centered at zero. Both $$x$$ and $$-x$$ belong to $$D$$, and subtraction and addition of the convergent series give
 
 $$
 f(x)-f(-x)=2\sum_{j=0}^{\infty}a_{2j+1}x^{2j+1},
@@ -137,7 +137,15 @@ f(x)-f(-x)=2\sum_{j=0}^{\infty}a_{2j+1}x^{2j+1},
 f(x)+f(-x)=2\sum_{j=0}^{\infty}a_{2j}x^{2j}.
 $$
 
-Uniqueness of power series representations implies that $$f$$ is even exactly when $$a_{2j+1}=0$$ for every $$j\ge0$$. Similarly, $$f$$ is odd exactly when $$a_{2j}=0$$ for every $$j\ge0$$.
+Uniqueness of power series coefficients therefore proves that **the restriction of $$f$$ to $$D$$** is even exactly when all odd-indexed coefficients vanish, and is odd exactly when all even-indexed coefficients vanish. These conditions are also sufficient on any larger symmetric domain throughout which the same power series represents $$f$$.
+
+The printed exercise asks about the parity of $$f:\mathbb K\to\mathbb K$$ but assumes a power-series representation only on a suitable disk. Under that hypothesis the coefficients cannot determine the parity of the entire function. For example, the zero function and
+
+$$
+g(x)=\begin{cases}1,&x=2,\\0,&x\ne2\end{cases}
+$$
+
+both have the zero power series on $$|x|<1$$. The zero function is both even and odd, but $$g(2)=1$$ and $$g(-2)=0$$, so $$g$$ is neither. A global conclusion needs an additional assumption, such as a representation by this same series on all of $$\mathbb K$$.
 
 ### Exercise 8
 

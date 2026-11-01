@@ -8,7 +8,7 @@ The solutions emphasize the definitions and logical steps needed to reach each r
 
 - [Analysis I](analysis-i/README.md) — Foundations, convergence, continuity, and differentiation. Chapter I, Chapter II, Sections 1–9, Chapter III, Sections 1–6, Chapter IV, Sections 1–2, and Chapter V, Sections 1–4, are solved.
 - [Analysis II](analysis-ii/README.md) — Chapter VI, Sections 1–9, Chapter VII, Sections 1–10, and Chapter VIII, Sections 1–6: exercises addressed.
-- [Analysis III](analysis-iii/README.md) — Chapter IX, Sections 1–5 and Chapter X, Sections 1–5: exercises addressed.
+- [Analysis III](analysis-iii/README.md) — Chapter IX, Sections 1–5 and Chapter X, Sections 1–7: exercises addressed.
 
 ## Current progress
 
@@ -69,6 +69,7 @@ The solutions emphasize the definitions and logical steps needed to reach each r
 | III | Chapter X, *Integration Theory* — Section 4, *Lebesgue spaces* | Exercises 1–18 addressed; qualifications for Exercises 2 and 13 |
 | III | Chapter X, *Integration Theory* — Section 5, *The n-dimensional Bochner–Lebesgue integral* | Exercises 1–13 addressed; qualifications for Exercises 1, 5, 8(a), and 10 |
 | III | Chapter X, *Integration Theory* — Section 6, *Fubini’s theorem* | Exercises 1–13 addressed; qualifications for centroid formulas and strict inclusion |
+| III | Chapter X, *Integration Theory* — Section 7, *The convolution* | Exercises 1–15 addressed; corrections to Exercises 5, 8, and 12 |
 | I–III | Remaining sections | To be added |
 
 ## Solution conventions

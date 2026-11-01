@@ -6,3 +6,4 @@
 - [4. Lebesgue spaces](4-lebesgue-spaces.md) — Exercises 1–18; qualifications for the zero space in Exercise 2 and the norm claim in Exercise 13
 - [5. The n-dimensional Bochner–Lebesgue integral](5-n-dimensional-bochner-lebesgue-integral.md) — Exercises 1–13; qualifications to Exercises 1, 5, 8(a), and 10
 - [6. Fubini’s theorem](6-fubinis-theorem.md) — Exercises 1–13; qualifications to centroid formulas and strict inclusion
+- [7. The convolution](7-the-convolution.md) — Exercises 1–15; corrections to Exercises 5, 8, and 12, and a derivative qualification for Exercise 10

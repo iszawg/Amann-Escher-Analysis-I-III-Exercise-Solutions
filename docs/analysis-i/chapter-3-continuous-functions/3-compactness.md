@@ -113,7 +113,7 @@ The continuous function $$\varphi$$ is uniformly continuous on the compact set $
 
 For a real-valued function on a metric space, lower continuity is equivalent to the sequential condition $$f(a)\le\liminf_{k\to\infty}f(x_k)$$ whenever $$x_k\to a$$. Its upper-continuous counterpart is $$f(a)\ge\limsup_{k\to\infty}f(x_k)$$.
 
-**(a)** Suppose first that $$f$$ is lower continuous. If (ii) failed at $$a$$ for some $$\varepsilon>0$$, we could choose $$x_k\in B(a,1/k)$$ with $$f(x_k)\le f(a)-\varepsilon$$. Then $$x_k\to a$$ but $$\liminf f(x_k)\le f(a)-\varepsilon$$, a contradiction. Thus (ii) holds.
+**(a)** Suppose first that $$f$$ is lower continuous. If (ii) failed at $$a$$ for some $$\varepsilon>0$$, we could choose $$x_k\in B(a,1/k)$$ with $$f(x_k)\le f(a)-\varepsilon$$. Then $$x_k\to a$$ but $$\liminf f(x_k)\le f(a)-\varepsilon$$, a contradiction. Thus (ii) holds. Conversely, suppose (ii) holds and $$x_k\to a$$. For every $$\varepsilon>0$$ the sequence eventually lies in the neighborhood supplied by (ii), so $$f(x_k)>f(a)-\varepsilon$$ eventually. Hence $$\liminf_k f(x_k)\ge f(a)-\varepsilon$$. Letting $$\varepsilon\downarrow0$$ proves the sequential lower-continuity condition (i).
 
 If (ii) holds and $$f(a)>\alpha$$, choose $$\varepsilon=(f(a)-\alpha)/2$$. The resulting neighborhood has $$f(x)>f(a)-\varepsilon>\alpha$$, proving that $$f^{-1}((\alpha,\infty))$$ is open. Conversely, if all these inverse images are open, then for any $$a$$ and $$\varepsilon>0$$ the open set $$f^{-1}((f(a)-\varepsilon,\infty))$$ is a neighborhood of $$a$$ on which the inequality in (ii) holds. Finally,
 
@@ -133,7 +133,7 @@ Therefore $$f(x_k)\to f(a)$$, which is sequential continuity and hence continuit
 
 **(c)** Let $$\chi_A$$ equal $$1$$ on $$A$$ and $$0$$ outside $$A$$. If $$A$$ is open, then every point of $$A$$ has a neighborhood on which $$\chi_A=1$$; at points outside $$A$$, the lower-continuity inequality is automatic because $$\chi_A\ge0$$. Thus $$\chi_A$$ is lower continuous. Conversely, if $$\chi_A$$ is lower continuous and $$a\in A$$, apply (ii) with $$\varepsilon=1/2$$. On the resulting neighborhood, $$\chi_A(x)>1/2$$, so $$x\in A$$. Thus every point of $$A$$ is interior and $$A$$ is open.
 
-**(d)** Let $$m=\inf f(X)$$ and choose a sequence $$x_k\in X$$ such that $$f(x_k)\to m$$ (allowing initially $$m=-\infty$$). Compactness gives a subsequence $$x_{k_j}\to x\in X$$. Lower continuity yields
+**(d)** Assume $$X$$ is nonempty; otherwise there is no point at which a minimum can be attained. Let $$m=\inf f(X)$$ and choose a sequence $$x_k\in X$$ such that $$f(x_k)\to m$$ (allowing initially $$m=-\infty$$). Compactness gives a subsequence $$x_{k_j}\to x\in X$$. Lower continuity yields
 
 $$
 f(x)\le\liminf_{j\to\infty}f(x_{k_j})=m.

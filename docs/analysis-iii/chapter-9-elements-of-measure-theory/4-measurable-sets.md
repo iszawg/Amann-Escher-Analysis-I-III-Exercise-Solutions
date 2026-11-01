@@ -115,7 +115,16 @@ $$
 \mathcal H^s(C)\le\liminf_{k\to\infty}2^k(3^{-k})^s=1.
 $$
 
-For the lower bound, consider a finite open interval cover $$I_1,\ldots,I_N$$ of $$C$$. Any bounded nonempty open subset of $$\mathbb R$$ lies in an open interval of the same diameter. Thus we may replace each covering set by such an interval and, by compactness of $$C$$, pass to a finite subcover without increasing the cost. An unbounded covering set already has infinite cost. If some interval has diameter at least 1, the sum of its $$s$$-costs is already at least 1. Otherwise, for each $$i$$ choose $$k_i\ge0$$ such that
+For the lower bound, first justify using finite open interval covers. Given any countable cover $$(A_i)$$ of $$C$$ by bounded sets and $$\varepsilon>0$$, enclose each nonempty $$A_i$$ in an open interval $$I_i$$ with
+
+$$
+\operatorname{diam}(I_i)^s
+\le\operatorname{diam}(A_i)^s+\varepsilon 2^{-i}.
+$$
+
+This is possible by enlarging the interval between the infimum and supremum of $$A_i$$ by a sufficiently small amount, including when $$A_i$$ is a singleton. The open intervals cover compact $$C$$, so finitely many suffice; their total cost is at most the original cost plus $$\varepsilon$$. A cover containing an unbounded set already has infinite cost. Thus a lower bound for every finite open interval cover also holds for arbitrary countable covers after letting $$\varepsilon\downarrow0$$.
+
+Let $$I_1,\ldots,I_N$$ be such a finite cover. If some interval has diameter at least 1, the sum of its $$s$$-costs is already at least 1. Otherwise, for each $$i$$ choose $$k_i\ge0$$ such that
 
 $$
 3^{-(k_i+1)}\le\operatorname{diam}(I_i)<3^{-k_i}.
